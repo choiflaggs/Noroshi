@@ -1,0 +1,7 @@
+ID	TextKey	TagFlags	OpenedAt	ClosedAt	Sunday	Monday	Tuesday	Wednesday	Thursday	Friday	Saturday
+1	Trial.1		0	0	1	1	0	1	0	0	0
+2	Trial.2		0	0	1	0	1	0	1	0	0
+3	Trial.3		0	0	1	1	1	1	0	0	0
+4	Trial.4		0	0	1	1	0	0	1	1	1
+5	Trial.5		0	0	0	0	0	0	0	1	1
+6	Trial.6		0	0	1	0	0	0	0	0	0

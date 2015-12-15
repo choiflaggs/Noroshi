@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noroshi", "Noroshi\Noroshi.csproj", "{3274E70F-F46B-4214-8217-910B63496636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaGenerator", "SchemaGenerator\SchemaGenerator.csproj", "{AD3AE6D4-8702-4B40-8B7C-0946323E488E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchRunner", "BatchRunner\BatchRunner.csproj", "{808C75B8-2DBD-4A80-B64E-4F7A84A28188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3274E70F-F46B-4214-8217-910B63496636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3274E70F-F46B-4214-8217-910B63496636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3274E70F-F46B-4214-8217-910B63496636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3274E70F-F46B-4214-8217-910B63496636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3AE6D4-8702-4B40-8B7C-0946323E488E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3AE6D4-8702-4B40-8B7C-0946323E488E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3AE6D4-8702-4B40-8B7C-0946323E488E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3AE6D4-8702-4B40-8B7C-0946323E488E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808C75B8-2DBD-4A80-B64E-4F7A84A28188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808C75B8-2DBD-4A80-B64E-4F7A84A28188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808C75B8-2DBD-4A80-B64E-4F7A84A28188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808C75B8-2DBD-4A80-B64E-4F7A84A28188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

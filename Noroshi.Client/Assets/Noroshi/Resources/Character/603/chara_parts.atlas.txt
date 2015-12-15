@@ -1,0 +1,383 @@
+
+chara_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1-2
+  rotate: false
+  xy: 2, 560
+  size: 906, 462
+  orig: 906, 462
+  offset: 0, 0
+  index: -1
+body_3-5
+  rotate: false
+  xy: 2, 96
+  size: 906, 462
+  orig: 906, 462
+  offset: 0, 0
+  index: -1
+canon1
+  rotate: true
+  xy: 910, 2
+  size: 121, 56
+  orig: 121, 56
+  offset: 0, 0
+  index: -1
+canon1_head
+  rotate: false
+  xy: 910, 461
+  size: 98, 104
+  orig: 98, 104
+  offset: 0, 0
+  index: -1
+canon2_head
+  rotate: false
+  xy: 910, 902
+  size: 109, 120
+  orig: 109, 120
+  offset: 0, 0
+  index: -1
+canon_5
+  rotate: false
+  xy: 2, 8
+  size: 257, 86
+  orig: 257, 86
+  offset: 0, 0
+  index: -1
+caterpillar_2
+  rotate: false
+  xy: 490, 2
+  size: 332, 23
+  orig: 332, 23
+  offset: 0, 0
+  index: -1
+flag_1
+  rotate: false
+  xy: 910, 293
+  size: 97, 166
+  orig: 97, 166
+  offset: 0, 0
+  index: -1
+flag_2-5
+  rotate: false
+  xy: 910, 125
+  size: 97, 166
+  orig: 97, 166
+  offset: 0, 0
+  index: -1
+flap
+  rotate: true
+  xy: 910, 567
+  size: 150, 102
+  orig: 150, 102
+  offset: 0, 0
+  index: -1
+ham_arm_front
+  rotate: false
+  xy: 968, 61
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+ham_body
+  rotate: false
+  xy: 361, 13
+  size: 127, 81
+  orig: 127, 81
+  offset: 0, 0
+  index: -1
+ham_ear_back
+  rotate: false
+  xy: 968, 25
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+ham_ear_front
+  rotate: true
+  xy: 787, 60
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+ham_feather_2
+  rotate: false
+  xy: 824, 22
+  size: 58, 72
+  orig: 58, 72
+  offset: 0, 0
+  index: -1
+ham_hand
+  rotate: false
+  xy: 787, 29
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+ham_hat_back
+  rotate: true
+  xy: 910, 719
+  size: 181, 102
+  orig: 181, 102
+  offset: 0, 0
+  index: -1
+ham_hat_front
+  rotate: false
+  xy: 602, 34
+  size: 183, 60
+  orig: 183, 60
+  offset: 0, 0
+  index: -1
+ham_head
+  rotate: false
+  xy: 261, 11
+  size: 98, 83
+  orig: 98, 83
+  offset: 0, 0
+  index: -1
+ham_leg
+  rotate: false
+  xy: 490, 27
+  size: 110, 67
+  orig: 110, 67
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 968, 10
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+
+chara_parts2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+canon1_base
+  rotate: false
+  xy: 251, 15
+  size: 167, 174
+  orig: 167, 174
+  offset: 0, 0
+  index: -1
+canon1_frame
+  rotate: true
+  xy: 588, 679
+  size: 203, 213
+  orig: 203, 213
+  offset: 0, 0
+  index: -1
+canon2_frame
+  rotate: false
+  xy: 297, 205
+  size: 227, 239
+  orig: 227, 239
+  offset: 0, 0
+  index: -1
+canon3
+  rotate: false
+  xy: 581, 584
+  size: 199, 93
+  orig: 199, 93
+  offset: 0, 0
+  index: -1
+canon3_base
+  rotate: false
+  xy: 526, 228
+  size: 206, 216
+  orig: 206, 216
+  offset: 0, 0
+  index: -1
+canon3_frame
+  rotate: false
+  xy: 328, 568
+  size: 251, 264
+  orig: 251, 264
+  offset: 0, 0
+  index: -1
+canon3_head
+  rotate: true
+  xy: 829, 225
+  size: 121, 132
+  orig: 121, 132
+  offset: 0, 0
+  index: -1
+canon_2
+  rotate: true
+  xy: 701, 57
+  size: 169, 93
+  orig: 169, 93
+  offset: 0, 0
+  index: -1
+canon_2_base
+  rotate: true
+  xy: 782, 487
+  size: 186, 195
+  orig: 186, 195
+  offset: 0, 0
+  index: -1
+canon_4_b
+  rotate: true
+  xy: 328, 446
+  size: 120, 255
+  orig: 120, 255
+  offset: 0, 0
+  index: -1
+canon_4_f
+  rotate: false
+  xy: 2, 191
+  size: 293, 254
+  orig: 293, 254
+  offset: 0, 0
+  index: -1
+canon_5_b
+  rotate: true
+  xy: 588, 884
+  size: 138, 387
+  orig: 138, 387
+  offset: 0, 0
+  index: -1
+canon_5_f
+  rotate: false
+  xy: 2, 447
+  size: 324, 385
+  orig: 324, 385
+  offset: 0, 0
+  index: -1
+caterpillar_1
+  rotate: true
+  xy: 803, 675
+  size: 207, 174
+  orig: 207, 174
+  offset: 0, 0
+  index: -1
+caterpillar_3
+  rotate: true
+  xy: 2, 26
+  size: 163, 247
+  orig: 163, 247
+  offset: 0, 0
+  index: -1
+color
+  rotate: false
+  xy: 2, 834
+  size: 584, 188
+  orig: 584, 188
+  offset: 0, 0
+  index: -1
+duct_1-2
+  rotate: true
+  xy: 585, 464
+  size: 118, 173
+  orig: 118, 173
+  offset: 0, 0
+  index: -1
+duct_3-5
+  rotate: false
+  xy: 581, 53
+  size: 118, 173
+  orig: 118, 173
+  offset: 0, 0
+  index: -1
+front_gun
+  rotate: false
+  xy: 796, 100
+  size: 65, 39
+  orig: 65, 39
+  offset: 0, 0
+  index: -1
+front_panel
+  rotate: true
+  xy: 734, 294
+  size: 168, 93
+  orig: 168, 93
+  offset: 0, 0
+  index: -1
+ham_arm_back
+  rotate: false
+  xy: 969, 341
+  size: 50, 62
+  orig: 50, 62
+  offset: 0, 0
+  index: -1
+ham_armwin_back
+  rotate: true
+  xy: 581, 2
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: -1
+ham_face
+  rotate: true
+  xy: 921, 162
+  size: 61, 28
+  orig: 61, 28
+  offset: 0, 0
+  index: -1
+ham_face_attack
+  rotate: true
+  xy: 977, 942
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1
+ham_face_damage
+  rotate: true
+  xy: 969, 405
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1
+ham_face_dead
+  rotate: true
+  xy: 963, 259
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1
+ham_face_normal
+  rotate: false
+  xy: 796, 183
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1
+ham_face_win
+  rotate: false
+  xy: 796, 141
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1
+ham_feather_3-5
+  rotate: true
+  xy: 734, 234
+  size: 58, 72
+  orig: 58, 72
+  offset: 0, 0
+  index: -1
+rear_gun
+  rotate: false
+  xy: 878, 154
+  size: 41, 69
+  orig: 41, 69
+  offset: 0, 0
+  index: -1
+wheel
+  rotate: false
+  xy: 829, 348
+  size: 138, 137
+  orig: 138, 137
+  offset: 0, 0
+  index: -1
+wheel_frame
+  rotate: true
+  xy: 420, 23
+  size: 180, 159
+  orig: 180, 159
+  offset: 0, 0
+  index: -1

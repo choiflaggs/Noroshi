@@ -1,0 +1,208 @@
+
+effect_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_skill_urumi_effect0001
+  rotate: false
+  xy: 2, 517
+  size: 506, 502
+  orig: 579, 579
+  offset: 48, 42
+  index: -1
+a_skill_urumi_effect0002
+  rotate: true
+  xy: 510, 254
+  size: 393, 485
+  orig: 579, 579
+  offset: 47, 44
+  index: -1
+a_skill_urumi_effect0003
+  rotate: true
+  xy: 510, 649
+  size: 370, 492
+  orig: 579, 579
+  offset: 44, 41
+  index: -1
+a_skill_urumi_effect0004
+  rotate: true
+  xy: 2, 256
+  size: 259, 457
+  orig: 579, 579
+  offset: 41, 28
+  index: -1
+a_skill_urumi_effect0006
+  rotate: true
+  xy: 684, 142
+  size: 110, 315
+  orig: 579, 579
+  offset: 44, 30
+  index: -1
+atk_effect0002
+  rotate: false
+  xy: 684, 5
+  size: 61, 135
+  orig: 65, 166
+  offset: 4, 2
+  index: -1
+atk_effect0003
+  rotate: false
+  xy: 747, 6
+  size: 61, 134
+  orig: 65, 166
+  offset: 4, 1
+  index: -1
+emission smoke0001
+  rotate: true
+  xy: 363, 40
+  size: 214, 144
+  orig: 292, 212
+  offset: 59, 9
+  index: -1
+emission smoke0002
+  rotate: true
+  xy: 232, 20
+  size: 232, 129
+  orig: 292, 212
+  offset: 44, 12
+  index: -1
+emission smoke0003
+  rotate: true
+  xy: 2, 2
+  size: 250, 111
+  orig: 292, 212
+  offset: 25, 11
+  index: -1
+emission smoke0004
+  rotate: true
+  xy: 115, 12
+  size: 240, 115
+  orig: 292, 212
+  offset: 20, 10
+  index: -1
+emission smoke0005
+  rotate: false
+  xy: 810, 16
+  size: 204, 124
+  orig: 292, 212
+  offset: 18, 11
+  index: -1
+semicircle_emission_set
+  rotate: true
+  xy: 509, 47
+  size: 205, 173
+  orig: 205, 173
+  offset: 0, 0
+  index: -1
+
+effect_parts2.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_skill_emission
+  rotate: false
+  xy: 345, 102
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+a_skill_emission2
+  rotate: false
+  xy: 2, 2
+  size: 118, 119
+  orig: 119, 120
+  offset: 0, 1
+  index: -1
+a_skill_urumi_effect0005
+  rotate: true
+  xy: 2, 123
+  size: 130, 341
+  orig: 579, 579
+  offset: 44, 30
+  index: -1
+alpha_effect
+  rotate: false
+  xy: 753, 68
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+atk_effect0001
+  rotate: true
+  xy: 837, 193
+  size: 60, 131
+  orig: 65, 166
+  offset: 5, 4
+  index: -1
+atk_effect0004
+  rotate: false
+  xy: 246, 9
+  size: 61, 112
+  orig: 65, 166
+  offset: 4, 2
+  index: -1
+atk_effect0005
+  rotate: true
+  xy: 309, 40
+  size: 60, 109
+  orig: 65, 166
+  offset: 5, 3
+  index: -1
+atk_effect0006
+  rotate: true
+  xy: 618, 65
+  size: 59, 112
+  orig: 65, 166
+  offset: 6, 4
+  index: -1
+atk_effect0007
+  rotate: true
+  xy: 498, 66
+  size: 58, 118
+  orig: 65, 166
+  offset: 6, 4
+  index: -1
+atk_effect0008
+  rotate: true
+  xy: 837, 131
+  size: 60, 126
+  orig: 65, 166
+  offset: 5, 4
+  index: -1
+emission smoke0006
+  rotate: false
+  xy: 498, 126
+  size: 152, 127
+  orig: 292, 212
+  offset: 20, 11
+  index: -1
+emission smoke0007
+  rotate: false
+  xy: 652, 126
+  size: 99, 127
+  orig: 292, 212
+  offset: 20, 15
+  index: -1
+emission smoke0008
+  rotate: true
+  xy: 122, 34
+  size: 87, 122
+  orig: 292, 212
+  offset: 16, 22
+  index: -1
+emission smoke0009
+  rotate: false
+  xy: 753, 143
+  size: 82, 110
+  orig: 292, 212
+  offset: 23, 35
+  index: -1
+emisstion
+  rotate: false
+  xy: 420, 26
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1

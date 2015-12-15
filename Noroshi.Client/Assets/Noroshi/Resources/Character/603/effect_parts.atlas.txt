@@ -1,0 +1,300 @@
+
+effect_parts.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alpha_effect
+  rotate: false
+  xy: 962, 298
+  size: 42, 42
+  orig: 45, 45
+  offset: 2, 1
+  index: -1
+atk_effect0001
+  rotate: false
+  xy: 962, 342
+  size: 28, 44
+  orig: 28, 44
+  offset: 0, 0
+  index: -1
+atk_effect0002
+  rotate: true
+  xy: 693, 3
+  size: 28, 44
+  orig: 28, 44
+  offset: 0, 0
+  index: -1
+atk_effect0003
+  rotate: false
+  xy: 954, 252
+  size: 28, 44
+  orig: 28, 44
+  offset: 0, 0
+  index: -1
+canon_boll
+  rotate: false
+  xy: 908, 236
+  size: 44, 68
+  orig: 44, 68
+  offset: 0, 0
+  index: -1
+effect_emission_circle
+  rotate: false
+  xy: 984, 263
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+emisstion
+  rotate: false
+  xy: 693, 33
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+hit_guneffect0001
+  rotate: true
+  xy: 349, 20
+  size: 60, 193
+  orig: 145, 280
+  offset: 42, 6
+  index: -1
+hit_guneffect0002
+  rotate: true
+  xy: 362, 430
+  size: 80, 265
+  orig: 145, 280
+  offset: 33, 2
+  index: -1
+hit_guneffect0003
+  rotate: true
+  xy: 362, 335
+  size: 93, 237
+  orig: 145, 280
+  offset: 24, 2
+  index: -1
+hit_guneffect0004
+  rotate: true
+  xy: 629, 405
+  size: 105, 241
+  orig: 145, 280
+  offset: 20, 2
+  index: -1
+hit_guneffect0005
+  rotate: false
+  xy: 240, 165
+  size: 107, 242
+  orig: 145, 280
+  offset: 18, 5
+  index: -1
+hit_guneffect0006
+  rotate: false
+  xy: 2, 157
+  size: 118, 250
+  orig: 145, 280
+  offset: 11, 8
+  index: -1
+hit_guneffect0007
+  rotate: false
+  xy: 122, 158
+  size: 116, 249
+  orig: 145, 280
+  offset: 17, 20
+  index: -1
+hit_guneffect0008
+  rotate: true
+  xy: 349, 211
+  size: 122, 226
+  orig: 145, 280
+  offset: 15, 48
+  index: -1
+hit_guneffect0009
+  rotate: true
+  xy: 349, 82
+  size: 127, 205
+  orig: 145, 280
+  offset: 14, 73
+  index: -1
+hit_guneffect0010
+  rotate: false
+  xy: 2, 8
+  size: 127, 147
+  orig: 145, 280
+  offset: 13, 132
+  index: -1
+hit_guneffect0011
+  rotate: true
+  xy: 577, 202
+  size: 122, 126
+  orig: 145, 280
+  offset: 15, 151
+  index: -1
+hit_guneffect0012
+  rotate: false
+  xy: 872, 388
+  size: 128, 122
+  orig: 145, 280
+  offset: 13, 156
+  index: -1
+hit_guneffect0013
+  rotate: true
+  xy: 131, 27
+  size: 129, 113
+  orig: 145, 280
+  offset: 11, 164
+  index: -1
+hit_guneffect0014
+  rotate: false
+  xy: 556, 98
+  size: 127, 102
+  orig: 145, 280
+  offset: 12, 175
+  index: -1
+hit_guneffect0015
+  rotate: true
+  xy: 246, 39
+  size: 124, 101
+  orig: 145, 280
+  offset: 13, 177
+  index: -1
+hit_guneffect0016
+  rotate: false
+  xy: 705, 221
+  size: 123, 100
+  orig: 145, 280
+  offset: 14, 177
+  index: -1
+smog_effect0001
+  rotate: true
+  xy: 601, 326
+  size: 77, 138
+  orig: 97, 147
+  offset: 10, 5
+  index: -1
+smog_effect0002
+  rotate: true
+  xy: 741, 323
+  size: 80, 125
+  orig: 97, 147
+  offset: 9, 20
+  index: -1
+smog_effect0003
+  rotate: true
+  xy: 868, 306
+  size: 80, 92
+  orig: 97, 147
+  offset: 9, 54
+  index: -1
+smog_effect0004
+  rotate: true
+  xy: 544, 2
+  size: 78, 81
+  orig: 97, 147
+  offset: 11, 64
+  index: -1
+smog_effect0005
+  rotate: false
+  xy: 685, 109
+  size: 80, 76
+  orig: 97, 147
+  offset: 9, 69
+  index: -1
+smog_effect0006
+  rotate: false
+  xy: 767, 115
+  size: 81, 70
+  orig: 97, 147
+  offset: 8, 74
+  index: -1
+smog_effect0007
+  rotate: false
+  xy: 769, 49
+  size: 79, 64
+  orig: 97, 147
+  offset: 9, 81
+  index: -1
+smog_effect0008
+  rotate: true
+  xy: 627, 3
+  size: 77, 64
+  orig: 97, 147
+  offset: 10, 81
+  index: -1
+smog_effect0009
+  rotate: false
+  xy: 830, 241
+  size: 76, 63
+  orig: 97, 147
+  offset: 10, 82
+  index: -1
+text_effect_gamigmai_WHAM
+  rotate: false
+  xy: 2, 409
+  size: 358, 101
+  orig: 358, 101
+  offset: 0, 0
+  index: -1
+up_line_effect0001
+  rotate: true
+  xy: 705, 204
+  size: 15, 177
+  orig: 55, 312
+  offset: 20, 29
+  index: -1
+up_line_effect0002
+  rotate: true
+  xy: 705, 187
+  size: 15, 160
+  orig: 55, 312
+  offset: 20, 63
+  index: -1
+up_line_effect0003
+  rotate: false
+  xy: 1002, 369
+  size: 15, 141
+  orig: 55, 312
+  offset: 20, 97
+  index: -1
+up_line_effect0004
+  rotate: true
+  xy: 556, 82
+  size: 14, 123
+  orig: 55, 312
+  offset: 20, 131
+  index: -1
+up_line_effect0005
+  rotate: true
+  xy: 131, 12
+  size: 13, 105
+  orig: 55, 312
+  offset: 21, 165
+  index: -1
+up_line_effect0006
+  rotate: false
+  xy: 850, 98
+  size: 13, 87
+  orig: 55, 312
+  offset: 21, 200
+  index: -1
+up_line_effect0007
+  rotate: false
+  xy: 349, 339
+  size: 11, 68
+  orig: 55, 312
+  offset: 22, 234
+  index: -1
+up_line_effect0008
+  rotate: true
+  xy: 769, 36
+  size: 11, 43
+  orig: 55, 312
+  offset: 22, 260
+  index: -1
+up_line_effect0009
+  rotate: true
+  xy: 830, 310
+  size: 11, 28
+  orig: 55, 312
+  offset: 22, 276
+  index: -1

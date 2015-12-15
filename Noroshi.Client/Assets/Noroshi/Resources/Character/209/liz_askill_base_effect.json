@@ -1,0 +1,4405 @@
+{
+"skeleton": { "hash": "goGhkrkRiJQzl2RwazlJPbMbSxw", "spine": "2.1.27", "width": 0, "height": 0, "images": "./liz_assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "askill set", "parent": "root", "y": 2800, "color": "9b0300ff" },
+	{ "name": "rain ground set", "parent": "askill set", "y": -2200.47, "color": "00009bff" },
+	{ "name": "rain_emission0001", "parent": "rain ground set", "x": 556.39, "scaleX": 2, "color": "000f9bff" },
+	{ "name": "rain_emission1", "parent": "rain ground set", "x": -654.49, "y": 240.94, "scaleX": 2, "color": "000f9bff" },
+	{ "name": "rain_emission10", "parent": "rain ground set", "x": -1056.06, "y": 840.2, "scaleX": 2, "color": "000f9bff" },
+	{
+		"name": "rain_emission11",
+		"parent": "rain ground set",
+		"x": 1079.37,
+		"y": 135.61,
+		"scaleX": 3,
+		"scaleY": 1.5,
+		"color": "000f9bff"
+	},
+	{
+		"name": "rain_emission12",
+		"parent": "rain ground set",
+		"x": 147.87,
+		"y": 160.45,
+		"scaleX": 3,
+		"scaleY": 1.5,
+		"color": "000f9bff"
+	},
+	{ "name": "rain_emission2", "parent": "rain ground set", "x": 766.44, "y": 827.85, "scaleX": 2, "color": "000f9bff" },
+	{
+		"name": "rain_emission3",
+		"parent": "rain ground set",
+		"x": -110.83,
+		"y": 716.64,
+		"scaleX": 3,
+		"scaleY": 1.5,
+		"color": "000f9bff"
+	},
+	{
+		"name": "rain_emission4",
+		"parent": "rain ground set",
+		"x": -1216.69,
+		"y": 395.39,
+		"scaleX": 3,
+		"scaleY": 1.5,
+		"color": "000f9bff"
+	},
+	{
+		"name": "rain_emission5",
+		"parent": "rain ground set",
+		"x": -356.68,
+		"y": 593.08,
+		"scaleX": 3,
+		"scaleY": 1.5,
+		"color": "000f9bff"
+	},
+	{ "name": "rain_emission6", "parent": "rain ground set", "x": 1093.87, "y": 531.3, "scaleX": 2, "color": "000f9bff" },
+	{ "name": "rain_emission7", "parent": "rain ground set", "x": 445.18, "y": 531.3, "scaleX": 2, "color": "000f9bff" },
+	{ "name": "rain_emission8", "parent": "rain ground set", "x": -166.43, "y": 901.98, "scaleX": 2, "color": "000f9bff" },
+	{ "name": "rain_emission9", "parent": "rain ground set", "x": -407.37, "y": 18.53, "scaleX": 2, "color": "000f9bff" }
+],
+"slots": [
+	{ "name": "rain_emission0001", "bone": "rain_emission0001" },
+	{ "name": "rain_emission1", "bone": "rain_emission1" },
+	{ "name": "rain_emission6", "bone": "rain_emission6" },
+	{ "name": "rain_emission7", "bone": "rain_emission7" },
+	{ "name": "rain_emission8", "bone": "rain_emission8" },
+	{ "name": "rain_emission9", "bone": "rain_emission9" },
+	{ "name": "rain_emission10", "bone": "rain_emission10" },
+	{ "name": "rain_emission2", "bone": "rain_emission2" },
+	{ "name": "rain_emission3", "bone": "rain_emission3" },
+	{ "name": "rain_emission4", "bone": "rain_emission4" },
+	{ "name": "rain_emission5", "bone": "rain_emission5" },
+	{ "name": "rain_emission11", "bone": "rain_emission11" },
+	{ "name": "rain_emission12", "bone": "rain_emission12" }
+],
+"skins": {
+	"default": {
+		"rain_emission0001": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission1": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission10": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission11": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission12": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission2": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission3": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission4": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission5": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission6": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission7": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission8": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		},
+		"rain_emission9": {
+			"rain_emission0001": { "width": 118, "height": 118 },
+			"rain_emission0002": { "width": 118, "height": 118 },
+			"rain_emission0003": { "width": 118, "height": 118 },
+			"rain_emission0004": { "width": 118, "height": 118 },
+			"rain_emission0005": { "width": 118, "height": 118 },
+			"rain_emission0006": { "width": 118, "height": 118 },
+			"rain_emission0007": { "width": 118, "height": 118 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.2333, "name": "rain_emission0001" },
+					{ "time": 2.2666, "name": "rain_emission0002" },
+					{ "time": 2.3, "name": "rain_emission0003" },
+					{ "time": 2.3333, "name": "rain_emission0004" },
+					{ "time": 2.3666, "name": "rain_emission0005" },
+					{ "time": 2.4, "name": "rain_emission0006" },
+					{ "time": 2.4333, "name": "rain_emission0007" },
+					{ "time": 2.4666, "name": null },
+					{ "time": 2.5, "name": "rain_emission0001" },
+					{ "time": 2.5333, "name": "rain_emission0002" },
+					{ "time": 2.5666, "name": "rain_emission0003" },
+					{ "time": 2.6, "name": "rain_emission0004" },
+					{ "time": 2.6333, "name": "rain_emission0005" },
+					{ "time": 2.6666, "name": "rain_emission0006" },
+					{ "time": 2.7, "name": "rain_emission0007" },
+					{ "time": 2.7333, "name": null },
+					{ "time": 2.7666, "name": "rain_emission0001" },
+					{ "time": 2.8, "name": "rain_emission0002" },
+					{ "time": 2.8333, "name": "rain_emission0003" },
+					{ "time": 2.8666, "name": "rain_emission0004" },
+					{ "time": 2.9, "name": "rain_emission0005" },
+					{ "time": 2.9333, "name": "rain_emission0006" },
+					{ "time": 2.9666, "name": "rain_emission0007" },
+					{ "time": 3, "name": null },
+					{ "time": 3.0333, "name": "rain_emission0001" },
+					{ "time": 3.0666, "name": "rain_emission0002" },
+					{ "time": 3.1, "name": "rain_emission0003" },
+					{ "time": 3.1333, "name": "rain_emission0004" },
+					{ "time": 3.1666, "name": "rain_emission0005" },
+					{ "time": 3.2, "name": "rain_emission0006" },
+					{ "time": 3.2333, "name": "rain_emission0007" },
+					{ "time": 3.2666, "name": null },
+					{ "time": 3.3, "name": "rain_emission0001" },
+					{ "time": 3.3333, "name": "rain_emission0002" },
+					{ "time": 3.3666, "name": "rain_emission0003" },
+					{ "time": 3.4, "name": "rain_emission0004" },
+					{ "time": 3.4333, "name": "rain_emission0005" },
+					{ "time": 3.4666, "name": "rain_emission0006" },
+					{ "time": 3.5, "name": "rain_emission0007" },
+					{ "time": 3.5333, "name": null },
+					{ "time": 3.5666, "name": "rain_emission0001" },
+					{ "time": 3.6, "name": "rain_emission0002" },
+					{ "time": 3.6333, "name": "rain_emission0003" },
+					{ "time": 3.6666, "name": "rain_emission0004" },
+					{ "time": 3.7, "name": "rain_emission0005" },
+					{ "time": 3.7333, "name": "rain_emission0006" },
+					{ "time": 3.7666, "name": "rain_emission0007" },
+					{ "time": 3.8, "name": null },
+					{ "time": 3.8333, "name": "rain_emission0001" },
+					{ "time": 3.8666, "name": "rain_emission0002" },
+					{ "time": 3.9, "name": "rain_emission0003" },
+					{ "time": 3.9333, "name": "rain_emission0004" },
+					{ "time": 3.9666, "name": "rain_emission0005" },
+					{ "time": 4, "name": "rain_emission0006" },
+					{ "time": 4.0333, "name": "rain_emission0007" },
+					{ "time": 4.0666, "name": null },
+					{ "time": 4.1, "name": "rain_emission0001" },
+					{ "time": 4.1333, "name": "rain_emission0002" },
+					{ "time": 4.1666, "name": "rain_emission0003" },
+					{ "time": 4.2, "name": "rain_emission0004" },
+					{ "time": 4.2333, "name": "rain_emission0005" },
+					{ "time": 4.2666, "name": "rain_emission0006" },
+					{ "time": 4.3, "name": "rain_emission0007" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.3666, "name": "rain_emission0001" },
+					{ "time": 4.4, "name": "rain_emission0002" },
+					{ "time": 4.4333, "name": "rain_emission0003" },
+					{ "time": 4.4666, "name": "rain_emission0004" },
+					{ "time": 4.5, "name": "rain_emission0005" },
+					{ "time": 4.5333, "name": "rain_emission0006" },
+					{ "time": 4.5666, "name": "rain_emission0007" },
+					{ "time": 4.6, "name": null },
+					{ "time": 4.6333, "name": "rain_emission0001" },
+					{ "time": 4.6666, "name": "rain_emission0002" },
+					{ "time": 4.7, "name": "rain_emission0003" },
+					{ "time": 4.7333, "name": "rain_emission0004" },
+					{ "time": 4.7666, "name": "rain_emission0005" },
+					{ "time": 4.8, "name": "rain_emission0006" },
+					{ "time": 4.8333, "name": "rain_emission0007" },
+					{ "time": 4.8666, "name": null },
+					{ "time": 4.9, "name": "rain_emission0001" },
+					{ "time": 4.9333, "name": "rain_emission0002" },
+					{ "time": 4.9666, "name": "rain_emission0003" },
+					{ "time": 5, "name": "rain_emission0004" },
+					{ "time": 5.0333, "name": "rain_emission0005" },
+					{ "time": 5.0666, "name": "rain_emission0006" },
+					{ "time": 5.1, "name": "rain_emission0007" },
+					{ "time": 5.1333, "name": null },
+					{ "time": 5.1666, "name": "rain_emission0001" },
+					{ "time": 5.2, "name": "rain_emission0002" },
+					{ "time": 5.2333, "name": "rain_emission0003" },
+					{ "time": 5.2666, "name": "rain_emission0004" },
+					{ "time": 5.3, "name": "rain_emission0005" },
+					{ "time": 5.3333, "name": "rain_emission0006" },
+					{ "time": 5.3666, "name": "rain_emission0007" },
+					{ "time": 5.4, "name": null },
+					{ "time": 5.4333, "name": "rain_emission0001" },
+					{ "time": 5.4666, "name": "rain_emission0002" },
+					{ "time": 5.5, "name": "rain_emission0003" },
+					{ "time": 5.5333, "name": "rain_emission0004" },
+					{ "time": 5.5666, "name": "rain_emission0005" },
+					{ "time": 5.6, "name": "rain_emission0006" },
+					{ "time": 5.6333, "name": "rain_emission0007" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 5.7, "name": "rain_emission0001" },
+					{ "time": 5.7333, "name": "rain_emission0002" },
+					{ "time": 5.7666, "name": "rain_emission0003" },
+					{ "time": 5.8, "name": "rain_emission0004" },
+					{ "time": 5.8333, "name": "rain_emission0005" },
+					{ "time": 5.8666, "name": "rain_emission0006" },
+					{ "time": 5.9, "name": "rain_emission0007" },
+					{ "time": 5.9333, "name": null },
+					{ "time": 5.9666, "name": "rain_emission0001" },
+					{ "time": 6, "name": "rain_emission0002" },
+					{ "time": 6.0333, "name": "rain_emission0003" },
+					{ "time": 6.0666, "name": "rain_emission0004" },
+					{ "time": 6.1, "name": "rain_emission0005" },
+					{ "time": 6.1333, "name": "rain_emission0006" },
+					{ "time": 6.1666, "name": "rain_emission0007" },
+					{ "time": 6.2, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.7666, "name": "rain_emission0001" },
+					{ "time": 2.8, "name": "rain_emission0002" },
+					{ "time": 2.8333, "name": "rain_emission0003" },
+					{ "time": 2.8666, "name": "rain_emission0004" },
+					{ "time": 2.9, "name": "rain_emission0005" },
+					{ "time": 2.9333, "name": "rain_emission0006" },
+					{ "time": 2.9666, "name": "rain_emission0007" },
+					{ "time": 3, "name": null },
+					{ "time": 3.0333, "name": "rain_emission0001" },
+					{ "time": 3.0666, "name": "rain_emission0002" },
+					{ "time": 3.1, "name": "rain_emission0003" },
+					{ "time": 3.1333, "name": "rain_emission0004" },
+					{ "time": 3.1666, "name": "rain_emission0005" },
+					{ "time": 3.2, "name": "rain_emission0006" },
+					{ "time": 3.2333, "name": "rain_emission0007" },
+					{ "time": 3.2666, "name": null },
+					{ "time": 3.3, "name": "rain_emission0001" },
+					{ "time": 3.3333, "name": "rain_emission0002" },
+					{ "time": 3.3666, "name": "rain_emission0003" },
+					{ "time": 3.4, "name": "rain_emission0004" },
+					{ "time": 3.4333, "name": "rain_emission0005" },
+					{ "time": 3.4666, "name": "rain_emission0006" },
+					{ "time": 3.5, "name": "rain_emission0007" },
+					{ "time": 3.5333, "name": null },
+					{ "time": 3.5666, "name": "rain_emission0001" },
+					{ "time": 3.6, "name": "rain_emission0002" },
+					{ "time": 3.6333, "name": "rain_emission0003" },
+					{ "time": 3.6666, "name": "rain_emission0004" },
+					{ "time": 3.7, "name": "rain_emission0005" },
+					{ "time": 3.7333, "name": "rain_emission0006" },
+					{ "time": 3.7666, "name": "rain_emission0007" },
+					{ "time": 3.8, "name": null },
+					{ "time": 3.8333, "name": "rain_emission0001" },
+					{ "time": 3.8666, "name": "rain_emission0002" },
+					{ "time": 3.9, "name": "rain_emission0003" },
+					{ "time": 3.9333, "name": "rain_emission0004" },
+					{ "time": 3.9666, "name": "rain_emission0005" },
+					{ "time": 4, "name": "rain_emission0006" },
+					{ "time": 4.0333, "name": "rain_emission0007" },
+					{ "time": 4.0666, "name": null },
+					{ "time": 4.1, "name": "rain_emission0001" },
+					{ "time": 4.1333, "name": "rain_emission0002" },
+					{ "time": 4.1666, "name": "rain_emission0003" },
+					{ "time": 4.2, "name": "rain_emission0004" },
+					{ "time": 4.2333, "name": "rain_emission0005" },
+					{ "time": 4.2666, "name": "rain_emission0006" },
+					{ "time": 4.3, "name": "rain_emission0007" },
+					{ "time": 4.3333, "name": null },
+					{ "time": 4.3666, "name": "rain_emission0001" },
+					{ "time": 4.4, "name": "rain_emission0002" },
+					{ "time": 4.4333, "name": "rain_emission0003" },
+					{ "time": 4.4666, "name": "rain_emission0004" },
+					{ "time": 4.5, "name": "rain_emission0005" },
+					{ "time": 4.5333, "name": "rain_emission0006" },
+					{ "time": 4.5666, "name": "rain_emission0007" },
+					{ "time": 4.6, "name": null },
+					{ "time": 4.6333, "name": "rain_emission0001" },
+					{ "time": 4.6666, "name": "rain_emission0002" },
+					{ "time": 4.7, "name": "rain_emission0003" },
+					{ "time": 4.7333, "name": "rain_emission0004" },
+					{ "time": 4.7666, "name": "rain_emission0005" },
+					{ "time": 4.8, "name": "rain_emission0006" },
+					{ "time": 4.8333, "name": "rain_emission0007" },
+					{ "time": 4.8666, "name": null },
+					{ "time": 4.9, "name": "rain_emission0001" },
+					{ "time": 4.9333, "name": "rain_emission0002" },
+					{ "time": 4.9666, "name": "rain_emission0003" },
+					{ "time": 5, "name": "rain_emission0004" },
+					{ "time": 5.0333, "name": "rain_emission0005" },
+					{ "time": 5.0666, "name": "rain_emission0006" },
+					{ "time": 5.1, "name": "rain_emission0007" },
+					{ "time": 5.1333, "name": null },
+					{ "time": 5.1666, "name": "rain_emission0001" },
+					{ "time": 5.2, "name": "rain_emission0002" },
+					{ "time": 5.2333, "name": "rain_emission0003" },
+					{ "time": 5.2666, "name": "rain_emission0004" },
+					{ "time": 5.3, "name": "rain_emission0005" },
+					{ "time": 5.3333, "name": "rain_emission0006" },
+					{ "time": 5.3666, "name": "rain_emission0007" },
+					{ "time": 5.4, "name": null },
+					{ "time": 5.4333, "name": "rain_emission0001" },
+					{ "time": 5.4666, "name": "rain_emission0002" },
+					{ "time": 5.5, "name": "rain_emission0003" },
+					{ "time": 5.5333, "name": "rain_emission0004" },
+					{ "time": 5.5666, "name": "rain_emission0005" },
+					{ "time": 5.6, "name": "rain_emission0006" },
+					{ "time": 5.6333, "name": "rain_emission0007" },
+					{ "time": 5.6666, "name": null },
+					{ "time": 5.7, "name": "rain_emission0001" },
+					{ "time": 5.7333, "name": "rain_emission0002" },
+					{ "time": 5.7666, "name": "rain_emission0003" },
+					{ "time": 5.8, "name": "rain_emission0004" },
+					{ "time": 5.8333, "name": "rain_emission0005" },
+					{ "time": 5.8666, "name": "rain_emission0006" },
+					{ "time": 5.9, "name": "rain_emission0007" },
+					{ "time": 5.9333, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.6666, "name": "rain_emission0001" },
+					{ "time": 2.7, "name": "rain_emission0002" },
+					{ "time": 2.7333, "name": "rain_emission0003" },
+					{ "time": 2.7666, "name": "rain_emission0004" },
+					{ "time": 2.8, "name": "rain_emission0005" },
+					{ "time": 2.8333, "name": "rain_emission0006" },
+					{ "time": 2.8666, "name": "rain_emission0007" },
+					{ "time": 2.9, "name": null },
+					{ "time": 2.9333, "name": "rain_emission0001" },
+					{ "time": 2.9666, "name": "rain_emission0002" },
+					{ "time": 3, "name": "rain_emission0003" },
+					{ "time": 3.0333, "name": "rain_emission0004" },
+					{ "time": 3.0666, "name": "rain_emission0005" },
+					{ "time": 3.1, "name": "rain_emission0006" },
+					{ "time": 3.1333, "name": "rain_emission0007" },
+					{ "time": 3.1666, "name": null },
+					{ "time": 3.2, "name": "rain_emission0001" },
+					{ "time": 3.2333, "name": "rain_emission0002" },
+					{ "time": 3.2666, "name": "rain_emission0003" },
+					{ "time": 3.3, "name": "rain_emission0004" },
+					{ "time": 3.3333, "name": "rain_emission0005" },
+					{ "time": 3.3666, "name": "rain_emission0006" },
+					{ "time": 3.4, "name": "rain_emission0007" },
+					{ "time": 3.4333, "name": null },
+					{ "time": 3.4666, "name": "rain_emission0001" },
+					{ "time": 3.5, "name": "rain_emission0002" },
+					{ "time": 3.5333, "name": "rain_emission0003" },
+					{ "time": 3.5666, "name": "rain_emission0004" },
+					{ "time": 3.6, "name": "rain_emission0005" },
+					{ "time": 3.6333, "name": "rain_emission0006" },
+					{ "time": 3.6666, "name": "rain_emission0007" },
+					{ "time": 3.7, "name": null },
+					{ "time": 3.7333, "name": "rain_emission0001" },
+					{ "time": 3.7666, "name": "rain_emission0002" },
+					{ "time": 3.8, "name": "rain_emission0003" },
+					{ "time": 3.8333, "name": "rain_emission0004" },
+					{ "time": 3.8666, "name": "rain_emission0005" },
+					{ "time": 3.9, "name": "rain_emission0006" },
+					{ "time": 3.9333, "name": "rain_emission0007" },
+					{ "time": 3.9666, "name": null },
+					{ "time": 4, "name": "rain_emission0001" },
+					{ "time": 4.0333, "name": "rain_emission0002" },
+					{ "time": 4.0666, "name": "rain_emission0003" },
+					{ "time": 4.1, "name": "rain_emission0004" },
+					{ "time": 4.1333, "name": "rain_emission0005" },
+					{ "time": 4.1666, "name": "rain_emission0006" },
+					{ "time": 4.2, "name": "rain_emission0007" },
+					{ "time": 4.2333, "name": null },
+					{ "time": 4.2666, "name": "rain_emission0001" },
+					{ "time": 4.3, "name": "rain_emission0002" },
+					{ "time": 4.3333, "name": "rain_emission0003" },
+					{ "time": 4.3666, "name": "rain_emission0004" },
+					{ "time": 4.4, "name": "rain_emission0005" },
+					{ "time": 4.4333, "name": "rain_emission0006" },
+					{ "time": 4.4666, "name": "rain_emission0007" },
+					{ "time": 4.5, "name": null },
+					{ "time": 4.5333, "name": "rain_emission0001" },
+					{ "time": 4.5666, "name": "rain_emission0002" },
+					{ "time": 4.6, "name": "rain_emission0003" },
+					{ "time": 4.6333, "name": "rain_emission0004" },
+					{ "time": 4.6666, "name": "rain_emission0005" },
+					{ "time": 4.7, "name": "rain_emission0006" },
+					{ "time": 4.7333, "name": "rain_emission0007" },
+					{ "time": 4.7666, "name": null },
+					{ "time": 4.8, "name": "rain_emission0001" },
+					{ "time": 4.8333, "name": "rain_emission0002" },
+					{ "time": 4.8666, "name": "rain_emission0003" },
+					{ "time": 4.9, "name": "rain_emission0004" },
+					{ "time": 4.9333, "name": "rain_emission0005" },
+					{ "time": 4.9666, "name": "rain_emission0006" },
+					{ "time": 5, "name": "rain_emission0007" },
+					{ "time": 5.0333, "name": null },
+					{ "time": 5.0666, "name": "rain_emission0001" },
+					{ "time": 5.1, "name": "rain_emission0002" },
+					{ "time": 5.1333, "name": "rain_emission0003" },
+					{ "time": 5.1666, "name": "rain_emission0004" },
+					{ "time": 5.2, "name": "rain_emission0005" },
+					{ "time": 5.2333, "name": "rain_emission0006" },
+					{ "time": 5.2666, "name": "rain_emission0007" },
+					{ "time": 5.3, "name": null },
+					{ "time": 5.3333, "name": "rain_emission0001" },
+					{ "time": 5.3666, "name": "rain_emission0002" },
+					{ "time": 5.4, "name": "rain_emission0003" },
+					{ "time": 5.4333, "name": "rain_emission0004" },
+					{ "time": 5.4666, "name": "rain_emission0005" },
+					{ "time": 5.5, "name": "rain_emission0006" },
+					{ "time": 5.5333, "name": "rain_emission0007" },
+					{ "time": 5.5666, "name": null },
+					{ "time": 5.6, "name": "rain_emission0001" },
+					{ "time": 5.6333, "name": "rain_emission0002" },
+					{ "time": 5.6666, "name": "rain_emission0003" },
+					{ "time": 5.7, "name": "rain_emission0004" },
+					{ "time": 5.7333, "name": "rain_emission0005" },
+					{ "time": 5.7666, "name": "rain_emission0006" },
+					{ "time": 5.8, "name": "rain_emission0007" },
+					{ "time": 5.8333, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.5333, "name": "rain_emission0001" },
+					{ "time": 2.5666, "name": "rain_emission0002" },
+					{ "time": 2.6, "name": "rain_emission0003" },
+					{ "time": 2.6333, "name": "rain_emission0004" },
+					{ "time": 2.6666, "name": "rain_emission0005" },
+					{ "time": 2.7, "name": "rain_emission0006" },
+					{ "time": 2.7333, "name": "rain_emission0007" },
+					{ "time": 2.7666, "name": null },
+					{ "time": 2.8, "name": "rain_emission0001" },
+					{ "time": 2.8333, "name": "rain_emission0002" },
+					{ "time": 2.8666, "name": "rain_emission0003" },
+					{ "time": 2.9, "name": "rain_emission0004" },
+					{ "time": 2.9333, "name": "rain_emission0005" },
+					{ "time": 2.9666, "name": "rain_emission0006" },
+					{ "time": 3, "name": "rain_emission0007" },
+					{ "time": 3.0333, "name": null },
+					{ "time": 3.0666, "name": "rain_emission0001" },
+					{ "time": 3.1, "name": "rain_emission0002" },
+					{ "time": 3.1333, "name": "rain_emission0003" },
+					{ "time": 3.1666, "name": "rain_emission0004" },
+					{ "time": 3.2, "name": "rain_emission0005" },
+					{ "time": 3.2333, "name": "rain_emission0006" },
+					{ "time": 3.2666, "name": "rain_emission0007" },
+					{ "time": 3.3, "name": null },
+					{ "time": 3.3333, "name": "rain_emission0001" },
+					{ "time": 3.3666, "name": "rain_emission0002" },
+					{ "time": 3.4, "name": "rain_emission0003" },
+					{ "time": 3.4333, "name": "rain_emission0004" },
+					{ "time": 3.4666, "name": "rain_emission0005" },
+					{ "time": 3.5, "name": "rain_emission0006" },
+					{ "time": 3.5333, "name": "rain_emission0007" },
+					{ "time": 3.5666, "name": null },
+					{ "time": 3.6, "name": "rain_emission0001" },
+					{ "time": 3.6333, "name": "rain_emission0002" },
+					{ "time": 3.6666, "name": "rain_emission0003" },
+					{ "time": 3.7, "name": "rain_emission0004" },
+					{ "time": 3.7333, "name": "rain_emission0005" },
+					{ "time": 3.7666, "name": "rain_emission0006" },
+					{ "time": 3.8, "name": "rain_emission0007" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 3.8666, "name": "rain_emission0001" },
+					{ "time": 3.9, "name": "rain_emission0002" },
+					{ "time": 3.9333, "name": "rain_emission0003" },
+					{ "time": 3.9666, "name": "rain_emission0004" },
+					{ "time": 4, "name": "rain_emission0005" },
+					{ "time": 4.0333, "name": "rain_emission0006" },
+					{ "time": 4.0666, "name": "rain_emission0007" },
+					{ "time": 4.1, "name": null },
+					{ "time": 4.1333, "name": "rain_emission0001" },
+					{ "time": 4.1666, "name": "rain_emission0002" },
+					{ "time": 4.2, "name": "rain_emission0003" },
+					{ "time": 4.2333, "name": "rain_emission0004" },
+					{ "time": 4.2666, "name": "rain_emission0005" },
+					{ "time": 4.3, "name": "rain_emission0006" },
+					{ "time": 4.3333, "name": "rain_emission0007" },
+					{ "time": 4.3666, "name": null },
+					{ "time": 4.4, "name": "rain_emission0001" },
+					{ "time": 4.4333, "name": "rain_emission0002" },
+					{ "time": 4.4666, "name": "rain_emission0003" },
+					{ "time": 4.5, "name": "rain_emission0004" },
+					{ "time": 4.5333, "name": "rain_emission0005" },
+					{ "time": 4.5666, "name": "rain_emission0006" },
+					{ "time": 4.6, "name": "rain_emission0007" },
+					{ "time": 4.6333, "name": null },
+					{ "time": 4.6666, "name": "rain_emission0001" },
+					{ "time": 4.7, "name": "rain_emission0002" },
+					{ "time": 4.7333, "name": "rain_emission0003" },
+					{ "time": 4.7666, "name": "rain_emission0004" },
+					{ "time": 4.8, "name": "rain_emission0005" },
+					{ "time": 4.8333, "name": "rain_emission0006" },
+					{ "time": 4.8666, "name": "rain_emission0007" },
+					{ "time": 4.9, "name": null },
+					{ "time": 4.9333, "name": "rain_emission0001" },
+					{ "time": 4.9666, "name": "rain_emission0002" },
+					{ "time": 5, "name": "rain_emission0003" },
+					{ "time": 5.0333, "name": "rain_emission0004" },
+					{ "time": 5.0666, "name": "rain_emission0005" },
+					{ "time": 5.1, "name": "rain_emission0006" },
+					{ "time": 5.1333, "name": "rain_emission0007" },
+					{ "time": 5.1666, "name": null },
+					{ "time": 5.2, "name": "rain_emission0001" },
+					{ "time": 5.2333, "name": "rain_emission0002" },
+					{ "time": 5.2666, "name": "rain_emission0003" },
+					{ "time": 5.3, "name": "rain_emission0004" },
+					{ "time": 5.3333, "name": "rain_emission0005" },
+					{ "time": 5.3666, "name": "rain_emission0006" },
+					{ "time": 5.4, "name": "rain_emission0007" },
+					{ "time": 5.4333, "name": null },
+					{ "time": 5.4666, "name": "rain_emission0001" },
+					{ "time": 5.5, "name": "rain_emission0002" },
+					{ "time": 5.5333, "name": "rain_emission0003" },
+					{ "time": 5.5666, "name": "rain_emission0004" },
+					{ "time": 5.6, "name": "rain_emission0005" },
+					{ "time": 5.6333, "name": "rain_emission0006" },
+					{ "time": 5.6666, "name": "rain_emission0007" },
+					{ "time": 5.7, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": "rain_emission0001" },
+					{ "time": 2.0333, "name": "rain_emission0002" },
+					{ "time": 2.0666, "name": "rain_emission0003" },
+					{ "time": 2.1, "name": "rain_emission0004" },
+					{ "time": 2.1333, "name": "rain_emission0005" },
+					{ "time": 2.1666, "name": "rain_emission0006" },
+					{ "time": 2.2, "name": "rain_emission0007" },
+					{ "time": 2.2333, "name": null },
+					{ "time": 2.2666, "name": "rain_emission0001" },
+					{ "time": 2.3, "name": "rain_emission0002" },
+					{ "time": 2.3333, "name": "rain_emission0003" },
+					{ "time": 2.3666, "name": "rain_emission0004" },
+					{ "time": 2.4, "name": "rain_emission0005" },
+					{ "time": 2.4333, "name": "rain_emission0006" },
+					{ "time": 2.4666, "name": "rain_emission0007" },
+					{ "time": 2.5, "name": null },
+					{ "time": 2.5333, "name": "rain_emission0001" },
+					{ "time": 2.5666, "name": "rain_emission0002" },
+					{ "time": 2.6, "name": "rain_emission0003" },
+					{ "time": 2.6333, "name": "rain_emission0004" },
+					{ "time": 2.6666, "name": "rain_emission0005" },
+					{ "time": 2.7, "name": "rain_emission0006" },
+					{ "time": 2.7333, "name": "rain_emission0007" },
+					{ "time": 2.7666, "name": null },
+					{ "time": 2.8, "name": "rain_emission0001" },
+					{ "time": 2.8333, "name": "rain_emission0002" },
+					{ "time": 2.8666, "name": "rain_emission0003" },
+					{ "time": 2.9, "name": "rain_emission0004" },
+					{ "time": 2.9333, "name": "rain_emission0005" },
+					{ "time": 2.9666, "name": "rain_emission0006" },
+					{ "time": 3, "name": "rain_emission0007" },
+					{ "time": 3.0333, "name": null },
+					{ "time": 3.0666, "name": "rain_emission0001" },
+					{ "time": 3.1, "name": "rain_emission0002" },
+					{ "time": 3.1333, "name": "rain_emission0003" },
+					{ "time": 3.1666, "name": "rain_emission0004" },
+					{ "time": 3.2, "name": "rain_emission0005" },
+					{ "time": 3.2333, "name": "rain_emission0006" },
+					{ "time": 3.2666, "name": "rain_emission0007" },
+					{ "time": 3.3, "name": null },
+					{ "time": 3.3333, "name": "rain_emission0001" },
+					{ "time": 3.3666, "name": "rain_emission0002" },
+					{ "time": 3.4, "name": "rain_emission0003" },
+					{ "time": 3.4333, "name": "rain_emission0004" },
+					{ "time": 3.4666, "name": "rain_emission0005" },
+					{ "time": 3.5, "name": "rain_emission0006" },
+					{ "time": 3.5333, "name": "rain_emission0007" },
+					{ "time": 3.5666, "name": null },
+					{ "time": 3.6, "name": "rain_emission0001" },
+					{ "time": 3.6333, "name": "rain_emission0002" },
+					{ "time": 3.6666, "name": "rain_emission0003" },
+					{ "time": 3.7, "name": "rain_emission0004" },
+					{ "time": 3.7333, "name": "rain_emission0005" },
+					{ "time": 3.7666, "name": "rain_emission0006" },
+					{ "time": 3.8, "name": "rain_emission0007" },
+					{ "time": 3.8333, "name": null },
+					{ "time": 3.8666, "name": "rain_emission0001" },
+					{ "time": 3.9, "name": "rain_emission0002" },
+					{ "time": 3.9333, "name": "rain_emission0003" },
+					{ "time": 3.9666, "name": "rain_emission0004" },
+					{ "time": 4, "name": "rain_emission0005" },
+					{ "time": 4.0333, "name": "rain_emission0006" },
+					{ "time": 4.0666, "name": "rain_emission0007" },
+					{ "time": 4.1, "name": null },
+					{ "time": 4.1333, "name": "rain_emission0001" },
+					{ "time": 4.1666, "name": "rain_emission0002" },
+					{ "time": 4.2, "name": "rain_emission0003" },
+					{ "time": 4.2333, "name": "rain_emission0004" },
+					{ "time": 4.2666, "name": "rain_emission0005" },
+					{ "time": 4.3, "name": "rain_emission0006" },
+					{ "time": 4.3333, "name": "rain_emission0007" },
+					{ "time": 4.3666, "name": null },
+					{ "time": 4.4, "name": "rain_emission0001" },
+					{ "time": 4.4333, "name": "rain_emission0002" },
+					{ "time": 4.4666, "name": "rain_emission0003" },
+					{ "time": 4.5, "name": "rain_emission0004" },
+					{ "time": 4.5333, "name": "rain_emission0005" },
+					{ "time": 4.5666, "name": "rain_emission0006" },
+					{ "time": 4.6, "name": "rain_emission0007" },
+					{ "time": 4.6333, "name": null },
+					{ "time": 4.6666, "name": "rain_emission0001" },
+					{ "time": 4.7, "name": "rain_emission0002" },
+					{ "time": 4.7333, "name": "rain_emission0003" },
+					{ "time": 4.7666, "name": "rain_emission0004" },
+					{ "time": 4.8, "name": "rain_emission0005" },
+					{ "time": 4.8333, "name": "rain_emission0006" },
+					{ "time": 4.8666, "name": "rain_emission0007" },
+					{ "time": 4.9, "name": null },
+					{ "time": 4.9333, "name": "rain_emission0001" },
+					{ "time": 4.9666, "name": "rain_emission0002" },
+					{ "time": 5, "name": "rain_emission0003" },
+					{ "time": 5.0333, "name": "rain_emission0004" },
+					{ "time": 5.0666, "name": "rain_emission0005" },
+					{ "time": 5.1, "name": "rain_emission0006" },
+					{ "time": 5.1333, "name": "rain_emission0007" },
+					{ "time": 5.1666, "name": null },
+					{ "time": 5.2, "name": "rain_emission0001" },
+					{ "time": 5.2333, "name": "rain_emission0002" },
+					{ "time": 5.2666, "name": "rain_emission0003" },
+					{ "time": 5.3, "name": "rain_emission0004" },
+					{ "time": 5.3333, "name": "rain_emission0005" },
+					{ "time": 5.3666, "name": "rain_emission0006" },
+					{ "time": 5.4, "name": "rain_emission0007" },
+					{ "time": 5.4333, "name": null },
+					{ "time": 5.4666, "name": "rain_emission0001" },
+					{ "time": 5.5, "name": "rain_emission0002" },
+					{ "time": 5.5333, "name": "rain_emission0003" },
+					{ "time": 5.5666, "name": "rain_emission0004" },
+					{ "time": 5.6, "name": "rain_emission0005" },
+					{ "time": 5.6333, "name": "rain_emission0006" },
+					{ "time": 5.6666, "name": "rain_emission0007" },
+					{ "time": 5.7, "name": null },
+					{ "time": 5.7333, "name": "rain_emission0001" },
+					{ "time": 5.7666, "name": "rain_emission0002" },
+					{ "time": 5.8, "name": "rain_emission0003" },
+					{ "time": 5.8333, "name": "rain_emission0004" },
+					{ "time": 5.8666, "name": "rain_emission0005" },
+					{ "time": 5.9, "name": "rain_emission0006" },
+					{ "time": 5.9333, "name": "rain_emission0007" },
+					{ "time": 5.9666, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.1666, "name": "rain_emission0001" },
+					{ "time": 2.2, "name": "rain_emission0002" },
+					{ "time": 2.2333, "name": "rain_emission0003" },
+					{ "time": 2.2666, "name": "rain_emission0004" },
+					{ "time": 2.3, "name": "rain_emission0005" },
+					{ "time": 2.3333, "name": "rain_emission0006" },
+					{ "time": 2.3666, "name": "rain_emission0007" },
+					{ "time": 2.4, "name": null },
+					{ "time": 2.4333, "name": "rain_emission0001" },
+					{ "time": 2.4666, "name": "rain_emission0002" },
+					{ "time": 2.5, "name": "rain_emission0003" },
+					{ "time": 2.5333, "name": "rain_emission0004" },
+					{ "time": 2.5666, "name": "rain_emission0005" },
+					{ "time": 2.6, "name": "rain_emission0006" },
+					{ "time": 2.6333, "name": "rain_emission0007" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.7, "name": "rain_emission0001" },
+					{ "time": 2.7333, "name": "rain_emission0002" },
+					{ "time": 2.7666, "name": "rain_emission0003" },
+					{ "time": 2.8, "name": "rain_emission0004" },
+					{ "time": 2.8333, "name": "rain_emission0005" },
+					{ "time": 2.8666, "name": "rain_emission0006" },
+					{ "time": 2.9, "name": "rain_emission0007" },
+					{ "time": 2.9333, "name": null },
+					{ "time": 2.9666, "name": "rain_emission0001" },
+					{ "time": 3, "name": "rain_emission0002" },
+					{ "time": 3.0333, "name": "rain_emission0003" },
+					{ "time": 3.0666, "name": "rain_emission0004" },
+					{ "time": 3.1, "name": "rain_emission0005" },
+					{ "time": 3.1333, "name": "rain_emission0006" },
+					{ "time": 3.1666, "name": "rain_emission0007" },
+					{ "time": 3.2, "name": null },
+					{ "time": 3.2333, "name": "rain_emission0001" },
+					{ "time": 3.2666, "name": "rain_emission0002" },
+					{ "time": 3.3, "name": "rain_emission0003" },
+					{ "time": 3.3333, "name": "rain_emission0004" },
+					{ "time": 3.3666, "name": "rain_emission0005" },
+					{ "time": 3.4, "name": "rain_emission0006" },
+					{ "time": 3.4333, "name": "rain_emission0007" },
+					{ "time": 3.4666, "name": null },
+					{ "time": 3.5, "name": "rain_emission0001" },
+					{ "time": 3.5333, "name": "rain_emission0002" },
+					{ "time": 3.5666, "name": "rain_emission0003" },
+					{ "time": 3.6, "name": "rain_emission0004" },
+					{ "time": 3.6333, "name": "rain_emission0005" },
+					{ "time": 3.6666, "name": "rain_emission0006" },
+					{ "time": 3.7, "name": "rain_emission0007" },
+					{ "time": 3.7333, "name": null },
+					{ "time": 3.7666, "name": "rain_emission0001" },
+					{ "time": 3.8, "name": "rain_emission0002" },
+					{ "time": 3.8333, "name": "rain_emission0003" },
+					{ "time": 3.8666, "name": "rain_emission0004" },
+					{ "time": 3.9, "name": "rain_emission0005" },
+					{ "time": 3.9333, "name": "rain_emission0006" },
+					{ "time": 3.9666, "name": "rain_emission0007" },
+					{ "time": 4, "name": null },
+					{ "time": 4.0333, "name": "rain_emission0001" },
+					{ "time": 4.0666, "name": "rain_emission0002" },
+					{ "time": 4.1, "name": "rain_emission0003" },
+					{ "time": 4.1333, "name": "rain_emission0004" },
+					{ "time": 4.1666, "name": "rain_emission0005" },
+					{ "time": 4.2, "name": "rain_emission0006" },
+					{ "time": 4.2333, "name": "rain_emission0007" },
+					{ "time": 4.2666, "name": null },
+					{ "time": 4.3, "name": "rain_emission0001" },
+					{ "time": 4.3333, "name": "rain_emission0002" },
+					{ "time": 4.3666, "name": "rain_emission0003" },
+					{ "time": 4.4, "name": "rain_emission0004" },
+					{ "time": 4.4333, "name": "rain_emission0005" },
+					{ "time": 4.4666, "name": "rain_emission0006" },
+					{ "time": 4.5, "name": "rain_emission0007" },
+					{ "time": 4.5333, "name": null },
+					{ "time": 4.5666, "name": "rain_emission0001" },
+					{ "time": 4.6, "name": "rain_emission0002" },
+					{ "time": 4.6333, "name": "rain_emission0003" },
+					{ "time": 4.6666, "name": "rain_emission0004" },
+					{ "time": 4.7, "name": "rain_emission0005" },
+					{ "time": 4.7333, "name": "rain_emission0006" },
+					{ "time": 4.7666, "name": "rain_emission0007" },
+					{ "time": 4.8, "name": null },
+					{ "time": 4.8333, "name": "rain_emission0001" },
+					{ "time": 4.8666, "name": "rain_emission0002" },
+					{ "time": 4.9, "name": "rain_emission0003" },
+					{ "time": 4.9333, "name": "rain_emission0004" },
+					{ "time": 4.9666, "name": "rain_emission0005" },
+					{ "time": 5, "name": "rain_emission0006" },
+					{ "time": 5.0333, "name": "rain_emission0007" },
+					{ "time": 5.0666, "name": null },
+					{ "time": 5.1, "name": "rain_emission0001" },
+					{ "time": 5.1333, "name": "rain_emission0002" },
+					{ "time": 5.1666, "name": "rain_emission0003" },
+					{ "time": 5.2, "name": "rain_emission0004" },
+					{ "time": 5.2333, "name": "rain_emission0005" },
+					{ "time": 5.2666, "name": "rain_emission0006" },
+					{ "time": 5.3, "name": "rain_emission0007" },
+					{ "time": 5.3333, "name": null },
+					{ "time": 5.3666, "name": "rain_emission0001" },
+					{ "time": 5.4, "name": "rain_emission0002" },
+					{ "time": 5.4333, "name": "rain_emission0003" },
+					{ "time": 5.4666, "name": "rain_emission0004" },
+					{ "time": 5.5, "name": "rain_emission0005" },
+					{ "time": 5.5333, "name": "rain_emission0006" },
+					{ "time": 5.5666, "name": "rain_emission0007" },
+					{ "time": 5.6, "name": null },
+					{ "time": 5.6333, "name": "rain_emission0001" },
+					{ "time": 5.6666, "name": "rain_emission0002" },
+					{ "time": 5.7, "name": "rain_emission0003" },
+					{ "time": 5.7333, "name": "rain_emission0004" },
+					{ "time": 5.7666, "name": "rain_emission0005" },
+					{ "time": 5.8, "name": "rain_emission0006" },
+					{ "time": 5.8333, "name": "rain_emission0007" },
+					{ "time": 5.8666, "name": null },
+					{ "time": 5.9, "name": "rain_emission0001" },
+					{ "time": 5.9333, "name": "rain_emission0002" },
+					{ "time": 5.9666, "name": "rain_emission0003" },
+					{ "time": 6, "name": "rain_emission0004" },
+					{ "time": 6.0333, "name": "rain_emission0005" },
+					{ "time": 6.0666, "name": "rain_emission0006" },
+					{ "time": 6.1, "name": "rain_emission0007" },
+					{ "time": 6.1333, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.8666, "name": "rain_emission0001" },
+					{ "time": 2.9, "name": "rain_emission0002" },
+					{ "time": 2.9333, "name": "rain_emission0003" },
+					{ "time": 2.9666, "name": "rain_emission0004" },
+					{ "time": 3, "name": "rain_emission0005" },
+					{ "time": 3.0333, "name": "rain_emission0006" },
+					{ "time": 3.0666, "name": "rain_emission0007" },
+					{ "time": 3.1, "name": null },
+					{ "time": 3.1333, "name": "rain_emission0001" },
+					{ "time": 3.1666, "name": "rain_emission0002" },
+					{ "time": 3.2, "name": "rain_emission0003" },
+					{ "time": 3.2333, "name": "rain_emission0004" },
+					{ "time": 3.2666, "name": "rain_emission0005" },
+					{ "time": 3.3, "name": "rain_emission0006" },
+					{ "time": 3.3333, "name": "rain_emission0007" },
+					{ "time": 3.3666, "name": null },
+					{ "time": 3.4, "name": "rain_emission0001" },
+					{ "time": 3.4333, "name": "rain_emission0002" },
+					{ "time": 3.4666, "name": "rain_emission0003" },
+					{ "time": 3.5, "name": "rain_emission0004" },
+					{ "time": 3.5333, "name": "rain_emission0005" },
+					{ "time": 3.5666, "name": "rain_emission0006" },
+					{ "time": 3.6, "name": "rain_emission0007" },
+					{ "time": 3.6333, "name": null },
+					{ "time": 3.6666, "name": "rain_emission0001" },
+					{ "time": 3.7, "name": "rain_emission0002" },
+					{ "time": 3.7333, "name": "rain_emission0003" },
+					{ "time": 3.7666, "name": "rain_emission0004" },
+					{ "time": 3.8, "name": "rain_emission0005" },
+					{ "time": 3.8333, "name": "rain_emission0006" },
+					{ "time": 3.8666, "name": "rain_emission0007" },
+					{ "time": 3.9, "name": null },
+					{ "time": 3.9333, "name": "rain_emission0001" },
+					{ "time": 3.9666, "name": "rain_emission0002" },
+					{ "time": 4, "name": "rain_emission0003" },
+					{ "time": 4.0333, "name": "rain_emission0004" },
+					{ "time": 4.0666, "name": "rain_emission0005" },
+					{ "time": 4.1, "name": "rain_emission0006" },
+					{ "time": 4.1333, "name": "rain_emission0007" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.2, "name": "rain_emission0001" },
+					{ "time": 4.2333, "name": "rain_emission0002" },
+					{ "time": 4.2666, "name": "rain_emission0003" },
+					{ "time": 4.3, "name": "rain_emission0004" },
+					{ "time": 4.3333, "name": "rain_emission0005" },
+					{ "time": 4.3666, "name": "rain_emission0006" },
+					{ "time": 4.4, "name": "rain_emission0007" },
+					{ "time": 4.4333, "name": null },
+					{ "time": 4.4666, "name": "rain_emission0001" },
+					{ "time": 4.5, "name": "rain_emission0002" },
+					{ "time": 4.5333, "name": "rain_emission0003" },
+					{ "time": 4.5666, "name": "rain_emission0004" },
+					{ "time": 4.6, "name": "rain_emission0005" },
+					{ "time": 4.6333, "name": "rain_emission0006" },
+					{ "time": 4.6666, "name": "rain_emission0007" },
+					{ "time": 4.7, "name": null },
+					{ "time": 4.7333, "name": "rain_emission0001" },
+					{ "time": 4.7666, "name": "rain_emission0002" },
+					{ "time": 4.8, "name": "rain_emission0003" },
+					{ "time": 4.8333, "name": "rain_emission0004" },
+					{ "time": 4.8666, "name": "rain_emission0005" },
+					{ "time": 4.9, "name": "rain_emission0006" },
+					{ "time": 4.9333, "name": "rain_emission0007" },
+					{ "time": 4.9666, "name": null },
+					{ "time": 5, "name": "rain_emission0001" },
+					{ "time": 5.0333, "name": "rain_emission0002" },
+					{ "time": 5.0666, "name": "rain_emission0003" },
+					{ "time": 5.1, "name": "rain_emission0004" },
+					{ "time": 5.1333, "name": "rain_emission0005" },
+					{ "time": 5.1666, "name": "rain_emission0006" },
+					{ "time": 5.2, "name": "rain_emission0007" },
+					{ "time": 5.2333, "name": null },
+					{ "time": 5.2666, "name": "rain_emission0001" },
+					{ "time": 5.3, "name": "rain_emission0002" },
+					{ "time": 5.3333, "name": "rain_emission0003" },
+					{ "time": 5.3666, "name": "rain_emission0004" },
+					{ "time": 5.4, "name": "rain_emission0005" },
+					{ "time": 5.4333, "name": "rain_emission0006" },
+					{ "time": 5.4666, "name": "rain_emission0007" },
+					{ "time": 5.5, "name": null },
+					{ "time": 5.5333, "name": "rain_emission0001" },
+					{ "time": 5.5666, "name": "rain_emission0002" },
+					{ "time": 5.6, "name": "rain_emission0003" },
+					{ "time": 5.6333, "name": "rain_emission0004" },
+					{ "time": 5.6666, "name": "rain_emission0005" },
+					{ "time": 5.7, "name": "rain_emission0006" },
+					{ "time": 5.7333, "name": "rain_emission0007" },
+					{ "time": 5.7666, "name": null },
+					{ "time": 5.8, "name": "rain_emission0001" },
+					{ "time": 5.8333, "name": "rain_emission0002" },
+					{ "time": 5.8666, "name": "rain_emission0003" },
+					{ "time": 5.9, "name": "rain_emission0004" },
+					{ "time": 5.9333, "name": "rain_emission0005" },
+					{ "time": 5.9666, "name": "rain_emission0006" },
+					{ "time": 6, "name": "rain_emission0007" },
+					{ "time": 6.0333, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.4666, "name": "rain_emission0001" },
+					{ "time": 2.5, "name": "rain_emission0002" },
+					{ "time": 2.5333, "name": "rain_emission0003" },
+					{ "time": 2.5666, "name": "rain_emission0004" },
+					{ "time": 2.6, "name": "rain_emission0005" },
+					{ "time": 2.6333, "name": "rain_emission0006" },
+					{ "time": 2.6666, "name": "rain_emission0007" },
+					{ "time": 2.7, "name": null },
+					{ "time": 2.7333, "name": "rain_emission0001" },
+					{ "time": 2.7666, "name": "rain_emission0002" },
+					{ "time": 2.8, "name": "rain_emission0003" },
+					{ "time": 2.8333, "name": "rain_emission0004" },
+					{ "time": 2.8666, "name": "rain_emission0005" },
+					{ "time": 2.9, "name": "rain_emission0006" },
+					{ "time": 2.9333, "name": "rain_emission0007" },
+					{ "time": 2.9666, "name": null },
+					{ "time": 3, "name": "rain_emission0001" },
+					{ "time": 3.0333, "name": "rain_emission0002" },
+					{ "time": 3.0666, "name": "rain_emission0003" },
+					{ "time": 3.1, "name": "rain_emission0004" },
+					{ "time": 3.1333, "name": "rain_emission0005" },
+					{ "time": 3.1666, "name": "rain_emission0006" },
+					{ "time": 3.2, "name": "rain_emission0007" },
+					{ "time": 3.2333, "name": null },
+					{ "time": 3.2666, "name": "rain_emission0001" },
+					{ "time": 3.3, "name": "rain_emission0002" },
+					{ "time": 3.3333, "name": "rain_emission0003" },
+					{ "time": 3.3666, "name": "rain_emission0004" },
+					{ "time": 3.4, "name": "rain_emission0005" },
+					{ "time": 3.4333, "name": "rain_emission0006" },
+					{ "time": 3.4666, "name": "rain_emission0007" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.5333, "name": "rain_emission0001" },
+					{ "time": 3.5666, "name": "rain_emission0002" },
+					{ "time": 3.6, "name": "rain_emission0003" },
+					{ "time": 3.6333, "name": "rain_emission0004" },
+					{ "time": 3.6666, "name": "rain_emission0005" },
+					{ "time": 3.7, "name": "rain_emission0006" },
+					{ "time": 3.7333, "name": "rain_emission0007" },
+					{ "time": 3.7666, "name": null },
+					{ "time": 3.8, "name": "rain_emission0001" },
+					{ "time": 3.8333, "name": "rain_emission0002" },
+					{ "time": 3.8666, "name": "rain_emission0003" },
+					{ "time": 3.9, "name": "rain_emission0004" },
+					{ "time": 3.9333, "name": "rain_emission0005" },
+					{ "time": 3.9666, "name": "rain_emission0006" },
+					{ "time": 4, "name": "rain_emission0007" },
+					{ "time": 4.0333, "name": null },
+					{ "time": 4.0666, "name": "rain_emission0001" },
+					{ "time": 4.1, "name": "rain_emission0002" },
+					{ "time": 4.1333, "name": "rain_emission0003" },
+					{ "time": 4.1666, "name": "rain_emission0004" },
+					{ "time": 4.2, "name": "rain_emission0005" },
+					{ "time": 4.2333, "name": "rain_emission0006" },
+					{ "time": 4.2666, "name": "rain_emission0007" },
+					{ "time": 4.3, "name": null },
+					{ "time": 4.3333, "name": "rain_emission0001" },
+					{ "time": 4.3666, "name": "rain_emission0002" },
+					{ "time": 4.4, "name": "rain_emission0003" },
+					{ "time": 4.4333, "name": "rain_emission0004" },
+					{ "time": 4.4666, "name": "rain_emission0005" },
+					{ "time": 4.5, "name": "rain_emission0006" },
+					{ "time": 4.5333, "name": "rain_emission0007" },
+					{ "time": 4.5666, "name": null },
+					{ "time": 4.6, "name": "rain_emission0001" },
+					{ "time": 4.6333, "name": "rain_emission0002" },
+					{ "time": 4.6666, "name": "rain_emission0003" },
+					{ "time": 4.7, "name": "rain_emission0004" },
+					{ "time": 4.7333, "name": "rain_emission0005" },
+					{ "time": 4.7666, "name": "rain_emission0006" },
+					{ "time": 4.8, "name": "rain_emission0007" },
+					{ "time": 4.8333, "name": null },
+					{ "time": 4.8666, "name": "rain_emission0001" },
+					{ "time": 4.9, "name": "rain_emission0002" },
+					{ "time": 4.9333, "name": "rain_emission0003" },
+					{ "time": 4.9666, "name": "rain_emission0004" },
+					{ "time": 5, "name": "rain_emission0005" },
+					{ "time": 5.0333, "name": "rain_emission0006" },
+					{ "time": 5.0666, "name": "rain_emission0007" },
+					{ "time": 5.1, "name": null },
+					{ "time": 5.1333, "name": "rain_emission0001" },
+					{ "time": 5.1666, "name": "rain_emission0002" },
+					{ "time": 5.2, "name": "rain_emission0003" },
+					{ "time": 5.2333, "name": "rain_emission0004" },
+					{ "time": 5.2666, "name": "rain_emission0005" },
+					{ "time": 5.3, "name": "rain_emission0006" },
+					{ "time": 5.3333, "name": "rain_emission0007" },
+					{ "time": 5.3666, "name": null },
+					{ "time": 5.4, "name": "rain_emission0001" },
+					{ "time": 5.4333, "name": "rain_emission0002" },
+					{ "time": 5.4666, "name": "rain_emission0003" },
+					{ "time": 5.5, "name": "rain_emission0004" },
+					{ "time": 5.5333, "name": "rain_emission0005" },
+					{ "time": 5.5666, "name": "rain_emission0006" },
+					{ "time": 5.6, "name": "rain_emission0007" },
+					{ "time": 5.6333, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.1, "name": "rain_emission0001" },
+					{ "time": 2.1333, "name": "rain_emission0002" },
+					{ "time": 2.1666, "name": "rain_emission0003" },
+					{ "time": 2.2, "name": "rain_emission0004" },
+					{ "time": 2.2333, "name": "rain_emission0005" },
+					{ "time": 2.2666, "name": "rain_emission0006" },
+					{ "time": 2.3, "name": "rain_emission0007" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.3666, "name": "rain_emission0001" },
+					{ "time": 2.4, "name": "rain_emission0002" },
+					{ "time": 2.4333, "name": "rain_emission0003" },
+					{ "time": 2.4666, "name": "rain_emission0004" },
+					{ "time": 2.5, "name": "rain_emission0005" },
+					{ "time": 2.5333, "name": "rain_emission0006" },
+					{ "time": 2.5666, "name": "rain_emission0007" },
+					{ "time": 2.6, "name": null },
+					{ "time": 2.6333, "name": "rain_emission0001" },
+					{ "time": 2.6666, "name": "rain_emission0002" },
+					{ "time": 2.7, "name": "rain_emission0003" },
+					{ "time": 2.7333, "name": "rain_emission0004" },
+					{ "time": 2.7666, "name": "rain_emission0005" },
+					{ "time": 2.8, "name": "rain_emission0006" },
+					{ "time": 2.8333, "name": "rain_emission0007" },
+					{ "time": 2.8666, "name": null },
+					{ "time": 2.9, "name": "rain_emission0001" },
+					{ "time": 2.9333, "name": "rain_emission0002" },
+					{ "time": 2.9666, "name": "rain_emission0003" },
+					{ "time": 3, "name": "rain_emission0004" },
+					{ "time": 3.0333, "name": "rain_emission0005" },
+					{ "time": 3.0666, "name": "rain_emission0006" },
+					{ "time": 3.1, "name": "rain_emission0007" },
+					{ "time": 3.1333, "name": null },
+					{ "time": 3.1666, "name": "rain_emission0001" },
+					{ "time": 3.2, "name": "rain_emission0002" },
+					{ "time": 3.2333, "name": "rain_emission0003" },
+					{ "time": 3.2666, "name": "rain_emission0004" },
+					{ "time": 3.3, "name": "rain_emission0005" },
+					{ "time": 3.3333, "name": "rain_emission0006" },
+					{ "time": 3.3666, "name": "rain_emission0007" },
+					{ "time": 3.4, "name": null },
+					{ "time": 3.4333, "name": "rain_emission0001" },
+					{ "time": 3.4666, "name": "rain_emission0002" },
+					{ "time": 3.5, "name": "rain_emission0003" },
+					{ "time": 3.5333, "name": "rain_emission0004" },
+					{ "time": 3.5666, "name": "rain_emission0005" },
+					{ "time": 3.6, "name": "rain_emission0006" },
+					{ "time": 3.6333, "name": "rain_emission0007" },
+					{ "time": 3.6666, "name": null },
+					{ "time": 3.7, "name": "rain_emission0001" },
+					{ "time": 3.7333, "name": "rain_emission0002" },
+					{ "time": 3.7666, "name": "rain_emission0003" },
+					{ "time": 3.8, "name": "rain_emission0004" },
+					{ "time": 3.8333, "name": "rain_emission0005" },
+					{ "time": 3.8666, "name": "rain_emission0006" },
+					{ "time": 3.9, "name": "rain_emission0007" },
+					{ "time": 3.9333, "name": null },
+					{ "time": 3.9666, "name": "rain_emission0001" },
+					{ "time": 4, "name": "rain_emission0002" },
+					{ "time": 4.0333, "name": "rain_emission0003" },
+					{ "time": 4.0666, "name": "rain_emission0004" },
+					{ "time": 4.1, "name": "rain_emission0005" },
+					{ "time": 4.1333, "name": "rain_emission0006" },
+					{ "time": 4.1666, "name": "rain_emission0007" },
+					{ "time": 4.2, "name": null },
+					{ "time": 4.2333, "name": "rain_emission0001" },
+					{ "time": 4.2666, "name": "rain_emission0002" },
+					{ "time": 4.3, "name": "rain_emission0003" },
+					{ "time": 4.3333, "name": "rain_emission0004" },
+					{ "time": 4.3666, "name": "rain_emission0005" },
+					{ "time": 4.4, "name": "rain_emission0006" },
+					{ "time": 4.4333, "name": "rain_emission0007" },
+					{ "time": 4.4666, "name": null },
+					{ "time": 4.5, "name": "rain_emission0001" },
+					{ "time": 4.5333, "name": "rain_emission0002" },
+					{ "time": 4.5666, "name": "rain_emission0003" },
+					{ "time": 4.6, "name": "rain_emission0004" },
+					{ "time": 4.6333, "name": "rain_emission0005" },
+					{ "time": 4.6666, "name": "rain_emission0006" },
+					{ "time": 4.7, "name": "rain_emission0007" },
+					{ "time": 4.7333, "name": null },
+					{ "time": 4.7666, "name": "rain_emission0001" },
+					{ "time": 4.8, "name": "rain_emission0002" },
+					{ "time": 4.8333, "name": "rain_emission0003" },
+					{ "time": 4.8666, "name": "rain_emission0004" },
+					{ "time": 4.9, "name": "rain_emission0005" },
+					{ "time": 4.9333, "name": "rain_emission0006" },
+					{ "time": 4.9666, "name": "rain_emission0007" },
+					{ "time": 5, "name": null },
+					{ "time": 5.0333, "name": "rain_emission0001" },
+					{ "time": 5.0666, "name": "rain_emission0002" },
+					{ "time": 5.1, "name": "rain_emission0003" },
+					{ "time": 5.1333, "name": "rain_emission0004" },
+					{ "time": 5.1666, "name": "rain_emission0005" },
+					{ "time": 5.2, "name": "rain_emission0006" },
+					{ "time": 5.2333, "name": "rain_emission0007" },
+					{ "time": 5.2666, "name": null },
+					{ "time": 5.3, "name": "rain_emission0001" },
+					{ "time": 5.3333, "name": "rain_emission0002" },
+					{ "time": 5.3666, "name": "rain_emission0003" },
+					{ "time": 5.4, "name": "rain_emission0004" },
+					{ "time": 5.4333, "name": "rain_emission0005" },
+					{ "time": 5.4666, "name": "rain_emission0006" },
+					{ "time": 5.5, "name": "rain_emission0007" },
+					{ "time": 5.5333, "name": null },
+					{ "time": 5.5666, "name": "rain_emission0001" },
+					{ "time": 5.6, "name": "rain_emission0002" },
+					{ "time": 5.6333, "name": "rain_emission0003" },
+					{ "time": 5.6666, "name": "rain_emission0004" },
+					{ "time": 5.7, "name": "rain_emission0005" },
+					{ "time": 5.7333, "name": "rain_emission0006" },
+					{ "time": 5.7666, "name": "rain_emission0007" },
+					{ "time": 5.8, "name": null },
+					{ "time": 5.8333, "name": "rain_emission0001" },
+					{ "time": 5.8666, "name": "rain_emission0002" },
+					{ "time": 5.9, "name": "rain_emission0003" },
+					{ "time": 5.9333, "name": "rain_emission0004" },
+					{ "time": 5.9666, "name": "rain_emission0005" },
+					{ "time": 6, "name": "rain_emission0006" },
+					{ "time": 6.0333, "name": "rain_emission0007" },
+					{ "time": 6.0666, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.3333, "name": "rain_emission0001" },
+					{ "time": 2.3666, "name": "rain_emission0002" },
+					{ "time": 2.4, "name": "rain_emission0003" },
+					{ "time": 2.4333, "name": "rain_emission0004" },
+					{ "time": 2.4666, "name": "rain_emission0005" },
+					{ "time": 2.5, "name": "rain_emission0006" },
+					{ "time": 2.5333, "name": "rain_emission0007" },
+					{ "time": 2.5666, "name": null },
+					{ "time": 2.6, "name": "rain_emission0001" },
+					{ "time": 2.6333, "name": "rain_emission0002" },
+					{ "time": 2.6666, "name": "rain_emission0003" },
+					{ "time": 2.7, "name": "rain_emission0004" },
+					{ "time": 2.7333, "name": "rain_emission0005" },
+					{ "time": 2.7666, "name": "rain_emission0006" },
+					{ "time": 2.8, "name": "rain_emission0007" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 2.8666, "name": "rain_emission0001" },
+					{ "time": 2.9, "name": "rain_emission0002" },
+					{ "time": 2.9333, "name": "rain_emission0003" },
+					{ "time": 2.9666, "name": "rain_emission0004" },
+					{ "time": 3, "name": "rain_emission0005" },
+					{ "time": 3.0333, "name": "rain_emission0006" },
+					{ "time": 3.0666, "name": "rain_emission0007" },
+					{ "time": 3.1, "name": null },
+					{ "time": 3.1333, "name": "rain_emission0001" },
+					{ "time": 3.1666, "name": "rain_emission0002" },
+					{ "time": 3.2, "name": "rain_emission0003" },
+					{ "time": 3.2333, "name": "rain_emission0004" },
+					{ "time": 3.2666, "name": "rain_emission0005" },
+					{ "time": 3.3, "name": "rain_emission0006" },
+					{ "time": 3.3333, "name": "rain_emission0007" },
+					{ "time": 3.3666, "name": null },
+					{ "time": 3.4, "name": "rain_emission0001" },
+					{ "time": 3.4333, "name": "rain_emission0002" },
+					{ "time": 3.4666, "name": "rain_emission0003" },
+					{ "time": 3.5, "name": "rain_emission0004" },
+					{ "time": 3.5333, "name": "rain_emission0005" },
+					{ "time": 3.5666, "name": "rain_emission0006" },
+					{ "time": 3.6, "name": "rain_emission0007" },
+					{ "time": 3.6333, "name": null },
+					{ "time": 3.6666, "name": "rain_emission0001" },
+					{ "time": 3.7, "name": "rain_emission0002" },
+					{ "time": 3.7333, "name": "rain_emission0003" },
+					{ "time": 3.7666, "name": "rain_emission0004" },
+					{ "time": 3.8, "name": "rain_emission0005" },
+					{ "time": 3.8333, "name": "rain_emission0006" },
+					{ "time": 3.8666, "name": "rain_emission0007" },
+					{ "time": 3.9, "name": null },
+					{ "time": 3.9333, "name": "rain_emission0001" },
+					{ "time": 3.9666, "name": "rain_emission0002" },
+					{ "time": 4, "name": "rain_emission0003" },
+					{ "time": 4.0333, "name": "rain_emission0004" },
+					{ "time": 4.0666, "name": "rain_emission0005" },
+					{ "time": 4.1, "name": "rain_emission0006" },
+					{ "time": 4.1333, "name": "rain_emission0007" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.2, "name": "rain_emission0001" },
+					{ "time": 4.2333, "name": "rain_emission0002" },
+					{ "time": 4.2666, "name": "rain_emission0003" },
+					{ "time": 4.3, "name": "rain_emission0004" },
+					{ "time": 4.3333, "name": "rain_emission0005" },
+					{ "time": 4.3666, "name": "rain_emission0006" },
+					{ "time": 4.4, "name": "rain_emission0007" },
+					{ "time": 4.4333, "name": null },
+					{ "time": 4.4666, "name": "rain_emission0001" },
+					{ "time": 4.5, "name": "rain_emission0002" },
+					{ "time": 4.5333, "name": "rain_emission0003" },
+					{ "time": 4.5666, "name": "rain_emission0004" },
+					{ "time": 4.6, "name": "rain_emission0005" },
+					{ "time": 4.6333, "name": "rain_emission0006" },
+					{ "time": 4.6666, "name": "rain_emission0007" },
+					{ "time": 4.7, "name": null },
+					{ "time": 4.7333, "name": "rain_emission0001" },
+					{ "time": 4.7666, "name": "rain_emission0002" },
+					{ "time": 4.8, "name": "rain_emission0003" },
+					{ "time": 4.8333, "name": "rain_emission0004" },
+					{ "time": 4.8666, "name": "rain_emission0005" },
+					{ "time": 4.9, "name": "rain_emission0006" },
+					{ "time": 4.9333, "name": "rain_emission0007" },
+					{ "time": 4.9666, "name": null },
+					{ "time": 5, "name": "rain_emission0001" },
+					{ "time": 5.0333, "name": "rain_emission0002" },
+					{ "time": 5.0666, "name": "rain_emission0003" },
+					{ "time": 5.1, "name": "rain_emission0004" },
+					{ "time": 5.1333, "name": "rain_emission0005" },
+					{ "time": 5.1666, "name": "rain_emission0006" },
+					{ "time": 5.2, "name": "rain_emission0007" },
+					{ "time": 5.2333, "name": null },
+					{ "time": 5.2666, "name": "rain_emission0001" },
+					{ "time": 5.3, "name": "rain_emission0002" },
+					{ "time": 5.3333, "name": "rain_emission0003" },
+					{ "time": 5.3666, "name": "rain_emission0004" },
+					{ "time": 5.4, "name": "rain_emission0005" },
+					{ "time": 5.4333, "name": "rain_emission0006" },
+					{ "time": 5.4666, "name": "rain_emission0007" },
+					{ "time": 5.5, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.1666, "name": "rain_emission0001" },
+					{ "time": 2.2, "name": "rain_emission0002" },
+					{ "time": 2.2333, "name": "rain_emission0003" },
+					{ "time": 2.2666, "name": "rain_emission0004" },
+					{ "time": 2.3, "name": "rain_emission0005" },
+					{ "time": 2.3333, "name": "rain_emission0006" },
+					{ "time": 2.3666, "name": "rain_emission0007" },
+					{ "time": 2.4, "name": null },
+					{ "time": 2.4333, "name": "rain_emission0001" },
+					{ "time": 2.4666, "name": "rain_emission0002" },
+					{ "time": 2.5, "name": "rain_emission0003" },
+					{ "time": 2.5333, "name": "rain_emission0004" },
+					{ "time": 2.5666, "name": "rain_emission0005" },
+					{ "time": 2.6, "name": "rain_emission0006" },
+					{ "time": 2.6333, "name": "rain_emission0007" },
+					{ "time": 2.6666, "name": null },
+					{ "time": 2.7, "name": "rain_emission0001" },
+					{ "time": 2.7333, "name": "rain_emission0002" },
+					{ "time": 2.7666, "name": "rain_emission0003" },
+					{ "time": 2.8, "name": "rain_emission0004" },
+					{ "time": 2.8333, "name": "rain_emission0005" },
+					{ "time": 2.8666, "name": "rain_emission0006" },
+					{ "time": 2.9, "name": "rain_emission0007" },
+					{ "time": 2.9333, "name": null },
+					{ "time": 2.9666, "name": "rain_emission0001" },
+					{ "time": 3, "name": "rain_emission0002" },
+					{ "time": 3.0333, "name": "rain_emission0003" },
+					{ "time": 3.0666, "name": "rain_emission0004" },
+					{ "time": 3.1, "name": "rain_emission0005" },
+					{ "time": 3.1333, "name": "rain_emission0006" },
+					{ "time": 3.1666, "name": "rain_emission0007" },
+					{ "time": 3.2, "name": null },
+					{ "time": 3.2333, "name": "rain_emission0001" },
+					{ "time": 3.2666, "name": "rain_emission0002" },
+					{ "time": 3.3, "name": "rain_emission0003" },
+					{ "time": 3.3333, "name": "rain_emission0004" },
+					{ "time": 3.3666, "name": "rain_emission0005" },
+					{ "time": 3.4, "name": "rain_emission0006" },
+					{ "time": 3.4333, "name": "rain_emission0007" },
+					{ "time": 3.4666, "name": null },
+					{ "time": 3.5, "name": "rain_emission0001" },
+					{ "time": 3.5333, "name": "rain_emission0002" },
+					{ "time": 3.5666, "name": "rain_emission0003" },
+					{ "time": 3.6, "name": "rain_emission0004" },
+					{ "time": 3.6333, "name": "rain_emission0005" },
+					{ "time": 3.6666, "name": "rain_emission0006" },
+					{ "time": 3.7, "name": "rain_emission0007" },
+					{ "time": 3.7333, "name": null },
+					{ "time": 3.7666, "name": "rain_emission0001" },
+					{ "time": 3.8, "name": "rain_emission0002" },
+					{ "time": 3.8333, "name": "rain_emission0003" },
+					{ "time": 3.8666, "name": "rain_emission0004" },
+					{ "time": 3.9, "name": "rain_emission0005" },
+					{ "time": 3.9333, "name": "rain_emission0006" },
+					{ "time": 3.9666, "name": "rain_emission0007" },
+					{ "time": 4, "name": null },
+					{ "time": 4.0333, "name": "rain_emission0001" },
+					{ "time": 4.0666, "name": "rain_emission0002" },
+					{ "time": 4.1, "name": "rain_emission0003" },
+					{ "time": 4.1333, "name": "rain_emission0004" },
+					{ "time": 4.1666, "name": "rain_emission0005" },
+					{ "time": 4.2, "name": "rain_emission0006" },
+					{ "time": 4.2333, "name": "rain_emission0007" },
+					{ "time": 4.2666, "name": null },
+					{ "time": 4.3, "name": "rain_emission0001" },
+					{ "time": 4.3333, "name": "rain_emission0002" },
+					{ "time": 4.3666, "name": "rain_emission0003" },
+					{ "time": 4.4, "name": "rain_emission0004" },
+					{ "time": 4.4333, "name": "rain_emission0005" },
+					{ "time": 4.4666, "name": "rain_emission0006" },
+					{ "time": 4.5, "name": "rain_emission0007" },
+					{ "time": 4.5333, "name": null },
+					{ "time": 4.5666, "name": "rain_emission0001" },
+					{ "time": 4.6, "name": "rain_emission0002" },
+					{ "time": 4.6333, "name": "rain_emission0003" },
+					{ "time": 4.6666, "name": "rain_emission0004" },
+					{ "time": 4.7, "name": "rain_emission0005" },
+					{ "time": 4.7333, "name": "rain_emission0006" },
+					{ "time": 4.7666, "name": "rain_emission0007" },
+					{ "time": 4.8, "name": null },
+					{ "time": 4.8333, "name": "rain_emission0001" },
+					{ "time": 4.8666, "name": "rain_emission0002" },
+					{ "time": 4.9, "name": "rain_emission0003" },
+					{ "time": 4.9333, "name": "rain_emission0004" },
+					{ "time": 4.9666, "name": "rain_emission0005" },
+					{ "time": 5, "name": "rain_emission0006" },
+					{ "time": 5.0333, "name": "rain_emission0007" },
+					{ "time": 5.0666, "name": null },
+					{ "time": 5.1, "name": "rain_emission0001" },
+					{ "time": 5.1333, "name": "rain_emission0002" },
+					{ "time": 5.1666, "name": "rain_emission0003" },
+					{ "time": 5.2, "name": "rain_emission0004" },
+					{ "time": 5.2333, "name": "rain_emission0005" },
+					{ "time": 5.2666, "name": "rain_emission0006" },
+					{ "time": 5.3, "name": "rain_emission0007" },
+					{ "time": 5.3333, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.7333, "name": "rain_emission0001" },
+					{ "time": 2.7666, "name": "rain_emission0002" },
+					{ "time": 2.8, "name": "rain_emission0003" },
+					{ "time": 2.8333, "name": "rain_emission0004" },
+					{ "time": 2.8666, "name": "rain_emission0005" },
+					{ "time": 2.9, "name": "rain_emission0006" },
+					{ "time": 2.9333, "name": "rain_emission0007" },
+					{ "time": 2.9666, "name": null },
+					{ "time": 3, "name": "rain_emission0001" },
+					{ "time": 3.0333, "name": "rain_emission0002" },
+					{ "time": 3.0666, "name": "rain_emission0003" },
+					{ "time": 3.1, "name": "rain_emission0004" },
+					{ "time": 3.1333, "name": "rain_emission0005" },
+					{ "time": 3.1666, "name": "rain_emission0006" },
+					{ "time": 3.2, "name": "rain_emission0007" },
+					{ "time": 3.2333, "name": null },
+					{ "time": 3.2666, "name": "rain_emission0001" },
+					{ "time": 3.3, "name": "rain_emission0002" },
+					{ "time": 3.3333, "name": "rain_emission0003" },
+					{ "time": 3.3666, "name": "rain_emission0004" },
+					{ "time": 3.4, "name": "rain_emission0005" },
+					{ "time": 3.4333, "name": "rain_emission0006" },
+					{ "time": 3.4666, "name": "rain_emission0007" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.5333, "name": "rain_emission0001" },
+					{ "time": 3.5666, "name": "rain_emission0002" },
+					{ "time": 3.6, "name": "rain_emission0003" },
+					{ "time": 3.6333, "name": "rain_emission0004" },
+					{ "time": 3.6666, "name": "rain_emission0005" },
+					{ "time": 3.7, "name": "rain_emission0006" },
+					{ "time": 3.7333, "name": "rain_emission0007" },
+					{ "time": 3.7666, "name": null },
+					{ "time": 3.8, "name": "rain_emission0001" },
+					{ "time": 3.8333, "name": "rain_emission0002" },
+					{ "time": 3.8666, "name": "rain_emission0003" },
+					{ "time": 3.9, "name": "rain_emission0004" },
+					{ "time": 3.9333, "name": "rain_emission0005" },
+					{ "time": 3.9666, "name": "rain_emission0006" },
+					{ "time": 4, "name": "rain_emission0007" },
+					{ "time": 4.0333, "name": null },
+					{ "time": 4.0666, "name": "rain_emission0001" },
+					{ "time": 4.1, "name": "rain_emission0002" },
+					{ "time": 4.1333, "name": "rain_emission0003" },
+					{ "time": 4.1666, "name": "rain_emission0004" },
+					{ "time": 4.2, "name": "rain_emission0005" },
+					{ "time": 4.2333, "name": "rain_emission0006" },
+					{ "time": 4.2666, "name": "rain_emission0007" },
+					{ "time": 4.3, "name": null },
+					{ "time": 4.3333, "name": "rain_emission0001" },
+					{ "time": 4.3666, "name": "rain_emission0002" },
+					{ "time": 4.4, "name": "rain_emission0003" },
+					{ "time": 4.4333, "name": "rain_emission0004" },
+					{ "time": 4.4666, "name": "rain_emission0005" },
+					{ "time": 4.5, "name": "rain_emission0006" },
+					{ "time": 4.5333, "name": "rain_emission0007" },
+					{ "time": 4.5666, "name": null },
+					{ "time": 4.6, "name": "rain_emission0001" },
+					{ "time": 4.6333, "name": "rain_emission0002" },
+					{ "time": 4.6666, "name": "rain_emission0003" },
+					{ "time": 4.7, "name": "rain_emission0004" },
+					{ "time": 4.7333, "name": "rain_emission0005" },
+					{ "time": 4.7666, "name": "rain_emission0006" },
+					{ "time": 4.8, "name": "rain_emission0007" },
+					{ "time": 4.8333, "name": null },
+					{ "time": 4.8666, "name": "rain_emission0001" },
+					{ "time": 4.9, "name": "rain_emission0002" },
+					{ "time": 4.9333, "name": "rain_emission0003" },
+					{ "time": 4.9666, "name": "rain_emission0004" },
+					{ "time": 5, "name": "rain_emission0005" },
+					{ "time": 5.0333, "name": "rain_emission0006" },
+					{ "time": 5.0666, "name": "rain_emission0007" },
+					{ "time": 5.1, "name": null },
+					{ "time": 5.1333, "name": "rain_emission0001" },
+					{ "time": 5.1666, "name": "rain_emission0002" },
+					{ "time": 5.2, "name": "rain_emission0003" },
+					{ "time": 5.2333, "name": "rain_emission0004" },
+					{ "time": 5.2666, "name": "rain_emission0005" },
+					{ "time": 5.3, "name": "rain_emission0006" },
+					{ "time": 5.3333, "name": "rain_emission0007" },
+					{ "time": 5.3666, "name": null },
+					{ "time": 5.4, "name": "rain_emission0001" },
+					{ "time": 5.4333, "name": "rain_emission0002" },
+					{ "time": 5.4666, "name": "rain_emission0003" },
+					{ "time": 5.5, "name": "rain_emission0004" },
+					{ "time": 5.5333, "name": "rain_emission0005" },
+					{ "time": 5.5666, "name": "rain_emission0006" },
+					{ "time": 5.6, "name": "rain_emission0007" },
+					{ "time": 5.6333, "name": null },
+					{ "time": 5.6666, "name": "rain_emission0001" },
+					{ "time": 5.7, "name": "rain_emission0002" },
+					{ "time": 5.7333, "name": "rain_emission0003" },
+					{ "time": 5.7666, "name": "rain_emission0004" },
+					{ "time": 5.8, "name": "rain_emission0005" },
+					{ "time": 5.8333, "name": "rain_emission0006" },
+					{ "time": 5.8666, "name": "rain_emission0007" },
+					{ "time": 5.9, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.3333, "name": "rain_emission0001" },
+					{ "time": 2.3666, "name": "rain_emission0002" },
+					{ "time": 2.4, "name": "rain_emission0003" },
+					{ "time": 2.4333, "name": "rain_emission0004" },
+					{ "time": 2.4666, "name": "rain_emission0005" },
+					{ "time": 2.5, "name": "rain_emission0006" },
+					{ "time": 2.5333, "name": "rain_emission0007" },
+					{ "time": 2.5666, "name": null },
+					{ "time": 2.6, "name": "rain_emission0001" },
+					{ "time": 2.6333, "name": "rain_emission0002" },
+					{ "time": 2.6666, "name": "rain_emission0003" },
+					{ "time": 2.7, "name": "rain_emission0004" },
+					{ "time": 2.7333, "name": "rain_emission0005" },
+					{ "time": 2.7666, "name": "rain_emission0006" },
+					{ "time": 2.8, "name": "rain_emission0007" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 2.8666, "name": "rain_emission0001" },
+					{ "time": 2.9, "name": "rain_emission0002" },
+					{ "time": 2.9333, "name": "rain_emission0003" },
+					{ "time": 2.9666, "name": "rain_emission0004" },
+					{ "time": 3, "name": "rain_emission0005" },
+					{ "time": 3.0333, "name": "rain_emission0006" },
+					{ "time": 3.0666, "name": "rain_emission0007" },
+					{ "time": 3.1, "name": null },
+					{ "time": 3.1333, "name": "rain_emission0001" },
+					{ "time": 3.1666, "name": "rain_emission0002" },
+					{ "time": 3.2, "name": "rain_emission0003" },
+					{ "time": 3.2333, "name": "rain_emission0004" },
+					{ "time": 3.2666, "name": "rain_emission0005" },
+					{ "time": 3.3, "name": "rain_emission0006" },
+					{ "time": 3.3333, "name": "rain_emission0007" },
+					{ "time": 3.3666, "name": null },
+					{ "time": 3.4, "name": "rain_emission0001" },
+					{ "time": 3.4333, "name": "rain_emission0002" },
+					{ "time": 3.4666, "name": "rain_emission0003" },
+					{ "time": 3.5, "name": "rain_emission0004" },
+					{ "time": 3.5333, "name": "rain_emission0005" },
+					{ "time": 3.5666, "name": "rain_emission0006" },
+					{ "time": 3.6, "name": "rain_emission0007" },
+					{ "time": 3.6333, "name": null },
+					{ "time": 3.6666, "name": "rain_emission0001" },
+					{ "time": 3.7, "name": "rain_emission0002" },
+					{ "time": 3.7333, "name": "rain_emission0003" },
+					{ "time": 3.7666, "name": "rain_emission0004" },
+					{ "time": 3.8, "name": "rain_emission0005" },
+					{ "time": 3.8333, "name": "rain_emission0006" },
+					{ "time": 3.8666, "name": "rain_emission0007" },
+					{ "time": 3.9, "name": null },
+					{ "time": 3.9333, "name": "rain_emission0001" },
+					{ "time": 3.9666, "name": "rain_emission0002" },
+					{ "time": 4, "name": "rain_emission0003" },
+					{ "time": 4.0333, "name": "rain_emission0004" },
+					{ "time": 4.0666, "name": "rain_emission0005" },
+					{ "time": 4.1, "name": "rain_emission0006" },
+					{ "time": 4.1333, "name": "rain_emission0007" },
+					{ "time": 4.1666, "name": null },
+					{ "time": 4.2, "name": "rain_emission0001" },
+					{ "time": 4.2333, "name": "rain_emission0002" },
+					{ "time": 4.2666, "name": "rain_emission0003" },
+					{ "time": 4.3, "name": "rain_emission0004" },
+					{ "time": 4.3333, "name": "rain_emission0005" },
+					{ "time": 4.3666, "name": "rain_emission0006" },
+					{ "time": 4.4, "name": "rain_emission0007" },
+					{ "time": 4.4333, "name": null },
+					{ "time": 4.4666, "name": "rain_emission0001" },
+					{ "time": 4.5, "name": "rain_emission0002" },
+					{ "time": 4.5333, "name": "rain_emission0003" },
+					{ "time": 4.5666, "name": "rain_emission0004" },
+					{ "time": 4.6, "name": "rain_emission0005" },
+					{ "time": 4.6333, "name": "rain_emission0006" },
+					{ "time": 4.6666, "name": "rain_emission0007" },
+					{ "time": 4.7, "name": null },
+					{ "time": 4.7333, "name": "rain_emission0001" },
+					{ "time": 4.7666, "name": "rain_emission0002" },
+					{ "time": 4.8, "name": "rain_emission0003" },
+					{ "time": 4.8333, "name": "rain_emission0004" },
+					{ "time": 4.8666, "name": "rain_emission0005" },
+					{ "time": 4.9, "name": "rain_emission0006" },
+					{ "time": 4.9333, "name": "rain_emission0007" },
+					{ "time": 4.9666, "name": null },
+					{ "time": 5, "name": "rain_emission0001" },
+					{ "time": 5.0333, "name": "rain_emission0002" },
+					{ "time": 5.0666, "name": "rain_emission0003" },
+					{ "time": 5.1, "name": "rain_emission0004" },
+					{ "time": 5.1333, "name": "rain_emission0005" },
+					{ "time": 5.1666, "name": "rain_emission0006" },
+					{ "time": 5.2, "name": "rain_emission0007" },
+					{ "time": 5.2333, "name": null },
+					{ "time": 5.2666, "name": "rain_emission0001" },
+					{ "time": 5.3, "name": "rain_emission0002" },
+					{ "time": 5.3333, "name": "rain_emission0003" },
+					{ "time": 5.3666, "name": "rain_emission0004" },
+					{ "time": 5.4, "name": "rain_emission0005" },
+					{ "time": 5.4333, "name": "rain_emission0006" },
+					{ "time": 5.4666, "name": "rain_emission0007" },
+					{ "time": 5.5, "name": null },
+					{ "time": 5.5333, "name": "rain_emission0001" },
+					{ "time": 5.5666, "name": "rain_emission0002" },
+					{ "time": 5.6, "name": "rain_emission0003" },
+					{ "time": 5.6333, "name": "rain_emission0004" },
+					{ "time": 5.6666, "name": "rain_emission0005" },
+					{ "time": 5.7, "name": "rain_emission0006" },
+					{ "time": 5.7333, "name": "rain_emission0007" },
+					{ "time": 5.7666, "name": null },
+					{ "time": 5.8, "name": "rain_emission0001" },
+					{ "time": 5.8333, "name": "rain_emission0002" },
+					{ "time": 5.8666, "name": "rain_emission0003" },
+					{ "time": 5.9, "name": "rain_emission0004" },
+					{ "time": 5.9333, "name": "rain_emission0005" },
+					{ "time": 5.9666, "name": "rain_emission0006" },
+					{ "time": 6, "name": "rain_emission0007" },
+					{ "time": 6.0333, "name": null },
+					{ "time": 6.0666, "name": "rain_emission0001" },
+					{ "time": 6.1, "name": "rain_emission0002" },
+					{ "time": 6.1333, "name": "rain_emission0003" },
+					{ "time": 6.1666, "name": "rain_emission0004" },
+					{ "time": 6.2, "name": "rain_emission0005" },
+					{ "time": 6.2333, "name": "rain_emission0006" },
+					{ "time": 6.2666, "name": "rain_emission0007" },
+					{ "time": 6.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0333, "angle": 0, "curve": "stepped" },
+					{ "time": 3.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 3.7666, "angle": 0, "curve": "stepped" },
+					{ "time": 4.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 4.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 4.5, "angle": 0, "curve": "stepped" },
+					{ "time": 5, "angle": 0, "curve": "stepped" },
+					{ "time": 5.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 5.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 6.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 6.6, "angle": 0, "curve": "stepped" },
+					{ "time": 7.1, "angle": 0, "curve": "stepped" },
+					{ "time": 7.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 7.7666, "angle": 0, "curve": "stepped" },
+					{ "time": 8.4666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.7666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.7666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8.4666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8.4666, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -864.55 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.1333 },
+			{ "time": 0.2 },
+			{ "time": 1.1666 },
+			{ "time": 1.2666 },
+			{ "time": 1.3 },
+			{ "time": 1.9666 },
+			{ "time": 2 },
+			{ "time": 2.1 },
+			{ "time": 2.2666 },
+			{ "time": 2.3 },
+			{ "time": 2.3333 },
+			{ "time": 2.4 },
+			{ "time": 2.4333 },
+			{ "time": 2.5 },
+			{ "time": 2.5666 },
+			{ "time": 2.6 },
+			{ "time": 2.6333 },
+			{ "time": 2.6666 },
+			{ "time": 2.7666 },
+			{ "time": 2.8333 },
+			{ "time": 2.8666 },
+			{ "time": 2.9 },
+			{ "time": 2.9333 },
+			{ "time": 2.9666 },
+			{ "time": 3 },
+			{ "time": 3.1 },
+			{ "time": 3.1333 },
+			{ "time": 3.1666 },
+			{ "time": 3.2 },
+			{ "time": 3.2666 },
+			{ "time": 3.3 },
+			{ "time": 3.4666 },
+			{ "time": 3.5666 },
+			{ "time": 3.7666 },
+			{ "time": 4.0333 },
+			{ "time": 4.1333 },
+			{ "time": 4.2333 },
+			{ "time": 4.2666 },
+			{ "time": 6.3666 },
+			{ "time": 8.4666 }
+		]
+	},
+	"attack": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"damage": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"dead": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.8333, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill1": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill2": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "rain_emission0001" },
+					{ "time": 1.0333, "name": "rain_emission0002" },
+					{ "time": 1.0666, "name": "rain_emission0003" },
+					{ "time": 1.1, "name": "rain_emission0004" },
+					{ "time": 1.1333, "name": "rain_emission0005" },
+					{ "time": 1.1666, "name": "rain_emission0006" },
+					{ "time": 1.2, "name": "rain_emission0007" },
+					{ "time": 1.2333, "name": null },
+					{ "time": 1.2666, "name": "rain_emission0001" },
+					{ "time": 1.3, "name": "rain_emission0002" },
+					{ "time": 1.3333, "name": "rain_emission0003" },
+					{ "time": 1.3666, "name": "rain_emission0004" },
+					{ "time": 1.4, "name": "rain_emission0005" },
+					{ "time": 1.4333, "name": "rain_emission0006" },
+					{ "time": 1.4666, "name": "rain_emission0007" },
+					{ "time": 1.5, "name": null },
+					{ "time": 1.5333, "name": "rain_emission0001" },
+					{ "time": 1.5666, "name": "rain_emission0002" },
+					{ "time": 1.6, "name": "rain_emission0003" },
+					{ "time": 1.6333, "name": "rain_emission0004" },
+					{ "time": 1.6666, "name": "rain_emission0005" },
+					{ "time": 1.7, "name": "rain_emission0006" },
+					{ "time": 1.7333, "name": "rain_emission0007" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 1.8, "name": "rain_emission0001" },
+					{ "time": 1.8333, "name": "rain_emission0002" },
+					{ "time": 1.8666, "name": "rain_emission0003" },
+					{ "time": 1.9, "name": "rain_emission0004" },
+					{ "time": 1.9333, "name": "rain_emission0005" },
+					{ "time": 1.9666, "name": "rain_emission0006" },
+					{ "time": 2, "name": "rain_emission0007" },
+					{ "time": 2.0333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -864.55 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"run": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"walk": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"win": {
+		"slots": {
+			"rain_emission1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission10": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission11": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rain_emission12": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission12": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission11": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission10": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission9": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission8": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain_emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rain ground set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

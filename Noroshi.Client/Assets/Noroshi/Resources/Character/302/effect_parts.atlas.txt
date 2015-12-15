@@ -1,0 +1,111 @@
+
+effect_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+askill1_atk20001
+  rotate: true
+  xy: 2, 159
+  size: 459, 107
+  orig: 483, 138
+  offset: 17, 3
+  index: -1
+askill1_atk20002
+  rotate: false
+  xy: 259, 844
+  size: 452, 110
+  orig: 483, 138
+  offset: 17, 13
+  index: -1
+askill1_atk20003
+  rotate: true
+  xy: 111, 289
+  size: 329, 109
+  orig: 483, 138
+  offset: 20, 27
+  index: -1
+askill_atk10001
+  rotate: false
+  xy: 2, 620
+  size: 255, 334
+  orig: 382, 357
+  offset: 68, 18
+  index: -1
+askill_atk10002
+  rotate: true
+  xy: 259, 654
+  size: 188, 334
+  orig: 382, 357
+  offset: 66, 12
+  index: -1
+askill_atk10003
+  rotate: true
+  xy: 713, 745
+  size: 209, 241
+  orig: 382, 357
+  offset: 38, 4
+  index: -1
+askill_atk10004
+  rotate: false
+  xy: 302, 497
+  size: 240, 155
+  orig: 382, 357
+  offset: 26, 0
+  index: -1
+askill_atk10005
+  rotate: false
+  xy: 302, 370
+  size: 228, 125
+  orig: 382, 357
+  offset: 31, 0
+  index: -1
+pskill1_effect0001
+  rotate: false
+  xy: 302, 289
+  size: 313, 79
+  orig: 353, 96
+  offset: 18, 9
+  index: -1
+pskill1_effect0002
+  rotate: false
+  xy: 111, 208
+  size: 313, 79
+  orig: 353, 96
+  offset: 18, 9
+  index: -1
+pskill1_effect0003
+  rotate: true
+  xy: 222, 304
+  size: 314, 78
+  orig: 353, 96
+  offset: 18, 9
+  index: -1
+pskill_alpha
+  rotate: false
+  xy: 2, 2
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+rote0001
+  rotate: false
+  xy: 426, 210
+  size: 80, 77
+  orig: 106, 77
+  offset: 0, 0
+  index: -1
+rote0002
+  rotate: false
+  xy: 2, 86
+  size: 103, 71
+  orig: 106, 77
+  offset: 3, 0
+  index: -1
+rote0003
+  rotate: false
+  xy: 595, 772
+  size: 97, 70
+  orig: 106, 77
+  offset: 9, 7
+  index: -1

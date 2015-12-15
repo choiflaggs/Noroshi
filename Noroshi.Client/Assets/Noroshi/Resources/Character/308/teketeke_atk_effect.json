@@ -1,0 +1,425 @@
+{
+"skeleton": {
+	"hash": "8BSiDfv4k5RAm+1xavO/YLfn/G4",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "./format_teketeke_塗り納品データ-assets/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect set", "parent": "root", "color": "9b0083ff" },
+	{ "name": "main", "parent": "root" },
+	{ "name": "bomfire", "parent": "effect set", "color": "9b0083ff" },
+	{ "name": "grenede", "parent": "main", "length": 122.55, "x": -20.43, "y": 90.38, "rotation": -77.38, "color": "9b0091ff" },
+	{ "name": "hit_guneffect_20001", "parent": "effect set", "scaleX": 2.5, "scaleY": 2.5, "color": "9b0083ff" },
+	{ "name": "bom_alpha2", "parent": "hit_guneffect_20001", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "bom_emisstion2", "parent": "hit_guneffect_20001", "y": -64, "scaleX": 0.8, "scaleY": 0.4 },
+	{ "name": "bomfire2", "parent": "hit_guneffect_20001", "scaleX": 0.4, "scaleY": 0.4, "color": "9b0083ff" }
+],
+"slots": [
+	{ "name": "bom_emisstion2", "bone": "bom_emisstion2" },
+	{ "name": "grenade", "bone": "grenede", "attachment": "grenade" },
+	{ "name": "hit_guneffect_20001", "bone": "hit_guneffect_20001" },
+	{ "name": "bomfire", "bone": "bomfire" },
+	{ "name": "bomfire2", "bone": "bomfire2" },
+	{ "name": "bom_alpha2", "bone": "bom_alpha2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bom_alpha2": {
+			"bom_alpha": { "scaleX": 0.5, "scaleY": 0.5, "width": 179, "height": 179 }
+		},
+		"bom_emisstion2": {
+			"bom_emisstion": { "width": 206, "height": 206 }
+		},
+		"bomfire": {
+			"bomfire": { "scaleX": 2, "scaleY": 2, "width": 124, "height": 234 }
+		},
+		"bomfire2": {
+			"bomfire": { "scaleX": 2, "scaleY": 2, "width": 124, "height": 234 }
+		},
+		"grenade": {
+			"grenade": { "x": 29.7, "y": -6.29, "rotation": 77.38, "width": 89, "height": 151 }
+		},
+		"hit_guneffect_20001": {
+			"hit_guneffect_20001": { "width": 527, "height": 461 },
+			"hit_guneffect_20002": { "width": 527, "height": 461 },
+			"hit_guneffect_20003": { "width": 527, "height": 461 },
+			"hit_guneffect_20004": { "width": 527, "height": 461 },
+			"hit_guneffect_20005": { "width": 527, "height": 461 },
+			"hit_guneffect_20006": { "width": 527, "height": 461 },
+			"hit_guneffect_20007": { "width": 527, "height": 461 },
+			"hit_guneffect_20008": { "width": 527, "height": 461 },
+			"hit_guneffect_20009": { "width": 527, "height": 461 },
+			"hit_guneffect_20010": { "width": 527, "height": 461 },
+			"hit_guneffect_20011": { "width": 527, "height": 461 },
+			"hit_guneffect_20012": { "width": 527, "height": 461 },
+			"hit_guneffect_20013": { "width": 527, "height": 461 }
+		}
+	}
+},
+"animations": {
+	"p_skill2_attack": {
+		"slots": {
+			"bom_alpha2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bom_emisstion2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bomfire": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bomfire2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"grenade": {
+				"attachment": [
+					{ "time": 0, "name": "grenade" },
+					{ "time": 0.1666, "name": "grenade" },
+					{ "time": 0.3333, "name": "grenade" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"hit_guneffect_20001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"grenede": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 151.61 },
+					{ "time": 0.3333, "angle": -39.3 }
+				],
+				"translate": [
+					{ "time": 0, "x": 20.43, "y": -90.38, "curve": "stepped" },
+					{ "time": 0.1666, "x": 20.43, "y": -90.38, "curve": "stepped" },
+					{ "time": 0.3333, "x": 20.43, "y": -90.38 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"main": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"hit_guneffect_20001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 286.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.6, "y": 1.6 }
+				]
+			},
+			"bomfire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bom_alpha2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.506, "y": 1.506 }
+				]
+			},
+			"bom_emisstion2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.346, "y": 1.346 }
+				]
+			},
+			"bomfire2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -9.23 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.79, "y": 0.955 }
+				]
+			}
+		}
+	},
+	"p_skill2_effect": {
+		"slots": {
+			"bom_alpha2": {
+				"attachment": [
+					{ "time": 0, "name": "bom_alpha" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"bom_emisstion2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "bom_emisstion" },
+					{ "time": 0.6, "name": null },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"bomfire": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6666, "name": null },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bomfire2": {
+				"attachment": [
+					{ "time": 0, "name": "bomfire" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"grenade": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"hit_guneffect_20001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "hit_guneffect_20001" },
+					{ "time": 0.1, "name": "hit_guneffect_20002" },
+					{ "time": 0.1333, "name": "hit_guneffect_20003" },
+					{ "time": 0.1666, "name": "hit_guneffect_20004" },
+					{ "time": 0.2, "name": "hit_guneffect_20005" },
+					{ "time": 0.2333, "name": "hit_guneffect_20006" },
+					{ "time": 0.2666, "name": "hit_guneffect_20007" },
+					{ "time": 0.3333, "name": "hit_guneffect_20008" },
+					{ "time": 0.4, "name": "hit_guneffect_20009" },
+					{ "time": 0.4666, "name": "hit_guneffect_20010" },
+					{ "time": 0.5333, "name": "hit_guneffect_20011" },
+					{ "time": 0.6, "name": "hit_guneffect_20012" },
+					{ "time": 0.6666, "name": "hit_guneffect_20013" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 1, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"grenede": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"main": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"hit_guneffect_20001": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 286.34, "curve": "stepped" },
+					{ "time": 0.7333, "x": -1044.66, "y": 103.09, "curve": "stepped" },
+					{ "time": 1, "x": -1044.66, "y": 103.09 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.6, "y": 1.6, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"bomfire": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"bom_alpha2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.506, "y": 1.506 },
+					{ "time": 0.1666, "x": 3.536, "y": 3.536, "curve": "stepped" },
+					{ "time": 1, "x": 3.536, "y": 3.536 }
+				]
+			},
+			"bom_emisstion2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.346, "y": 1.346, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1.346, "y": 1.346 },
+					{ "time": 0.6, "x": 2.4, "y": 2.4, "curve": "stepped" },
+					{ "time": 1, "x": 2.4, "y": 2.4 }
+				]
+			},
+			"bomfire2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -9.23 },
+					{ "time": 0.0666, "x": 0, "y": 30.23, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 30.23 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.79, "y": 0.955 },
+					{ "time": 0.0666, "x": 3.357, "y": 1.79, "curve": "stepped" },
+					{ "time": 1, "x": 3.357, "y": 1.79 }
+				]
+			}
+		}
+	}
+}
+}

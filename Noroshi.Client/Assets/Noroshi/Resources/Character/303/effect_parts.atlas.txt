@@ -1,0 +1,188 @@
+
+effect_parts.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk_effect
+  rotate: false
+  xy: 2, 2
+  size: 86, 50
+  orig: 86, 50
+  offset: 0, 0
+  index: -1
+bom0001
+  rotate: false
+  xy: 2, 668
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0002
+  rotate: false
+  xy: 2, 361
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0003
+  rotate: false
+  xy: 272, 668
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0004
+  rotate: false
+  xy: 2, 54
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0005
+  rotate: false
+  xy: 272, 361
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0006
+  rotate: false
+  xy: 542, 668
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0007
+  rotate: false
+  xy: 272, 54
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0008
+  rotate: false
+  xy: 542, 361
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0009
+  rotate: false
+  xy: 812, 668
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0010
+  rotate: false
+  xy: 542, 54
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0011
+  rotate: false
+  xy: 812, 361
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom0012
+  rotate: false
+  xy: 1082, 668
+  size: 268, 305
+  orig: 268, 305
+  offset: 0, 0
+  index: -1
+bom_alpha
+  rotate: false
+  xy: 812, 85
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+bom_alpha２
+  rotate: false
+  xy: 1000, 302
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+bom_smog_effect0001
+  rotate: false
+  xy: 812, 144
+  size: 186, 215
+  orig: 186, 215
+  offset: 0, 0
+  index: -1
+bom_smog_effect0002
+  rotate: false
+  xy: 1082, 451
+  size: 186, 215
+  orig: 186, 215
+  offset: 0, 0
+  index: -1
+bom_smog_effect0003
+  rotate: false
+  xy: 1352, 758
+  size: 186, 215
+  orig: 186, 215
+  offset: 0, 0
+  index: -1
+bom_smog_effect0004
+  rotate: false
+  xy: 1540, 758
+  size: 186, 215
+  orig: 186, 215
+  offset: 0, 0
+  index: -1
+bom_smog_effect0005
+  rotate: false
+  xy: 1728, 758
+  size: 186, 215
+  orig: 186, 215
+  offset: 0, 0
+  index: -1
+bom_smog_effect0006
+  rotate: true
+  xy: 1352, 570
+  size: 186, 215
+  orig: 186, 215
+  offset: 0, 0
+  index: -1
+bom_smog_effect0007
+  rotate: true
+  xy: 1569, 570
+  size: 186, 215
+  orig: 186, 215
+  offset: 0, 0
+  index: -1
+flash grenade0001
+  rotate: false
+  xy: 1786, 566
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+flash grenade0002
+  rotate: false
+  xy: 1082, 259
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1
+gun_fire_effect
+  rotate: true
+  xy: 1916, 842
+  size: 131, 123
+  orig: 131, 123
+  offset: 0, 0
+  index: -1
+gun_shot
+  rotate: false
+  xy: 1270, 627
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1

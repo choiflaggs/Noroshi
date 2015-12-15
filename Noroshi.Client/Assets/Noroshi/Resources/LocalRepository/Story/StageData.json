@@ -1,0 +1,39 @@
+[
+    {
+        "Name": "ステージ1",
+        "Score": 3,
+        "Sescription": "はじまりの地",
+        "Stamina": 10,
+        "RemainChance": 3,
+        "haveTicket": 100,
+        "EnemyList": [
+            {"name": "瀬の守人", "lv": 11, "enemyID": 1, "description": "前列で戦う壁役", "isBoss": false},
+            {"name": "帝国処刑人", "lv": 11, "enemyID": 2, "description": "中列魔術師。魔法ダメージを与えるのを得意とし、仲間を鼓舞するトーテムを召喚する。", "isBoss": false},
+            {"name": "リーブス・シャドウ", "lv": 11, "enemyID": 3, "description": "後列の素早いヒーロー", "isBoss": true}
+        ],
+        "ItemList": [
+            {"name": "陶器の腕輪", "needLevel": 2, "haveNum": 10, "needNum": 0, "price": 175, "itemID": 1, "description": "防御力+2\n攻撃力+2"},
+            {"name": "ポアズの腕輪の設計図", "needLevel": 9, "haveNum": 15, "needNum": 0, "price": 190, "itemID": 1, "description": "ポアズの腕輪の設計図"}
+        ]
+    },
+    {
+        "Name": "ステージ2",
+        "Score": 1,
+        "Description": "2番目の地",
+        "Stamina": 11,
+        "RemainChance": 3,
+        "haveTicket": 100,
+        "EnemyList": [
+            {"name": "ブラックドラゴン", "lv": 12, "enemyID": 4, "description": "魔法ダメージ無効", "isBoss": false},
+            {"name": "サンダーエレメンタル", "lv": 12, "enemyID": 5, "description": "前列の力強い壁役", "isBoss": false},
+            {"name": "リーブス・シャドウ", "lv": 12, "enemyID": 3, "description": "後列の素早いヒーロー", "isBoss": false},
+            {"name": "リーブス・シャドウ", "lv": 12, "enemyID": 3, "description": "後列の素早いヒーロー", "isBoss": false},
+            {"name": "月の守護者", "lv": 12, "enemyID": 2, "description": "中列の攻撃役", "isBoss": true}
+        ],
+        "ItemList": [
+            {"name": "シャドウリーフ", "needLevel": 1, "haveNum": 32, "needNum": 100, "price": 20000, "itemID": 1, "description": "10個集めることでシャドウリーフを召喚できる。"},
+            {"name": "チェストプレート", "needLevel": 22, "haveNum": 12, "needNum": 0, "price": 7000, "itemID": 1, "description": "防御力+10"},
+            {"name": "サンダーボール", "needLevel": 59, "haveNum": 12, "needNum": 0, "price": 22000, "itemID": 1, "description": "攻撃力+10"}
+        ]
+    }
+]

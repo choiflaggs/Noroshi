@@ -1,0 +1,980 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3274E70F-F46B-4214-8217-910B63496636}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Noroshi.Server</RootNamespace>
+    <AssemblyName>Noroshi.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\packages\Dapper.1.42\lib\net45\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.AspNet">
+      <HintPath>..\packages\Glimpse.AspNet.1.9.2\lib\net45\Glimpse.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Core">
+      <HintPath>..\packages\Glimpse.1.8.6\lib\net45\Glimpse.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.LightNode, Version=1.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glimpse.LightNode.1.6.3\lib\Glimpse.LightNode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LightNode.Core, Version=1.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LightNode.Core.1.6.3\lib\LightNode.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LightNode.Server, Version=1.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LightNode.Server.1.6.3\lib\LightNode.Server.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LightNode.Swagger, Version=1.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LightNode.Swagger.1.6.3\lib\LightNode.Swagger.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="MsgPack, Version=0.6.0.0, Culture=neutral, PublicKeyToken=a2625990d5dc0167, processorArchitecture=MSIL">
+      <HintPath>..\packages\MsgPack.Cli.0.6.5\lib\net45\MsgPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.8\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.2.0\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Amazon.Adm, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.Amazon.Adm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.Android, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.Android.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.Apple, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.Apple.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.Blackberry, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.Blackberry.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.FirefoxOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.FirefoxOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.Google.Chrome, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.Google.Chrome.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.Windows, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.Windows.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PushSharp.WindowsPhone, Version=2.2.1.0, Culture=neutral, PublicKeyToken=cf74b75eab2c0170, processorArchitecture=MSIL">
+      <HintPath>..\packages\PushSharp.2.2.1.0\lib\net40\PushSharp.WindowsPhone.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sigil, Version=4.4.0.0, Culture=neutral, PublicKeyToken=2d06c3494341c8ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sigil.4.4.0\lib\net45\Sigil.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.0.316.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.1.0.481\lib\net45\StackExchange.Redis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\packages\Rx-Core.2.2.5\lib\net45\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\packages\Rx-Linq.2.2.5\lib\net45\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\net45\System.Reactive.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Services\PushNotification\.gitattributes" />
+    <Content Include="Services\PushNotification\.gitignore" />
+    <Content Include="Services\PushNotification\.gitmodules" />
+    <Content Include="Services\PushNotification\PushNotification.csproj" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexts\AbstractContext.cs" />
+    <Compile Include="Contexts\CliContext.cs" />
+    <Compile Include="Contexts\ContextContainer.cs" />
+    <Compile Include="Contexts\DebugTimeHandler.cs" />
+    <Compile Include="Contexts\IContext.cs" />
+    <Compile Include="Contexts\IRandomGenerator.cs" />
+    <Compile Include="Contexts\ITimeHandler.cs" />
+    <Compile Include="Contexts\Logger.cs" />
+    <Compile Include="Contexts\RandomGenerator.cs" />
+    <Compile Include="Contexts\TimeHandler.cs" />
+    <Compile Include="Contexts\WebContext.cs" />
+    <Compile Include="Controllers\AbstractController.cs" />
+    <Compile Include="Controllers\Action.cs" />
+    <Compile Include="Controllers\ActionLevelUpPayment.cs" />
+    <Compile Include="Controllers\Attribute.cs" />
+    <Compile Include="Controllers\Battle.cs" />
+    <Compile Include="Controllers\Debug\PlayerDebug.cs" />
+    <Compile Include="Controllers\Debug\PushNotificationDebug.cs" />
+    <Compile Include="Controllers\PlayerVipLevelBonus.cs" />
+    <Compile Include="Controllers\StoryChapter.cs" />
+    <Compile Include="Controllers\Character.cs" />
+    <Compile Include="Controllers\CharacterEffect.cs" />
+    <Compile Include="Controllers\CharacterEvolutionType.cs" />
+    <Compile Include="Controllers\Debug\PlayerCharacterDebug.cs" />
+    <Compile Include="Controllers\Debug\PlayerItemDebug.cs" />
+    <Compile Include="Controllers\Debug\TimeDebug.cs" />
+    <Compile Include="Controllers\Drug.cs" />
+    <Compile Include="Controllers\StoryEpisode.cs" />
+    <Compile Include="Controllers\ExchangeCashGift.cs" />
+    <Compile Include="Controllers\Expedition.cs" />
+    <Compile Include="Controllers\FrameWork.cs" />
+    <Compile Include="Controllers\Gacha.cs" />
+    <Compile Include="Controllers\Gear.cs" />
+    <Compile Include="Controllers\GearEnchantMaterial.cs" />
+    <Compile Include="Controllers\GearPiece.cs" />
+    <Compile Include="Controllers\GearRecipe.cs" />
+    <Compile Include="Controllers\Guild.cs" />
+    <Compile Include="Controllers\GuildChat.cs" />
+    <Compile Include="Controllers\Inventory.cs" />
+    <Compile Include="Controllers\Login.cs" />
+    <Compile Include="Controllers\LoginBonus.cs" />
+    <Compile Include="Controllers\Master.cs" />
+    <Compile Include="Controllers\Player.cs" />
+    <Compile Include="Controllers\PlayerArena.cs" />
+    <Compile Include="Controllers\PlayerStoryChapter.cs" />
+    <Compile Include="Controllers\PlayerCharacter.cs" />
+    <Compile Include="Controllers\PlayerStoryEpisode.cs" />
+    <Compile Include="Controllers\PlayerStoryStage.cs" />
+    <Compile Include="Controllers\PlayerStatus.cs" />
+    <Compile Include="Controllers\PresentBox.cs" />
+    <Compile Include="Controllers\Quest.cs" />
+    <Compile Include="Controllers\RaidBoss.cs" />
+    <Compile Include="Controllers\RaidTicket.cs" />
+    <Compile Include="Controllers\ShadowCharacter.cs" />
+    <Compile Include="Controllers\Shop.cs" />
+    <Compile Include="Controllers\Soul.cs" />
+    <Compile Include="Controllers\Story.cs" />
+    <Compile Include="Controllers\Training.cs" />
+    <Compile Include="Controllers\Trial.cs" />
+    <Compile Include="Controllers\information.cs" />
+    <Compile Include="Daos\Kvs\AbstractDao.cs" />
+    <Compile Include="Daos\Kvs\GearEnthantCalculatedDao.cs" />
+    <Compile Include="Daos\Kvs\ItemDropLocationDao.cs" />
+    <Compile Include="Daos\Kvs\RedisConnectionHandler.cs" />
+    <Compile Include="Daos\Rdb\AbstractDao.cs" />
+    <Compile Include="Daos\Rdb\AbstractShardDBDao.cs" />
+    <Compile Include="Daos\Rdb\Expedition\ExpeditionDao.cs" />
+    <Compile Include="Daos\Rdb\Gacha\GachaGuaranteedLotDao.cs" />
+    <Compile Include="Daos\Rdb\Gacha\PlayerGachaEntiryPointDao.cs" />
+    <Compile Include="Daos\Rdb\Gacha\PlayerGachaDao.cs" />
+    <Compile Include="Daos\Rdb\Guild\GuildRankRewardDao.cs" />
+    <Compile Include="Daos\Rdb\Item\GearEnchantExpDao.cs" />
+    <Compile Include="Daos\Rdb\Character\PlayerCharacterGearDao.cs" />
+    <Compile Include="Daos\Rdb\InformationDao.cs" />
+    <Compile Include="Daos\Rdb\PlayerCounter\PlayerCounterDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerDeviceTokenDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerVipLevelBonusDao.cs" />
+    <Compile Include="Daos\Rdb\PushNotification\PushNotificationQueueDao.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CharacterActionSequenceSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CpuBattleSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CpuBattleWaveSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CpuCharacterSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ExpeditionSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ExpeditionStageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GachaGuaranteedLotSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GearEnchantExpSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildRankingSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\InformationSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\LoginBonusRewardSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\LoginBonusSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerBattleSessionSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerCharacterGearSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerCharacterSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildRankRewardSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerDeviceTokenSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerExpeditionSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerExpeditionSessionSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerGachaEntryPointSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerGachaSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerArenaSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerCounterSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerLoginBonusSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerShopSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerStoryEpisodeSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerStoryStageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerTrainingSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerTrainingStageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerTrialSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerTrialStageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerVipLevelBonusSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PushNotificationQueueSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\RankingReferenceSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ShopDisplaySchema.cs" />
+    <Compile Include="Daos\Rdb\Shop\ShopDisplayDao.cs" />
+    <Compile Include="Daos\Rdb\Story\StoryChapterDao.cs" />
+    <Compile Include="Daos\Rdb\Battle\CpuBattleStoryDao.cs" />
+    <Compile Include="Daos\Rdb\Battle\CpuBattleStoryMessageDao.cs" />
+    <Compile Include="Daos\Rdb\Character\ActionLevelUpPaymentDao.cs" />
+    <Compile Include="Daos\Rdb\Character\CharacterEvolutionTypeDao.cs" />
+    <Compile Include="Daos\Rdb\Debug\TimeDebugDao.cs" />
+    <Compile Include="Daos\Rdb\Story\StoryEpisodeDao.cs" />
+    <Compile Include="Daos\Rdb\Expedition\ExpeditionStageDao.cs" />
+    <Compile Include="Daos\Rdb\Expedition\PlayerExpeditionDao.cs" />
+    <Compile Include="Daos\Rdb\Expedition\PlayerExpeditionSessionDao.cs" />
+    <Compile Include="Daos\Rdb\Gacha\GachaEntryPointDao.cs" />
+    <Compile Include="Daos\Rdb\Guild\GuildChatMessageDao.cs" />
+    <Compile Include="Daos\Rdb\Guild\GuildDao.cs" />
+    <Compile Include="Daos\Rdb\Guild\GuildRequestDao.cs" />
+    <Compile Include="Daos\Rdb\Guild\PlayerRentalCharacterDao.cs" />
+    <Compile Include="Daos\Kvs\IDao.cs" />
+    <Compile Include="Daos\Rdb\Item\ExchangeCashGiftDao.cs" />
+    <Compile Include="Daos\Rdb\Item\DrugDao.cs" />
+    <Compile Include="Daos\Rdb\AbstractDaoWrapperEntity.cs" />
+    <Compile Include="Daos\Rdb\AbstractCommonDBDao.cs" />
+    <Compile Include="Daos\Rdb\AbstractRecord.cs" />
+    <Compile Include="Daos\Rdb\Character\CharacterActionSequenceDao.cs" />
+    <Compile Include="Daos\Rdb\Character\CharacterDao.cs" />
+    <Compile Include="Daos\Rdb\Character\CharacterEffectDao.cs" />
+    <Compile Include="Daos\Rdb\Character\ActionDao.cs" />
+    <Compile Include="Daos\Rdb\Character\AttributeDao.cs" />
+    <Compile Include="Daos\Rdb\Character\CharacterLevelDao.cs" />
+    <Compile Include="Daos\Rdb\Character\CharacterGearDao.cs" />
+    <Compile Include="Daos\Rdb\Battle\CpuBattleDao.cs" />
+    <Compile Include="Daos\Rdb\Battle\CpuBattleWaveDao.cs" />
+    <Compile Include="Daos\Rdb\Battle\CpuCharacterDao.cs" />
+    <Compile Include="Daos\Rdb\IDao.cs" />
+    <Compile Include="Daos\Rdb\IPrimaryKey.cs" />
+    <Compile Include="Daos\Rdb\IRecord.cs" />
+    <Compile Include="Daos\Rdb\Item\GearDao.cs" />
+    <Compile Include="Daos\Rdb\Item\GearEnchantLevelDao.cs" />
+    <Compile Include="Daos\Rdb\Item\GearEnchantMaterialDao.cs" />
+    <Compile Include="Daos\Rdb\Item\GearPieceDao.cs" />
+    <Compile Include="Daos\Rdb\Item\GearRecipeDao.cs" />
+    <Compile Include="Daos\Rdb\Item\ItemDao.cs" />
+    <Compile Include="Daos\Rdb\Item\SoulDao.cs" />
+    <Compile Include="Daos\Rdb\LoginBonus\LoginBonusDao.cs" />
+    <Compile Include="Daos\Rdb\LoginBonus\LoginBonusRewardDao.cs" />
+    <Compile Include="Daos\Rdb\LoginBonus\PlayerLoginBonusDao.cs" />
+    <Compile Include="Daos\Rdb\Arena\PlayerArenaDao.cs" />
+    <Compile Include="Daos\Rdb\Battle\PlayerBattleSessionDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerActivityDailyLogDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerConfirmationDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerVipLevelDao.cs" />
+    <Compile Include="Daos\Rdb\Story\PlayerStoryEpisodeDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerRelationDao.cs" />
+    <Compile Include="Daos\Rdb\Story\PlayerStoryStageDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerCharacterDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerLevelDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerItemDao.cs" />
+    <Compile Include="Daos\Rdb\Player\PlayerStatusDao.cs" />
+    <Compile Include="Daos\Rdb\Training\PlayerTrainingDao.cs" />
+    <Compile Include="Daos\Rdb\Training\PlayerTrainingStageDao.cs" />
+    <Compile Include="Daos\Rdb\Trial\PlayerTrialDao.cs" />
+    <Compile Include="Daos\Rdb\Trial\PlayerTrialStageDao.cs" />
+    <Compile Include="Daos\Rdb\PresentBox\PresentBoxDao.cs" />
+    <Compile Include="Daos\Rdb\PresentBox\PresentBoxReceivedLogDao.cs" />
+    <Compile Include="Daos\Rdb\Quest\DailyQuestDao.cs" />
+    <Compile Include="Daos\Rdb\Quest\DailyQuestRewardDao.cs" />
+    <Compile Include="Daos\Rdb\Quest\PlayerDailyQuestTriggerDao.cs" />
+    <Compile Include="Daos\Rdb\Quest\PlayerQuestTriggerDao.cs" />
+    <Compile Include="Daos\Rdb\Quest\QuestDao.cs" />
+    <Compile Include="Daos\Rdb\Quest\QuestRewardDao.cs" />
+    <Compile Include="Daos\Rdb\Guild\GuildActivityDailyLogDao.cs" />
+    <Compile Include="Daos\Rdb\RaidBoss\GuildRaidBossDao.cs" />
+    <Compile Include="Daos\Rdb\RaidBoss\GuildRaidBossLogDao.cs" />
+    <Compile Include="Daos\Rdb\RaidBoss\PlayerGuildRaidBossDao.cs" />
+    <Compile Include="Daos\Rdb\RaidBoss\RaidBossDao.cs" />
+    <Compile Include="Daos\Rdb\RaidBoss\RaidBossGroupDao.cs" />
+    <Compile Include="Daos\Rdb\RaidBoss\RaidBossRewardDao.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ActionLevelUpPaymentSchema.cs" />
+    <Compile Include="Daos\Rdb\Ranking\GuildRankingDao.cs" />
+    <Compile Include="Daos\Rdb\Ranking\RankingReferenceDao.cs" />
+    <Compile Include="Daos\Rdb\Ranking\RankingRewardDao.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ActionSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\AttributeSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CharacterEffectSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CharacterEvolutionTypeSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CharacterGearSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CharacterLevelSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CharacterSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CpuBattleStoryMessageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\CpuBattleStorySchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\DailyQuestRewardSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\DailyQuestSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\DynamicTextSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GachaContentSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GachaEntryPointSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GachaSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GearEnchantLevelSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GearRecipeSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildActivityDailyLogSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildChatMessageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildRaidBossLogSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildRaidBossSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\DrugSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ExchangeCashGiftSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GearEnchantMaterialSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GearPieceSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GearSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildRequestSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\GuildSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerActivityDailyLogSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerConfirmationSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ItemSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerDailyQuestTriggerSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerGuildRaidBossSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerLevelSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerRelationSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerRentalCharacterSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerStatusSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PlayerVipLevelSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PresentBoxReceivedLogSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\PresentBoxSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\QuestRewardSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\QuestSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\RaidBossGroupSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\RaidBossRewardSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\RaidBossSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\RankingRewardSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ShadowCharacterSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ShopMerchandiseSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\ShopSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\SoulSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\StoryChapterSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\StoryEpisodeSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\StoryStageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\TrainingSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\TrainingStageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\TrialDateSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\TrialSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\TrialStageSchema.cs" />
+    <Compile Include="Daos\Rdb\Schemas\SoundSchema.cs" />
+    <Compile Include="Daos\Rdb\SequentialIDTable.cs" />
+    <Compile Include="Daos\Rdb\ShadowCharacterDao.cs" />
+    <Compile Include="Daos\Rdb\Shop\PlayerShopDao.cs" />
+    <Compile Include="Daos\Rdb\Shop\ShopDao.cs" />
+    <Compile Include="Daos\Rdb\Shop\ShopMerchandiseDao.cs" />
+    <Compile Include="Daos\Rdb\Story\StoryStageDao.cs" />
+    <Compile Include="Daos\Rdb\SoundDao.cs" />
+    <Compile Include="Daos\Rdb\FrameWork\DynamicTextDao.cs" />
+    <Compile Include="Daos\Rdb\Training\TrainingDao.cs" />
+    <Compile Include="Daos\Rdb\Training\TrainingStageDao.cs" />
+    <Compile Include="Daos\Rdb\TransactionContainer.cs" />
+    <Compile Include="Daos\Rdb\Trial\TrialDao.cs" />
+    <Compile Include="Daos\Rdb\Trial\TrialStageDao.cs" />
+    <Compile Include="Daos\Rdb\Enums.cs" />
+    <Compile Include="Daos\Rdb\Gacha\GachaDao.cs" />
+    <Compile Include="Daos\Rdb\Gacha\GachaContent.cs" />
+    <Compile Include="Entity\AbstractLevelExpEntity.cs" />
+    <Compile Include="Entity\BattleContent\AbstractBattleContent.cs" />
+    <Compile Include="Entity\BattleContent\RaidBossBattleContent.cs" />
+    <Compile Include="Entity\BattleContent\TrainingBattleContent.cs" />
+    <Compile Include="Entity\Battle\AbstractBattleEntity.cs" />
+    <Compile Include="Entity\Battle\AdditionalInformation.cs" />
+    <Compile Include="Entity\Battle\CpuBattleEntity.cs" />
+    <Compile Include="Entity\Battle\CpuBattleStoryEntity.cs" />
+    <Compile Include="Entity\Battle\CpuBattleStoryMessageEntity.cs" />
+    <Compile Include="Entity\Battle\CpuBattleWaveEntity.cs" />
+    <Compile Include="Entity\Battle\CpuCharacterEntity.cs" />
+    <Compile Include="Entity\Battle\IBattleCharacter.cs" />
+    <Compile Include="Entity\Battle\IBattleEntity.cs" />
+    <Compile Include="Entity\Battle\PlayerBattleSession.cs" />
+    <Compile Include="Daos\Rdb\MySqlConnectionHandler.cs" />
+    <Compile Include="Entity\Battle\ShadowCharacter.cs" />
+    <Compile Include="Entity\Gacha\GachaGuaranteedLotEntity.cs" />
+    <Compile Include="Entity\Gacha\PlayerGachaEntity.cs" />
+    <Compile Include="Entity\Gacha\PlayerGachaEntryPointEntity.cs" />
+    <Compile Include="Entity\Guild\GuildRankRewardEntity.cs" />
+    <Compile Include="Entity\Information\InformationEntity.cs" />
+    <Compile Include="Entity\Item\GearEnchantExpEntity.cs" />
+    <Compile Include="Entity\Item\GearEnchantLevelEntity.cs" />
+    <Compile Include="Entity\Character\PlayerCharacterGearEntity.cs" />
+    <Compile Include="Entity\PlayerCounter\PlayerCounterEntity.cs" />
+    <Compile Include="Entity\Player\PlayerArenaRankEntity.cs" />
+    <Compile Include="Entity\Player\AddPlayerVipExpResult.cs" />
+    <Compile Include="Entity\Player\PlayerDeviceTokenEntity.cs" />
+    <Compile Include="Entity\Player\PlayerVipLevelBonusEntity.cs" />
+    <Compile Include="Entity\Player\TutorialEntity.cs" />
+    <Compile Include="Entity\PushNotification\PushNotificationQueueEntity.cs" />
+    <Compile Include="Entity\Shop\ShopDisplayEntity.cs" />
+    <Compile Include="Entity\Story\StoryChapterEntity.cs" />
+    <Compile Include="Entity\Character\ActionEntity.cs" />
+    <Compile Include="Entity\Character\AttributeEntity.cs" />
+    <Compile Include="Entity\Character\CharacterActionSequenceEntity.cs" />
+    <Compile Include="Entity\Character\CharacterEffectEntity.cs" />
+    <Compile Include="Entity\Character\CharacterEntity.cs" />
+    <Compile Include="Entity\Character\CharacterEvolutionTypeEntity.cs" />
+    <Compile Include="Entity\Character\CharacterLevelEntity.cs" />
+    <Compile Include="Entity\Character\CharacterGearEntity.cs" />
+    <Compile Include="Entity\Character\ActionLevelUpPaymentEntity.cs" />
+    <Compile Include="Entity\Debug\TimeDebugEntity.cs" />
+    <Compile Include="Entity\Story\StoryEpisodeEntity.cs" />
+    <Compile Include="Entity\Expedition\ExpeditionEntity.cs" />
+    <Compile Include="Entity\Expedition\PlayerExpeditionEntity.cs" />
+    <Compile Include="Entity\Expedition\ExpeditionStageEntity.cs" />
+    <Compile Include="Entity\Expedition\PlayerExpeditionSessionEntity.cs" />
+    <Compile Include="Entity\Gacha\GachaEntity.cs" />
+    <Compile Include="Entity\Gacha\GachaContentEntity.cs" />
+    <Compile Include="Entity\Gacha\GachaEntryPointEntity.cs" />
+    <Compile Include="Entity\Guild\GuildActivityDailyLogEntity.cs" />
+    <Compile Include="Entity\Guild\GuildChatMessageEntity.cs" />
+    <Compile Include="Entity\Guild\GuildEntity.cs" />
+    <Compile Include="Entity\Guild\GuildRequestEntity.cs" />
+    <Compile Include="Entity\Guild\PlayerRentalCharacterEntity.cs" />
+    <Compile Include="Entity\Item\DrugEntity.cs" />
+    <Compile Include="Entity\Item\ExchangeCashGiftEntity.cs" />
+    <Compile Include="Entity\Item\GearEnchantMaterialEntity.cs" />
+    <Compile Include="Entity\Item\GearEntity.cs" />
+    <Compile Include="Entity\Item\GearPieceEntity.cs" />
+    <Compile Include="Entity\Item\GearRecipeEntity.cs" />
+    <Compile Include="Entity\Item\PlayerDrugEntity.cs" />
+    <Compile Include="Entity\Item\PlayerExchangeCashGiftEntity.cs" />
+    <Compile Include="Entity\Item\PlayerGearEnchantMaterialEntity.cs" />
+    <Compile Include="Entity\Item\PlayerGearEntity.cs" />
+    <Compile Include="Entity\Item\PlayerGearPieceEntity.cs" />
+    <Compile Include="Entity\Item\PlayerRaidTicketEntity.cs" />
+    <Compile Include="Entity\Item\PlayerSoulEntity.cs" />
+    <Compile Include="Entity\Item\RaidTicketEntity.cs" />
+    <Compile Include="Entity\Item\SoulEntity.cs" />
+    <Compile Include="Entity\Battle\PlayerBattleEntity.cs" />
+    <Compile Include="Entity\Battle\PlayerBattleWave.cs" />
+    <Compile Include="Entity\Character\PlayerCharacterEntity.cs" />
+    <Compile Include="Entity\LoginBonus\LoginBonusEntity.cs" />
+    <Compile Include="Entity\LoginBonus\LoginBonusRewardEntity.cs" />
+    <Compile Include="Entity\LoginBonus\PlayerLoginBonusEntity.cs" />
+    <Compile Include="Entity\Player\PlayerActivityDailyLogEntity.cs" />
+    <Compile Include="Entity\Player\PlayerConfirmation.cs" />
+    <Compile Include="Entity\Player\PlayerVipLevelEntity.cs" />
+    <Compile Include="Entity\Player\AddPlayerExpResult.cs" />
+    <Compile Include="Entity\Player\PlayerArenaEntity.cs" />
+    <Compile Include="Entity\Story\PlayerStoryEpisodeEntity.cs" />
+    <Compile Include="Entity\Player\PlayerLevelEntity.cs" />
+    <Compile Include="Entity\Player\PlayerItemEntity.cs" />
+    <Compile Include="Entity\Player\PlayerRelationEntity.cs" />
+    <Compile Include="Entity\Story\PlayerStoryStageEntity.cs" />
+    <Compile Include="Entity\Player\PlayerStatusEntity.cs" />
+    <Compile Include="Contexts\Cache.cs" />
+    <Compile Include="Entity\Player\PlayerEntity.cs" />
+    <Compile Include="Entity\Training\PlayerTrainingEntity.cs" />
+    <Compile Include="Entity\Training\PlayerTrainingStageEntity.cs" />
+    <Compile Include="Entity\Trial\PlayerTrialEntity.cs" />
+    <Compile Include="Entity\Trial\PlayerTrialStageEntity.cs" />
+    <Compile Include="Entity\PresentBox\PresentBoxEntity.cs" />
+    <Compile Include="Entity\PresentBox\PresentBoxReceivedLogEntity.cs" />
+    <Compile Include="Entity\RaidBoss\GuildRaidBossEntity.cs" />
+    <Compile Include="Entity\RaidBoss\GuildRaidBossLogEntity.cs" />
+    <Compile Include="Entity\RaidBoss\PlayerGuildRaidBossEntity.cs" />
+    <Compile Include="Entity\RaidBoss\RaidBossEntity.cs" />
+    <Compile Include="Entity\RaidBoss\RaidBossGroupEntity.cs" />
+    <Compile Include="Entity\RaidBoss\RaidBossRewardEntity.cs" />
+    <Compile Include="Entity\FrameWork\DynamicTextEntity.cs" />
+    <Compile Include="Entity\Possession\Drug.cs" />
+    <Compile Include="Entity\Possession\DrugHandler.cs" />
+    <Compile Include="Entity\Possession\ExchangeCashGift.cs" />
+    <Compile Include="Entity\Possession\ExchangeCashGiftHandler.cs" />
+    <Compile Include="Entity\Possession\Gear.cs" />
+    <Compile Include="Entity\Possession\GearEnchantMaterial.cs" />
+    <Compile Include="Entity\Possession\GearEnchantMaterialHandler.cs" />
+    <Compile Include="Entity\Possession\GearHandler.cs" />
+    <Compile Include="Entity\Possession\GearPiece.cs" />
+    <Compile Include="Entity\Possession\GearPieceHandler.cs" />
+    <Compile Include="Entity\Possession\RaidTicket.cs" />
+    <Compile Include="Entity\Possession\RaidTicketHandler.cs" />
+    <Compile Include="Entity\Ranking\GuildRankingEntity.cs" />
+    <Compile Include="Entity\Ranking\RankingReferenceEntity.cs" />
+    <Compile Include="Entity\Ranking\GuildRankingDataEntity.cs" />
+    <Compile Include="Entity\Ranking\RankingRewardEntity.cs" />
+    <Compile Include="Entity\SoundEntity.cs" />
+    <Compile Include="Noroshi.Core\Game\Arena\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Battle\BattleResult.cs" />
+    <Compile Include="Entity\Training\TrainingEntity.cs" />
+    <Compile Include="Entity\Training\TrainingStageEntity.cs" />
+    <Compile Include="Noroshi.Core\Game\Battle\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Battle\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Battle\InitialCondition.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\CharacterStatus.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\Gear.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\GearContainer.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\IStatusBoostFactor.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\Skin.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\StatusBoostFactor.cs" />
+    <Compile Include="Noroshi.Core\Game\Expedition\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\GameContent\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\GameContent\GameContent.cs" />
+    <Compile Include="Noroshi.Core\Game\Guild\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Guild\CooperationPoint.cs" />
+    <Compile Include="Noroshi.Core\Game\Guild\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Information\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Player\ActionLevelPointHandler.cs" />
+    <Compile Include="Noroshi.Core\Game\Item\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\LoginBonus\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\LoginBonus\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Player\BPHandler.cs" />
+    <Compile Include="Noroshi.Core\Game\Player\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Player\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Player\StaminaHandler.cs" />
+    <Compile Include="Noroshi.Core\Game\Player\TutorialStepHandler.cs" />
+    <Compile Include="Noroshi.Core\Game\Player\RepeatablePaymentCalculator.cs" />
+    <Compile Include="Entity\Possession\Character.cs" />
+    <Compile Include="Entity\Possession\IPossessionObject.cs" />
+    <Compile Include="Entity\Possession\AbstractPossessionHandler.cs" />
+    <Compile Include="Entity\Possession\IPossessionParam.cs" />
+    <Compile Include="Entity\Possession\IPossessionHandler.cs" />
+    <Compile Include="Entity\Possession\Soul.cs" />
+    <Compile Include="Entity\Possession\SoulHandler.cs" />
+    <Compile Include="Entity\Possession\CharacterHandler.cs" />
+    <Compile Include="Entity\Possession\PossessableParam.cs" />
+    <Compile Include="Entity\Possession\PossessionManager.cs" />
+    <Compile Include="Entity\Possession\Status.cs" />
+    <Compile Include="Entity\Possession\StatusHandler.cs" />
+    <Compile Include="Entity\Quest\DailyQuestEntity.cs" />
+    <Compile Include="Entity\Quest\DailyQuestRewardEntity.cs" />
+    <Compile Include="Entity\Quest\IPlayerQuestTriggerEntity.cs" />
+    <Compile Include="Entity\Quest\IQuestEntity.cs" />
+    <Compile Include="Entity\Quest\PlayerDailyQuestTriggerEntity.cs" />
+    <Compile Include="Entity\Quest\PlayerQuestTriggerEntity.cs" />
+    <Compile Include="Entity\Quest\QuestEntity.cs" />
+    <Compile Include="Entity\Quest\QuestRewardEntity.cs" />
+    <Compile Include="Entity\Quest\QuestTriggerEntity.cs" />
+    <Compile Include="Entity\ShardDispatcherEntity.cs" />
+    <Compile Include="Entity\Shop\PlayerShopEntity.cs" />
+    <Compile Include="Entity\Shop\ShopEntity.cs" />
+    <Compile Include="Entity\Shop\ShopMerchandiseEntity.cs" />
+    <Compile Include="Entity\Story\StoryStageEntity.cs" />
+    <Compile Include="Entity\Trial\TrialEntity.cs" />
+    <Compile Include="Entity\Trial\TrialStageEntity.cs" />
+    <Compile Include="Filters\ContextContainerHandler.cs" />
+    <Compile Include="Formatter\DefaultFormatter.cs" />
+    <Compile Include="Formatter\DefaultJsonFormatter.cs" />
+    <Compile Include="GlimpseSecurityPolicy.cs" />
+    <Compile Include="Noroshi.Core\Game\Action\IActionTagSet.cs" />
+    <Compile Include="Noroshi.Core\Game\Battle\AfterBattlePlayerCharacter.cs" />
+    <Compile Include="Noroshi.Core\Game\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\BattleContents\BattleState.cs" />
+    <Compile Include="Noroshi.Core\Game\BattleContents\Contents.cs" />
+    <Compile Include="Noroshi.Core\Game\Battle\DamageAttribute.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\CharacterTag.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\CharacterTagSet.cs" />
+    <Compile Include="Noroshi.Core\Game\Possession\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\PresentBox\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\RaidBoss\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\RaidBoss\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Ranking\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Story\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Story\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Training\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Training\Enums.cs" />
+    <Compile Include="Noroshi.Core\Game\Trial\Constant.cs" />
+    <Compile Include="Noroshi.Core\Game\Sound\Enums.cs" />
+    <Compile Include="Noroshi.Core\Utility\NaturalIncreaseValue.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Arena\ArenaServiceResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\AdditionalInformation.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\BattleCharacter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\ShadowCharacter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Debug\PlayerDebugResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Expedition\ExpeditionError.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Gacha\GachaError.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GearEnchantAddExpResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GearEnchantExp.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GearEnchantLevel.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GetOwnResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GetRecommendedGuildsResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GuildRequest.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GuildMemberPlayerStatus.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Information\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Information\Information.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Information\ReadResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerCharacterGear.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Players\AddPlayerVipExpResult.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerVipLevelBonus.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Quest\QuestError.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\HandleRequestResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\SellAutomaticallyResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\StandingRaidShop.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\UseRaidTicketResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\ChapterAndEpisodeResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\CharacterEvolutionLevelUpResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Character\CreateCharacter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\FrameWork\CheckAliveResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\ContentsUnlockResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GearCraft.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Debug\TimeDebug.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\ExchangeCashGift.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Expedition\ReceiveRewardResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Expedition\Expedition.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Expedition\PlayerExpeditionStage.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Expedition\GetResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\StartResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Expedition\ResetResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GameContent\Soul.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\HandleReceivedRequestResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\AddExecutiveRoleResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\AddRentalCharacterResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GearEnchantMaterial.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GearPiece.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\ConfigureResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\CreateResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\ChangeLeaderResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GuildChatMessage.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GuildChatMessageResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GetRentalCharactersResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GuildError.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GetTakableRentalCharactersResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GetResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\GreetResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\Guild.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\JoinResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\LayOffResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\JoinAutomaticallyResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\ReceiveGreetedRewardResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\RemoveExecutiveRoleResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\RentalCharacter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Inventory.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Guild\RemoveRentalCharacterResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\LoginBonus\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\LoginBonus\LoginBonus.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\LoginBonus\LoginBonusReward.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\LoginBonus\ReceiveRewardResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\CharacterLevel.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\LevelMasterResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\PlayerLevel.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\PlayerVipLevel.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\Sound.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\SoundMasterResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\TextMasterResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerChangeStatusResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerDrug.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerExchangeCashGift.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerGear.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerGearEnchantMaterial.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerGearPiece.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerRaidTicket.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerSoul.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\PlayerStoryStageAndStoryEpisodeResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerStatusLevelUpResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Players\AddPlayerExpResult.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Training\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Players\PlayerError.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Players\PlayerServiceResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Trial\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\AbstractPersonalPlayer.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\CpuBattleStory.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\CpuBattleStoryMessage.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\StoryChapter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\CharacterEffect.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Character\CharacterEvolutionType.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Character\Action.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Character\Attribute.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Character\Character.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Character\CharacterActionSequence.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Character\CharacterGear.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\CpuBattle.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\CpuBattleFinishResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\CpuBattleStartResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\BattleWave.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\DailyQuest.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\DailyQuestReward.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\DefensiveWar.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Drug.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\StoryEpisode.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Expedition\PlayerExpedition.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Gacha\GachaEntryPoint.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Gacha\EntryPointListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Gacha\LotResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\GearRecipe.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\IBattle.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\IBattleFinishResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\IBattleStartResponse.cs" />
+    <Compile Include="Noroshi.Core\Game\Character\IPersonalCharacter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Item.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Gear.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\OtherPlayerStatus.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Arena\PlayerArena.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\PlayerBattle.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\PlayerBattleFinishResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Battle\PlayerBattleStartResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\PlayerStoryChapter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerCharacter.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerCharacterAddActionLevelResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerCharacterAndPlayerItemsResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerCharacterAndStatusResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerCharacterChangeGearResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\PlayerStoryEpisode.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerItem.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\CharacterExpDopingResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerItemAndStatusResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\PlayerStoryStage.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\PlayerLastPlayStoryStageResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PlayerStatus.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Players\PlayerArenaOtherResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Possession\PossessionObject.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PresentBox\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PresentBox\PresentBox.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\PresentBox\ReceiveResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Quest\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Quest\Quest.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Quest\ReceiveRewardResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidBoss\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidBoss\PlayerGuildRaidBoss.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidBoss\RaidBoss.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidBoss\RaidBossError.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidBoss\RaidBossLog.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidBoss\ReceiveRewardResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidBoss\ShowResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\RaidTicket.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\ReleaseLevel.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\SessionData.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\BuyResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\ListResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\Merchandise.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\Shop.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\ShopError.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\ShowResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Shop\UpdateMerchandisesResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\ActionLevelUpPayment.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\StoryStage.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Story\MasterDataResponse.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Master\DynamicText.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Training\Training.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Training\TrainingStage.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Trial\Trial.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\Trial\TrialStage.cs" />
+    <Compile Include="Noroshi.Core\WebApi\Response\UseDrugWithCharacterResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Roles\DayOfWeekOpenable\Extensions\DayOfWeekOpenableExtensions.cs" />
+    <Compile Include="Roles\DayOfWeekOpenable\IDayOfWeekOpenable.cs" />
+    <Compile Include="Roles\OneTimeOpenable\Extensions\OneTimeOpenableExtensions.cs" />
+    <Compile Include="Roles\OneTimeOpenable\IOneTimeOpenable.cs" />
+    <Compile Include="Security\Cryption.cs" />
+    <Compile Include="App_Start\Startup.cs" />
+    <Compile Include="Entity\BattleContent\ArenaBattleContent.cs" />
+    <Compile Include="Entity\BattleContent\BattleContentBuilder.cs" />
+    <Compile Include="Entity\BattleContent\ExpeditionBattleContent.cs" />
+    <Compile Include="Entity\BattleContent\StoryBattleContent.cs" />
+    <Compile Include="Entity\BattleContent\TrialBattleContent.cs" />
+    <Compile Include="Services\BattleService.cs" />
+    <Compile Include="Services\CharacterEvolutionService.cs" />
+    <Compile Include="Services\Character\ActionLevelUpPaymentService.cs" />
+    <Compile Include="Services\CraftService.cs" />
+    <Compile Include="Services\Debug\PlayerCharacterDebugService.cs" />
+    <Compile Include="Services\Debug\PlayerDebugService.cs" />
+    <Compile Include="Services\Debug\PlayerItemDebugService.cs" />
+    <Compile Include="Services\Debug\PushNotificationDebugService.cs" />
+    <Compile Include="Services\Debug\TimeDebugService.cs" />
+    <Compile Include="Services\InformationService.cs" />
+    <Compile Include="Services\Item\DrugService.cs" />
+    <Compile Include="Services\Item\ExchangeCashGiftService.cs" />
+    <Compile Include="Services\ExpeditionService.cs" />
+    <Compile Include="Services\GachaService.cs" />
+    <Compile Include="Entity\BattleContent\IBattleContent.cs" />
+    <Compile Include="Services\Guild\AbstractGuildService.cs" />
+    <Compile Include="Services\Guild\GreetService.cs" />
+    <Compile Include="Services\Guild\GuildBatchService.cs" />
+    <Compile Include="Services\Guild\GuildChatMessageService.cs" />
+    <Compile Include="Services\Guild\GuildLeaderService.cs" />
+    <Compile Include="Services\Item\GearEnchantService.cs" />
+    <Compile Include="Services\Item\GearEnchantMaterialService.cs" />
+    <Compile Include="Services\Item\GearPieceService.cs" />
+    <Compile Include="Services\Item\GearService.cs" />
+    <Compile Include="Services\Guild\GuildService.cs" />
+    <Compile Include="Services\Guild\RentalCharacterService.cs" />
+    <Compile Include="Services\InventoryService.cs" />
+    <Compile Include="Services\LoginBonusService.cs" />
+    <Compile Include="Services\Player\PlayerArenaService.cs" />
+    <Compile Include="Services\Player\PlayerStoryChapterService.cs" />
+    <Compile Include="Services\Player\PlayerCharacterService.cs" />
+    <Compile Include="Services\Player\PlayerStoryEpisodeService.cs" />
+    <Compile Include="Services\Player\PlayerItemService.cs" />
+    <Compile Include="Services\Player\PlayerService.cs" />
+    <Compile Include="Services\Player\PlayerVipLevelService.cs" />
+    <Compile Include="Services\PresentBoxService.cs" />
+    <Compile Include="Services\PushNotification\PushErrorHandling.cs" />
+    <Compile Include="Services\PushNotification\PushNotification.cs" />
+    <Compile Include="Services\PushNotification\PushNotificationService.cs" />
+    <Compile Include="Services\PushNotification\PushNotificationServiceAsync.cs" />
+    <Compile Include="Services\PushNotification\PushTest.cs" />
+    <Compile Include="Services\PushNotification\Settings.cs" />
+    <Compile Include="Services\PushNotification\UtilLog.cs" />
+    <Compile Include="Services\RaidBossService.cs" />
+    <Compile Include="Services\Item\RaidTicketService.cs" />
+    <Compile Include="Services\Item\SoulService.cs" />
+    <Compile Include="Services\Player\PlayerStoryStageService.cs" />
+    <Compile Include="Services\Player\PlayerStatusService.cs" />
+    <Compile Include="Services\QuestService.cs" />
+    <Compile Include="Services\ShopService.cs" />
+    <Compile Include="Services\StoryService.cs" />
+    <Compile Include="Services\Story\StoryChapterService.cs" />
+    <Compile Include="Services\TrainingService.cs" />
+    <Compile Include="Services\TrialService.cs" />
+    <Compile Include="Services\Utility\UnixTime.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\PublishProfiles\ftp.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Services\PushNotification\App.config" />
+    <Content Include="Services\PushNotification\Local.config" />
+    <Content Include="Services\PushNotification\packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Noroshi.Core\WebApi\Response\Item\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56431</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56431/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

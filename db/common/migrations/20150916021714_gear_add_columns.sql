@@ -1,0 +1,49 @@
+
+-- +goose Up
+-- SQL in section 'Up' is executed when this migration is applied
+ALTER TABLE `gear` 
+ADD COLUMN `GrowthRate1` FLOAT UNSIGNED NOT NULL AFTER `Accuracy`,
+ADD COLUMN `GrowthRate2` FLOAT UNSIGNED NOT NULL AFTER `GrowthRate1`,
+ADD COLUMN `GrowthRate3` FLOAT UNSIGNED NOT NULL AFTER `GrowthRate2`,
+ADD COLUMN `GrowthRate4` FLOAT UNSIGNED NOT NULL AFTER `GrowthRate3`,
+ADD COLUMN `GrowthRate5` FLOAT UNSIGNED NOT NULL AFTER `GrowthRate4`,
+ADD COLUMN `Exp1` INT UNSIGNED NOT NULL AFTER `GrowthRate5`,
+ADD COLUMN `Exp2` INT UNSIGNED NOT NULL AFTER `Exp1`,
+ADD COLUMN `Exp3` INT UNSIGNED NOT NULL AFTER `Exp2`,
+ADD COLUMN `Exp4` INT UNSIGNED NOT NULL AFTER `Exp3`,
+ADD COLUMN `Exp5` INT UNSIGNED NOT NULL AFTER `Exp4`,
+ADD COLUMN `Gold1` INT UNSIGNED NOT NULL AFTER `Exp5`,
+ADD COLUMN `Gold2` INT UNSIGNED NOT NULL AFTER `Gold1`,
+ADD COLUMN `Gold3` INT UNSIGNED NOT NULL AFTER `Gold2`,
+ADD COLUMN `Gold4` INT UNSIGNED NOT NULL AFTER `Gold3`,
+ADD COLUMN `Gold5` INT UNSIGNED NOT NULL AFTER `Gold4`,
+ADD COLUMN `Gem` INT UNSIGNED NOT NULL AFTER `Gold5`;
+
+CREATE TABLE `sequential_id_player_character_gear` (
+  `ID` INT(10) UNSIGNED NOT NULL
+) ENGINE=MyISAM;
+
+INSERT INTO sequential_id_player_character_gear VALUES (0);
+
+
+-- +goose Down
+-- SQL section 'Down' is executed when this migration is rolled back
+ALTER TABLE `gear` 
+DROP COLUMN `GrowthRate1`,
+DROP COLUMN `GrowthRate2`,
+DROP COLUMN `GrowthRate3`,
+DROP COLUMN `GrowthRate4`,
+DROP COLUMN `GrowthRate5`,
+DROP COLUMN `Exp1`,
+DROP COLUMN `Exp2`,
+DROP COLUMN `Exp3`,
+DROP COLUMN `Exp4`,
+DROP COLUMN `Exp5`,
+DROP COLUMN `Gold1`,
+DROP COLUMN `Gold2`,
+DROP COLUMN `Gold3`,
+DROP COLUMN `Gold4`,
+DROP COLUMN `Gold5`,
+DROP COLUMN `Gem`;
+
+DROP TABLE `sequential_id_player_character_gear`;

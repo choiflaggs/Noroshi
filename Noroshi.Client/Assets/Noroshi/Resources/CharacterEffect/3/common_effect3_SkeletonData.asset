@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+  m_Name: common_effect3_SkeletonData
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: 38a1751d683e847b3a55415ee177cdf6, type: 2}
+  - {fileID: 11400000, guid: 149b4d9b7f7e3401b8044d4e2ed360c9, type: 2}
+  skeletonJSON: {fileID: 4900000, guid: 68e43c8e60a174a42a620fc9a2ff68ce, type: 3}
+  scale: .00999999978
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: .200000003
+  controller: {fileID: 0}

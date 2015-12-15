@@ -1,0 +1,43 @@
+[
+   {
+      "AnimationName" : "effect_skill",
+      "ID" : 1,
+      "PrefabID" : 1
+   },
+   {
+      "AnimationName" : "atk_effect_blows",
+      "ID" : 1001,
+      "PrefabID" : 1
+   },
+   {
+      "AnimationName" : "atk_effect_slash",
+      "ID" : 1002,
+      "PrefabID" : 1
+   },
+   {
+      "AnimationName" : "atk_effect_flame",
+      "ID" : 1003,
+      "PrefabID" : 1
+   },
+   {
+      "AnimationName" : "chara001_shield",
+      "ID" : 1000001,
+      "PrefabID" : 1
+   },
+   {
+      "AnimationName" : "chara001_shield_damage",
+      "ID" : 1001001,
+      "PrefabID" : 1
+   },
+   {
+      "AnimationName" : "chara001_recovery",
+      "ID" : 1001002,
+      "PrefabID" : 1
+   },
+   {
+      "AnimationName" : "chara001_powerup",
+      "ID" : 1001003,
+      "PrefabID" : 1
+   }
+]
+

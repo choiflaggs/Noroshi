@@ -1,0 +1,8 @@
+ID	TextKey	PaymentPossessionCategory	PaymentPossessionID	ManualUpdatePossessionCategory	ManualUpdatePossessionID	ManualUpdatePossessionNum	DailyScheduledUpdateNum	RelatedGameContentID	AppearPlayerLevel	AppearProbability	AppearMinute	ResidentVipLevel
+1	Shop.1	11	2	11	2	100	4	3	0	0	0	0
+2	Shop.2	11	2	11	2	100	4	3	15	0.5	60	5
+3	Shop.3	11	2	11	2	100	4	3	40	0.1	60	10
+4	Shop.4	11	2	11	2	100	4	2	0	0	0	0
+5	Shop.5	11	2	11	2	100	4	4	0	0	0	0
+6	Shop.6	11	2	11	2	100	4	2	0	0	0	0
+7	Shop.7	11	2	11	2	100	4	2	0	0	0	0

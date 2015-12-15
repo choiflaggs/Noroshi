@@ -1,0 +1,1 @@
+{"pluginName":"GoogleCloudMessaging","version":"2.12","itemNumber":"GoogleCloudMessaging-plugin","platform":"Android","items":[{"path":"Assets/Editor/Prime31/PluginManifests/GoogleCloudMessagingAndroid.json","isFolder":false},{"path":"Assets/Plugins/Android/GoogleCloudMessaging_lib","isFolder":true},{"path":"Assets/Plugins/GoogleCloudMessaging","isFolder":true}]}

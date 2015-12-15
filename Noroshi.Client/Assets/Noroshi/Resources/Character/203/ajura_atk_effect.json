@@ -1,0 +1,228 @@
+{
+"skeleton": { "hash": "pg++mxo/zKc7Nj49xaZo2GcdVbE", "spine": "2.1.27", "width": 258, "height": 664, "images": "./ajura-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "askill boll", "parent": "root", "color": "9b0099ff" },
+	{ "name": "atk effect", "parent": "root", "x": -267.59, "y": 729.94, "scaleX": 2, "scaleY": 2, "color": "94009bff" },
+	{ "name": "askill top alpha", "parent": "askill boll", "scaleX": 2, "scaleY": 2, "color": "9b0099ff" },
+	{ "name": "askill under alpha", "parent": "askill boll", "scaleX": 2, "scaleY": 2, "color": "9b0099ff" }
+],
+"slots": [
+	{ "name": "atk_effect0001", "bone": "atk effect", "attachment": "atk_effect0008" },
+	{ "name": "a_skill_emission", "bone": "askill under alpha" },
+	{ "name": "a_skill_emission2", "bone": "askill top alpha", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"a_skill_emission": {
+			"a_skill_emission": { "width": 301, "height": 301 }
+		},
+		"a_skill_emission2": {
+			"a_skill_emission2": { "width": 238, "height": 239 }
+		},
+		"atk_effect0001": {
+			"atk_effect0001": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 },
+			"atk_effect0002": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 },
+			"atk_effect0003": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 },
+			"atk_effect0004": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 },
+			"atk_effect0005": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 },
+			"atk_effect0006": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 },
+			"atk_effect0007": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 },
+			"atk_effect0008": { "x": -6.26, "y": 91.34, "width": 129, "height": 332 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"a_skill_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"a_skill_emission2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"atk_effect0001": {
+				"attachment": [
+					{ "time": 0, "name": "atk_effect0008" },
+					{ "time": 0.0333, "name": "atk_effect0001" },
+					{ "time": 0.0666, "name": "atk_effect0002" },
+					{ "time": 0.1, "name": "atk_effect0003" },
+					{ "time": 0.1333, "name": "atk_effect0004" },
+					{ "time": 0.1666, "name": "atk_effect0005" },
+					{ "time": 0.2, "name": "atk_effect0006" },
+					{ "time": 0.2333, "name": "atk_effect0007" },
+					{ "time": 0.2666, "name": "atk_effect0008" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill top alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill under alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill boll": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk effect": {
+				"rotate": [
+					{ "time": 0, "angle": -87.26 }
+				],
+				"translate": [
+					{ "time": 0, "x": 267.59, "y": -729.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill2": {
+		"slots": {
+			"a_skill_emission": {
+				"attachment": [
+					{ "time": 0, "name": "a_skill_emission" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"a_skill_emission2": {
+				"attachment": [
+					{ "time": 0, "name": "a_skill_emission2" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"atk_effect0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"askill under alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill top alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -176.63 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"flipX": [
+					{ "time": 0, "x": true }
+				]
+			},
+			"askill boll": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"atk effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

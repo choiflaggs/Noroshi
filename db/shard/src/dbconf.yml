@@ -1,0 +1,21 @@
+development:
+  driver: mysql
+  open: dummy
+dev_arai:
+  driver: mysql
+  open: dummy
+dev_tomosada:
+  driver: mysql
+  open: dummy
+dev_nishimura:
+  driver: mysql
+  open: dummy
+dev_okabe:
+  driver: mysql
+  open: dummy
+dev_tomita:
+  driver: mysql
+  open: dummy
+dev_choi:
+  driver: mysql
+  open: dummy

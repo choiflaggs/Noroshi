@@ -1,0 +1,118 @@
+
+effect_parts.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+song_effect
+  rotate: false
+  xy: 189, 11
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+song_effect2
+  rotate: false
+  xy: 253, 18
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+song_mark1
+  rotate: false
+  xy: 1579, 93
+  size: 139, 160
+  orig: 139, 160
+  offset: 0, 0
+  index: -1
+song_mark10
+  rotate: true
+  xy: 838, 85
+  size: 168, 157
+  orig: 168, 157
+  offset: 0, 0
+  index: -1
+song_mark11
+  rotate: false
+  xy: 2, 57
+  size: 185, 196
+  orig: 185, 196
+  offset: 0, 0
+  index: -1
+song_mark12
+  rotate: false
+  xy: 674, 81
+  size: 162, 172
+  orig: 162, 172
+  offset: 0, 0
+  index: -1
+song_mark13
+  rotate: true
+  xy: 189, 75
+  size: 178, 166
+  orig: 178, 166
+  offset: 0, 0
+  index: -1
+song_mark14
+  rotate: false
+  xy: 1720, 2
+  size: 208, 95
+  orig: 208, 95
+  offset: 0, 0
+  index: -1
+song_mark2
+  rotate: true
+  xy: 357, 65
+  size: 188, 157
+  orig: 188, 157
+  offset: 0, 0
+  index: -1
+song_mark3
+  rotate: false
+  xy: 516, 69
+  size: 156, 184
+  orig: 156, 184
+  offset: 0, 0
+  index: -1
+song_mark4
+  rotate: true
+  xy: 1281, 87
+  size: 166, 146
+  orig: 166, 146
+  offset: 0, 0
+  index: -1
+song_mark5
+  rotate: true
+  xy: 997, 60
+  size: 193, 135
+  orig: 193, 135
+  offset: 0, 0
+  index: -1
+song_mark6
+  rotate: true
+  xy: 1134, 85
+  size: 168, 145
+  orig: 168, 145
+  offset: 0, 0
+  index: -1
+song_mark7
+  rotate: false
+  xy: 1429, 94
+  size: 148, 159
+  orig: 148, 159
+  offset: 0, 0
+  index: -1
+song_mark8
+  rotate: true
+  xy: 1859, 100
+  size: 153, 125
+  orig: 153, 125
+  offset: 0, 0
+  index: -1
+song_mark9
+  rotate: false
+  xy: 1720, 99
+  size: 137, 154
+  orig: 137, 154
+  offset: 0, 0
+  index: -1

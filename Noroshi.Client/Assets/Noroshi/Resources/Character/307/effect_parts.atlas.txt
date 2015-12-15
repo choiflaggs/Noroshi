@@ -1,0 +1,153 @@
+
+effect_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alpha_effect
+  rotate: false
+  xy: 2, 8
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+bom_effect0001
+  rotate: false
+  xy: 348, 15
+  size: 183, 303
+  orig: 275, 354
+  offset: 47, 0
+  index: -1
+bom_effect0002
+  rotate: false
+  xy: 276, 320
+  size: 259, 344
+  orig: 275, 354
+  offset: 10, 1
+  index: -1
+bom_effect0003
+  rotate: true
+  xy: 2, 55
+  size: 261, 344
+  orig: 275, 354
+  offset: 10, 5
+  index: -1
+bom_effect0004
+  rotate: false
+  xy: 277, 668
+  size: 270, 347
+  orig: 275, 354
+  offset: 4, 6
+  index: -1
+bom_effect0005
+  rotate: false
+  xy: 2, 318
+  size: 272, 346
+  orig: 275, 354
+  offset: 2, 6
+  index: -1
+bom_effect0006
+  rotate: false
+  xy: 2, 666
+  size: 273, 349
+  orig: 275, 354
+  offset: 2, 5
+  index: -1
+bom_effect0007
+  rotate: true
+  xy: 549, 754
+  size: 261, 349
+  orig: 275, 354
+  offset: 3, 5
+  index: -1
+bom_effect0008
+  rotate: true
+  xy: 549, 494
+  size: 258, 345
+  orig: 275, 354
+  offset: 5, 5
+  index: -1
+bom_effect0009
+  rotate: true
+  xy: 537, 251
+  size: 241, 342
+  orig: 275, 354
+  offset: 10, 8
+  index: -1
+bom_effect0010
+  rotate: true
+  xy: 533, 22
+  size: 227, 281
+  orig: 275, 354
+  offset: 24, 9
+  index: -1
+emisstion
+  rotate: false
+  xy: 881, 296
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+gun_effect0001
+  rotate: true
+  xy: 896, 455
+  size: 78, 83
+  orig: 96, 92
+  offset: 16, 7
+  index: -1
+gun_effect0002
+  rotate: false
+  xy: 907, 11
+  size: 80, 86
+  orig: 96, 92
+  offset: 11, 2
+  index: -1
+gun_effect0003
+  rotate: false
+  xy: 881, 372
+  size: 76, 81
+  orig: 96, 92
+  offset: 11, 2
+  index: -1
+semicircle_effect
+  rotate: true
+  xy: 900, 746
+  size: 128, 107
+  orig: 128, 107
+  offset: 0, 0
+  index: -1
+txt_!
+  rotate: false
+  xy: 896, 623
+  size: 102, 121
+  orig: 102, 121
+  offset: 0, 0
+  index: -1
+txt_B
+  rotate: false
+  xy: 900, 876
+  size: 115, 139
+  orig: 115, 139
+  offset: 0, 0
+  index: -1
+txt_M
+  rotate: false
+  xy: 816, 99
+  size: 144, 150
+  orig: 144, 150
+  offset: 0, 0
+  index: -1
+txt_O1
+  rotate: true
+  xy: 816, 11
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+txt_O2
+  rotate: false
+  xy: 896, 535
+  size: 90, 86
+  orig: 90, 86
+  offset: 0, 0
+  index: -1

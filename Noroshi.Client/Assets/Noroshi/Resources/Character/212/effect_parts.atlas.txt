@@ -1,0 +1,104 @@
+
+effect_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+askill_atk0001
+  rotate: false
+  xy: 441, 676
+  size: 378, 159
+  orig: 482, 210
+  offset: 24, 19
+  index: -1
+askill_atk0002
+  rotate: false
+  xy: 441, 837
+  size: 414, 184
+  orig: 482, 210
+  offset: 31, 10
+  index: -1
+askill_atk0003
+  rotate: false
+  xy: 2, 828
+  size: 437, 193
+  orig: 482, 210
+  offset: 31, 9
+  index: -1
+askill_atk0004
+  rotate: false
+  xy: 419, 524
+  size: 266, 150
+  orig: 482, 210
+  offset: 120, 31
+  index: -1
+askill_atk0005
+  rotate: true
+  xy: 857, 769
+  size: 252, 152
+  orig: 482, 210
+  offset: 145, 29
+  index: -1
+askill_atk0006
+  rotate: true
+  xy: 362, 295
+  size: 136, 52
+  orig: 482, 210
+  offset: 288, 59
+  index: -1
+emission
+  rotate: false
+  xy: 687, 573
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+emission20001
+  rotate: false
+  xy: 924, 670
+  size: 97, 97
+  orig: 101, 101
+  offset: 0, 2
+  index: -1
+emission20002
+  rotate: true
+  xy: 821, 667
+  size: 100, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+emission20003
+  rotate: true
+  xy: 790, 584
+  size: 81, 101
+  orig: 101, 101
+  offset: 20, 0
+  index: -1
+wind_efe0001
+  rotate: false
+  xy: 2, 10
+  size: 341, 207
+  orig: 491, 246
+  offset: 1, 14
+  index: -1
+wind_efe0002
+  rotate: false
+  xy: 2, 219
+  size: 358, 212
+  orig: 491, 246
+  offset: 2, 29
+  index: -1
+wind_efe0003
+  rotate: false
+  xy: 2, 623
+  size: 415, 203
+  orig: 491, 246
+  offset: 31, 43
+  index: -1
+wind_efe0004
+  rotate: false
+  xy: 2, 433
+  size: 383, 188
+  orig: 491, 246
+  offset: 91, 58
+  index: -1

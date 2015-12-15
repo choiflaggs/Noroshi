@@ -1,0 +1,5 @@
+ID	TextKey	Type	OpenedAt	ClosedAt	Sunday	Monday	Tuesday	Wednesday	Thursday	Friday	Saturday
+1	Training.1	1	0	0	1	1	0	1	0	0	0
+2	Training.2	2	0	0	1	0	1	0	1	0	0
+3	Training.3	1	0	0	1	0	0	0	0	1	1
+4	Training.4	2	0	0	1	0	0	0	0	1	1

@@ -1,0 +1,314 @@
+
+effect_parts.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_motion_effect0001
+  rotate: false
+  xy: 1142, 1309
+  size: 316, 252
+  orig: 383, 423
+  offset: 31, 87
+  index: -1
+arm_motion_effect0002
+  rotate: true
+  xy: 1460, 1255
+  size: 306, 250
+  orig: 383, 423
+  offset: 31, 91
+  index: -1
+arm_motion_effect0003
+  rotate: true
+  xy: 1790, 1742
+  size: 304, 256
+  orig: 383, 423
+  offset: 27, 87
+  index: -1
+arm_motion_effect0004
+  rotate: true
+  xy: 233, 475
+  size: 298, 256
+  orig: 383, 423
+  offset: 25, 89
+  index: -1
+arm_motion_effect0005
+  rotate: true
+  xy: 233, 212
+  size: 261, 254
+  orig: 383, 423
+  offset: 27, 92
+  index: -1
+bom_light
+  rotate: false
+  xy: 831, 1003
+  size: 127, 127
+  orig: 136, 136
+  offset: 5, 4
+  index: -1
+fire back emission0001
+  rotate: false
+  xy: 254, 1171
+  size: 220, 136
+  orig: 255, 198
+  offset: 18, 50
+  index: -1
+fire back emission0002
+  rotate: false
+  xy: 1551, 1710
+  size: 221, 139
+  orig: 255, 198
+  offset: 17, 48
+  index: -1
+fire back emission0003
+  rotate: false
+  xy: 717, 1253
+  size: 217, 133
+  orig: 255, 198
+  offset: 19, 50
+  index: -1
+fire back emission0004
+  rotate: false
+  xy: 698, 1132
+  size: 206, 119
+  orig: 255, 198
+  offset: 26, 51
+  index: -1
+fire back emission0005
+  rotate: true
+  xy: 350, 2
+  size: 208, 125
+  orig: 255, 198
+  offset: 17, 53
+  index: -1
+fire emission0001
+  rotate: false
+  xy: 256, 1309
+  size: 231, 128
+  orig: 255, 198
+  offset: 13, 1
+  index: -1
+fire emission0002
+  rotate: true
+  xy: 384, 939
+  size: 230, 119
+  orig: 255, 198
+  offset: 14, 1
+  index: -1
+fire emission0003
+  rotate: true
+  xy: 505, 1047
+  size: 215, 117
+  orig: 255, 198
+  offset: 17, 2
+  index: -1
+fire emission0004
+  rotate: false
+  xy: 489, 1264
+  size: 226, 122
+  orig: 255, 198
+  offset: 11, 1
+  index: -1
+fire emission0005
+  rotate: true
+  xy: 254, 942
+  size: 227, 128
+  orig: 255, 198
+  offset: 15, 2
+  index: -1
+fire pillar0001
+  rotate: false
+  xy: 256, 1439
+  size: 274, 607
+  orig: 382, 669
+  offset: 71, 0
+  index: -1
+fire pillar0002
+  rotate: false
+  xy: 2, 1407
+  size: 252, 639
+  orig: 382, 669
+  offset: 84, 0
+  index: -1
+fire pillar0003
+  rotate: false
+  xy: 2, 775
+  size: 250, 630
+  orig: 382, 669
+  offset: 88, 0
+  index: -1
+fire pillar0004
+  rotate: true
+  xy: 532, 1802
+  size: 244, 630
+  orig: 382, 669
+  offset: 79, 0
+  index: -1
+fire pillar0005
+  rotate: false
+  xy: 2, 147
+  size: 229, 626
+  orig: 382, 669
+  offset: 93, 0
+  index: -1
+fire pillar0006
+  rotate: true
+  xy: 532, 1569
+  size: 231, 624
+  orig: 382, 669
+  offset: 104, 2
+  index: -1
+fire pillar0007
+  rotate: true
+  xy: 1164, 1851
+  size: 195, 624
+  orig: 382, 669
+  offset: 122, 2
+  index: -1
+fire pillar0008
+  rotate: true
+  xy: 532, 1388
+  size: 179, 608
+  orig: 382, 669
+  offset: 138, 2
+  index: -1
+fire_alpha
+  rotate: false
+  xy: 489, 1405
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+fire_boom_emission0001
+  rotate: false
+  xy: 1247, 1093
+  size: 87, 87
+  orig: 174, 209
+  offset: 40, 33
+  index: -1
+fire_boom_emission0002
+  rotate: false
+  xy: 906, 1132
+  size: 111, 119
+  orig: 174, 209
+  offset: 29, 22
+  index: -1
+fire_boom_emission0003
+  rotate: false
+  xy: 1123, 1182
+  size: 121, 125
+  orig: 174, 209
+  offset: 28, 16
+  index: -1
+fire_boom_emission0004
+  rotate: false
+  xy: 960, 1004
+  size: 119, 126
+  orig: 174, 209
+  offset: 28, 17
+  index: -1
+fire_boom_emission0005
+  rotate: true
+  xy: 698, 1010
+  size: 120, 131
+  orig: 174, 209
+  offset: 25, 13
+  index: -1
+fire_boom_emission0006
+  rotate: true
+  xy: 936, 1254
+  size: 132, 140
+  orig: 174, 209
+  offset: 23, 15
+  index: -1
+fire_boom_emission0007
+  rotate: false
+  xy: 507, 802
+  size: 127, 139
+  orig: 174, 209
+  offset: 21, 22
+  index: -1
+fire_boom_emission0008
+  rotate: false
+  xy: 254, 795
+  size: 127, 145
+  orig: 174, 209
+  offset: 24, 23
+  index: -1
+fire_boom_emission0009
+  rotate: false
+  xy: 383, 793
+  size: 122, 144
+  orig: 174, 209
+  offset: 27, 34
+  index: -1
+fire_boom_emission0010
+  rotate: false
+  xy: 1246, 1182
+  size: 108, 125
+  orig: 174, 209
+  offset: 36, 42
+  index: -1
+fire_boom_emission0011
+  rotate: true
+  xy: 1123, 1072
+  size: 108, 122
+  orig: 174, 209
+  offset: 34, 51
+  index: -1
+fire_boom_emission0012
+  rotate: true
+  xy: 505, 943
+  size: 102, 112
+  orig: 174, 209
+  offset: 36, 64
+  index: -1
+fire_boom_emission0013
+  rotate: false
+  xy: 1019, 1142
+  size: 102, 110
+  orig: 174, 209
+  offset: 34, 66
+  index: -1
+fire_boom_emission0014
+  rotate: false
+  xy: 1356, 1212
+  size: 90, 95
+  orig: 174, 209
+  offset: 39, 78
+  index: -1
+fire_boom_emission0015
+  rotate: true
+  xy: 233, 149
+  size: 61, 66
+  orig: 174, 209
+  offset: 46, 107
+  index: -1
+fire_grade
+  rotate: false
+  xy: 624, 1088
+  size: 72, 174
+  orig: 73, 223
+  offset: 0, 0
+  index: -1
+fire_meteo0001
+  rotate: false
+  xy: 2, 3
+  size: 346, 142
+  orig: 395, 142
+  offset: 44, 0
+  index: -1
+fire_meteo0002
+  rotate: false
+  xy: 1158, 1563
+  size: 380, 142
+  orig: 395, 142
+  offset: 14, 0
+  index: -1
+fire_meteo0003
+  rotate: false
+  xy: 1164, 1707
+  size: 385, 142
+  orig: 395, 142
+  offset: 10, 0
+  index: -1

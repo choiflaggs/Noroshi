@@ -1,0 +1,109 @@
+{
+"skeleton": { "hash": "UO1WryCYaJd1lZLsgDE4vnXPHW8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./liz_assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "atk_effect", "parent": "root", "x": -252.61, "y": 560.34, "scaleX": 2, "scaleY": 2, "color": "9b0005ff" },
+	{ "name": "boll", "parent": "atk_effect", "color": "9b0005ff" }
+],
+"slots": [
+	{ "name": "thander_effect", "bone": "boll" },
+	{ "name": "thander_line0001", "bone": "atk_effect" }
+],
+"skins": {
+	"default": {
+		"thander_effect": {
+			"thander_effect": { "x": 0.89, "y": -1.32, "width": 69, "height": 69 }
+		},
+		"thander_line0001": {
+			"thander_line0001": { "width": 84, "height": 77 },
+			"thander_line0002": { "width": 84, "height": 77 },
+			"thander_line0003": { "width": 84, "height": 77 },
+			"thander_line0004": { "width": 84, "height": 77 },
+			"thander_line0005": { "width": 84, "height": 77 },
+			"thander_line0006": { "width": 84, "height": 77 },
+			"thander_line0007": { "width": 84, "height": 77 },
+			"thander_line0008": { "width": 84, "height": 77 },
+			"thander_line0009": { "width": 84, "height": 77 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"thander_effect": {
+				"attachment": [
+					{ "time": 0, "name": "thander_effect" }
+				]
+			},
+			"thander_line0001": {
+				"attachment": [
+					{ "time": 0, "name": "thander_line0001" },
+					{ "time": 0.0333, "name": "thander_line0002" },
+					{ "time": 0.0666, "name": "thander_line0003" },
+					{ "time": 0.1, "name": "thander_line0004" },
+					{ "time": 0.1333, "name": "thander_line0005" },
+					{ "time": 0.1666, "name": "thander_line0006" },
+					{ "time": 0.2, "name": "thander_line0007" },
+					{ "time": 0.2333, "name": "thander_line0008" },
+					{ "time": 0.2666, "name": "thander_line0009" },
+					{ "time": 0.3, "name": "thander_line0001" },
+					{ "time": 0.3333, "name": "thander_line0002" },
+					{ "time": 0.3666, "name": "thander_line0003" },
+					{ "time": 0.4, "name": "thander_line0004" },
+					{ "time": 0.4333, "name": "thander_line0005" },
+					{ "time": 0.4666, "name": "thander_line0006" },
+					{ "time": 0.5, "name": "thander_line0007" },
+					{ "time": 0.5333, "name": "thander_line0008" },
+					{ "time": 0.5666, "name": "thander_line0009" },
+					{ "time": 0.6, "name": "thander_line0001" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"boll": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -179.58 },
+					{ "time": 0.6, "angle": 1.78 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"atk_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 252.61, "y": -560.34, "curve": "stepped" },
+					{ "time": 0.6, "x": 252.61, "y": -560.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

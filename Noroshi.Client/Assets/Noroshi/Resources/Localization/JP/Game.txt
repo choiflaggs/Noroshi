@@ -1,0 +1,9 @@
+{
+"GameContent.Story": "ストーリー",
+"GameContent.BackStory": "裏ストーリー",
+"GameContent.Arena": "アリーナ",
+"GameContent.Training": "修行",
+"GameContent.Expedition": "冒険",
+"GameContent.DefensiveWar": "防衛",
+"GameContent.Trial": "試練"
+}

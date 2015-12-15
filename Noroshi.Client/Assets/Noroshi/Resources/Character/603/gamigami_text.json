@@ -1,0 +1,674 @@
+{
+"skeleton": { "hash": "3GA3HIvygLOCaPWu4UluLjMFFWc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./gamigami-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "text effect", "parent": "root", "y": 221.01, "color": "009b18ff" },
+	{
+		"name": "text_effect_gamigmai_!",
+		"parent": "text effect",
+		"length": 110.72,
+		"x": -170.93,
+		"y": 2.95,
+		"scaleX": 2,
+		"scaleY": 2,
+		"rotation": 90,
+		"color": "009b18ff"
+	},
+	{
+		"name": "text_effect_gamigmai_!2",
+		"parent": "text effect",
+		"length": 110.72,
+		"x": 247.39,
+		"y": -118.74,
+		"scaleX": 2,
+		"scaleY": 2,
+		"rotation": 90,
+		"color": "009b18ff"
+	}
+],
+"slots": [
+	{ "name": "text_effect_gamigmai__", "bone": "text_effect_gamigmai_!" },
+	{ "name": "text_effect_gamigmai__2", "bone": "text_effect_gamigmai_!2" }
+],
+"skins": {
+	"default": {
+		"text_effect_gamigmai__": {
+			"text_effect_gamigmai_WHAM": { "scaleX": 0.625, "scaleY": 0.625, "rotation": -84.15, "width": 715, "height": 201 }
+		},
+		"text_effect_gamigmai__2": {
+			"text_effect_gamigmai_WHAM": { "scaleX": 0.625, "scaleY": 0.625, "rotation": -84.15, "width": 715, "height": 201 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.1, "name": "text_effect_gamigmai_WHAM" },
+					{ "time": 2.3333, "name": "text_effect_gamigmai_WHAM" },
+					{ "time": 2.4333, "name": null },
+					{ "time": 2.6333, "name": "text_effect_gamigmai_WHAM" },
+					{ "time": 2.8666, "name": "text_effect_gamigmai_WHAM" },
+					{ "time": 2.9666, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.3666, "name": "text_effect_gamigmai_WHAM" },
+					{ "time": 2.6, "name": "text_effect_gamigmai_WHAM" },
+					{ "time": 2.7, "name": null },
+					{ "time": 2.9, "name": "text_effect_gamigmai_WHAM" },
+					{ "time": 3.1333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.1, "angle": 0, "curve": "stepped" },
+					{ "time": 2.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.7, "angle": 0, "curve": "stepped" },
+					{ "time": 2.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.8666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.1, "x": 1, "y": 1 },
+					{ "time": 2.1666, "x": 1.5, "y": 1.5 },
+					{ "time": 2.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6333, "x": 1, "y": 1 },
+					{ "time": 2.7, "x": 1.5, "y": 1.5 },
+					{ "time": 2.8666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.9666, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6, "angle": 0, "curve": "stepped" },
+					{ "time": 2.7, "angle": 0, "curve": "stepped" },
+					{ "time": 2.9, "angle": 0, "curve": "stepped" },
+					{ "time": 2.9666, "angle": 0, "curve": "stepped" },
+					{ "time": 3.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.9666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.3666, "x": 1, "y": 1 },
+					{ "time": 2.4333, "x": 1.5, "y": 1.5 },
+					{ "time": 2.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.9, "x": 1, "y": 1 },
+					{ "time": 2.9666, "x": 1.5, "y": 1.5 },
+					{ "time": 3.1333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"attack": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"damage": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"dead": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 2.0666 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill1": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill2_1": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill2_2": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"run": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"walk": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"win": {
+		"slots": {
+			"text_effect_gamigmai__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"text_effect_gamigmai__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"text_effect_gamigmai_!2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

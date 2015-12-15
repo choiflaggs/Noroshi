@@ -1,0 +1,285 @@
+{
+"skeleton": { "hash": "wm3B8bTR9ewRrRa1VpA10CiPK6k", "spine": "2.1.27", "width": 0, "height": 0, "images": "./kit_v4-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "main", "parent": "root" },
+	{ "name": "atk effect", "parent": "main", "scaleX": 2.4, "scaleY": 2.4, "color": "569b00ff" },
+	{ "name": "atk effect2", "parent": "main", "scaleX": 2.4, "scaleY": 2.4, "color": "569b00ff" },
+	{ "name": "atk effect3", "parent": "main", "scaleX": 2.4, "scaleY": 2.4, "color": "569b00ff" },
+	{ "name": "hit_area", "parent": "main", "x": -0.61, "y": 150.06 }
+],
+"slots": [
+	{ "name": "hit_area", "bone": "hit_area", "attachment": "hit_area" },
+	{ "name": "atk_sonic wave0001", "bone": "atk effect" },
+	{ "name": "atk_sonic wave1", "bone": "atk effect2" },
+	{ "name": "atk_sonic wave2", "bone": "atk effect3" }
+],
+"skins": {
+	"default": {
+		"atk_sonic wave0001": {
+			"atk_sonic wave0001": { "width": 169, "height": 232 },
+			"atk_sonic wave0002": { "width": 169, "height": 232 },
+			"atk_sonic wave0003": { "width": 169, "height": 232 },
+			"atk_sonic wave0004": { "width": 169, "height": 232 },
+			"atk_sonic wave0005": { "width": 169, "height": 232 },
+			"atk_sonic wave0006": { "width": 169, "height": 232 },
+			"atk_sonic wave0007": { "width": 169, "height": 232 },
+			"atk_sonic wave0008": { "width": 169, "height": 232 },
+			"atk_sonic wave0009": { "width": 169, "height": 232 },
+			"atk_sonic wave0010": { "width": 169, "height": 232 }
+		},
+		"atk_sonic wave1": {
+			"atk_sonic wave0001": { "width": 169, "height": 232 },
+			"atk_sonic wave0002": { "width": 169, "height": 232 },
+			"atk_sonic wave0003": { "width": 169, "height": 232 },
+			"atk_sonic wave0004": { "width": 169, "height": 232 },
+			"atk_sonic wave0005": { "width": 169, "height": 232 },
+			"atk_sonic wave0006": { "width": 169, "height": 232 },
+			"atk_sonic wave0007": { "width": 169, "height": 232 },
+			"atk_sonic wave0008": { "width": 169, "height": 232 },
+			"atk_sonic wave0009": { "width": 169, "height": 232 },
+			"atk_sonic wave0010": { "width": 169, "height": 232 }
+		},
+		"atk_sonic wave2": {
+			"atk_sonic wave0001": { "width": 169, "height": 232 },
+			"atk_sonic wave0002": { "width": 169, "height": 232 },
+			"atk_sonic wave0003": { "width": 169, "height": 232 },
+			"atk_sonic wave0004": { "width": 169, "height": 232 },
+			"atk_sonic wave0005": { "width": 169, "height": 232 },
+			"atk_sonic wave0006": { "width": 169, "height": 232 },
+			"atk_sonic wave0007": { "width": 169, "height": 232 },
+			"atk_sonic wave0008": { "width": 169, "height": 232 },
+			"atk_sonic wave0009": { "width": 169, "height": 232 },
+			"atk_sonic wave0010": { "width": 169, "height": 232 }
+		},
+		"hit_area": {
+			"hit_area": {
+				"type": "boundingbox",
+				"vertices": [ -12.34742, 10.60707, -13.43075, -15.39209, 15.81828, -16.47537, 16.90156, 8.44046 ]
+			}
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"atk_sonic wave1": {
+				"attachment": [
+					{ "time": 0.1333, "name": "atk_sonic wave0001" },
+					{ "time": 0.1666, "name": "atk_sonic wave0002" },
+					{ "time": 0.2, "name": "atk_sonic wave0003" },
+					{ "time": 0.2333, "name": "atk_sonic wave0004" },
+					{ "time": 0.2666, "name": "atk_sonic wave0005" },
+					{ "time": 0.3, "name": "atk_sonic wave0006" },
+					{ "time": 0.3333, "name": "atk_sonic wave0007" },
+					{ "time": 0.3666, "name": "atk_sonic wave0008" },
+					{ "time": 0.4, "name": "atk_sonic wave0009" },
+					{ "time": 0.4333, "name": "atk_sonic wave0010" },
+					{ "time": 0.4666, "name": null }
+				]
+			},
+			"atk_sonic wave0001": {
+				"attachment": [
+					{ "time": 0, "name": "atk_sonic wave0001" },
+					{ "time": 0.0333, "name": "atk_sonic wave0002" },
+					{ "time": 0.0666, "name": "atk_sonic wave0003" },
+					{ "time": 0.1, "name": "atk_sonic wave0004" },
+					{ "time": 0.1333, "name": "atk_sonic wave0005" },
+					{ "time": 0.1666, "name": "atk_sonic wave0006" },
+					{ "time": 0.2, "name": "atk_sonic wave0007" },
+					{ "time": 0.2333, "name": "atk_sonic wave0008" },
+					{ "time": 0.2666, "name": "atk_sonic wave0009" },
+					{ "time": 0.3, "name": "atk_sonic wave0010" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"atk_sonic wave2": {
+				"attachment": [
+					{ "time": 0.2666, "name": "atk_sonic wave0001" },
+					{ "time": 0.3, "name": "atk_sonic wave0002" },
+					{ "time": 0.3333, "name": "atk_sonic wave0003" },
+					{ "time": 0.3666, "name": "atk_sonic wave0004" },
+					{ "time": 0.4, "name": "atk_sonic wave0005" },
+					{ "time": 0.4333, "name": "atk_sonic wave0006" },
+					{ "time": 0.4666, "name": "atk_sonic wave0007" },
+					{ "time": 0.5, "name": "atk_sonic wave0008" },
+					{ "time": 0.5333, "name": "atk_sonic wave0009" },
+					{ "time": 0.5666, "name": "atk_sonic wave0010" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"main": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"hit_area": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 120.13 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk effect3": {
+				"rotate": [
+					{ "time": 0.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"atk effect2": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				]
+			},
+			"atk effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"skill_attack": {
+		"slots": {
+			"atk_sonic wave1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "atk_sonic wave0001" },
+					{ "time": 0.1666, "name": "atk_sonic wave0002" },
+					{ "time": 0.2, "name": "atk_sonic wave0003" },
+					{ "time": 0.2333, "name": "atk_sonic wave0004" },
+					{ "time": 0.2666, "name": "atk_sonic wave0005" },
+					{ "time": 0.3, "name": "atk_sonic wave0006" },
+					{ "time": 0.3333, "name": "atk_sonic wave0007" },
+					{ "time": 0.3666, "name": "atk_sonic wave0008" },
+					{ "time": 0.4, "name": "atk_sonic wave0009" },
+					{ "time": 0.4333, "name": "atk_sonic wave0010" },
+					{ "time": 0.4666, "name": null }
+				]
+			},
+			"atk_sonic wave0001": {
+				"attachment": [
+					{ "time": 0, "name": "atk_sonic wave0001" },
+					{ "time": 0.0333, "name": "atk_sonic wave0002" },
+					{ "time": 0.0666, "name": "atk_sonic wave0003" },
+					{ "time": 0.1, "name": "atk_sonic wave0004" },
+					{ "time": 0.1333, "name": "atk_sonic wave0005" },
+					{ "time": 0.1666, "name": "atk_sonic wave0006" },
+					{ "time": 0.2, "name": "atk_sonic wave0007" },
+					{ "time": 0.2333, "name": "atk_sonic wave0008" },
+					{ "time": 0.2666, "name": "atk_sonic wave0009" },
+					{ "time": 0.3, "name": "atk_sonic wave0010" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"atk_sonic wave2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "atk_sonic wave0001" },
+					{ "time": 0.3, "name": "atk_sonic wave0002" },
+					{ "time": 0.3333, "name": "atk_sonic wave0003" },
+					{ "time": 0.3666, "name": "atk_sonic wave0004" },
+					{ "time": 0.4, "name": "atk_sonic wave0005" },
+					{ "time": 0.4333, "name": "atk_sonic wave0006" },
+					{ "time": 0.4666, "name": "atk_sonic wave0007" },
+					{ "time": 0.5, "name": "atk_sonic wave0008" },
+					{ "time": 0.5333, "name": "atk_sonic wave0009" },
+					{ "time": 0.5666, "name": "atk_sonic wave0010" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"main": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"hit_area": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 120.13 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk effect3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"atk effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				]
+			},
+			"atk effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

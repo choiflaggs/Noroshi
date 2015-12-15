@@ -1,0 +1,83 @@
+
+effect_parts.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gun_fire_effect0001
+  rotate: false
+  xy: 2, 170
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+gun_fire_effect0002
+  rotate: false
+  xy: 86, 170
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+gun_fire_effect0003
+  rotate: false
+  xy: 170, 170
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+gun_fire_effect0004
+  rotate: true
+  xy: 2, 86
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+gun_fire_effect0005
+  rotate: true
+  xy: 2, 2
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+gun_fire_effect0006
+  rotate: false
+  xy: 82, 90
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+gun_fire_effect0007
+  rotate: false
+  xy: 166, 90
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+gun_fire_effect0008
+  rotate: true
+  xy: 82, 6
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+soulboll0001
+  rotate: false
+  xy: 162, 50
+  size: 49, 38
+  orig: 49, 38
+  offset: 0, 0
+  index: -1
+soulboll0002
+  rotate: true
+  xy: 213, 39
+  size: 49, 38
+  orig: 49, 38
+  offset: 0, 0
+  index: -1
+soulboll0003
+  rotate: false
+  xy: 162, 10
+  size: 49, 38
+  orig: 49, 38
+  offset: 0, 0
+  index: -1

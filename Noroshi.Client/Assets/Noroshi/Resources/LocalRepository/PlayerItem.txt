@@ -1,0 +1,42 @@
+[
+{
+"ID": 1,
+"ItemID" : 11,
+"PossessionsCount": 0
+},
+{
+"ID": 2,
+"ItemID" : 12,
+"PossessionsCount": 0
+},
+{
+"ID": 3,
+"ItemID" : 13,
+"PossessionsCount": 0
+},
+{
+"ID": 4,
+"ItemID" : 14,
+"PossessionsCount": 0
+},
+{
+"ID": 5,
+"ItemID" : 15,
+"PossessionsCount": 0
+},
+{
+"ID": 6,
+"ItemID" : 16,
+"PossessionsCount": 0
+},
+{
+"ID": 7,
+"ItemID" : 17,
+"PossessionsCount": 1
+},
+{
+"ID": 8,
+"ItemID" : 18,
+"PossessionsCount": 2
+}
+]

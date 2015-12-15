@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PushSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AppleCertFileName>iospushtest.p12</AppleCertFileName>
+  <AppleCertPassword>cds1644027</AppleCertPassword>
+  <AndroidSenderID>708392305864</AndroidSenderID>
+  <AndroidAPIKey>AIzaSyA33SWdC4uVC5fNj_0Gy1oUyUbcpeKU_wI</AndroidAPIKey>
+  <AndroidAppPackageName>net.csken.createsite2app</AndroidAppPackageName>
+</PushSettings>

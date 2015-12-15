@@ -1,0 +1,5 @@
+{
+    "cooperation.0001": "人間連携", 
+    "cooperation.0002": "魔族連携", 
+    "cooperation.0003": "動物連携"
+}

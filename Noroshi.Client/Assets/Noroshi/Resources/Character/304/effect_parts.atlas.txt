@@ -1,0 +1,230 @@
+
+effect_parts.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk_sonic wave0001
+  rotate: false
+  xy: 461, 394
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0002
+  rotate: false
+  xy: 368, 242
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0003
+  rotate: false
+  xy: 548, 394
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0004
+  rotate: false
+  xy: 635, 394
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0005
+  rotate: false
+  xy: 722, 394
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0006
+  rotate: false
+  xy: 809, 394
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0007
+  rotate: false
+  xy: 896, 394
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0008
+  rotate: false
+  xy: 456, 202
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0009
+  rotate: false
+  xy: 543, 202
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+atk_sonic wave0010
+  rotate: false
+  xy: 630, 202
+  size: 85, 116
+  orig: 85, 116
+  offset: 0, 0
+  index: -1
+emission_effect0001
+  rotate: false
+  xy: 2, 360
+  size: 151, 150
+  orig: 151, 150
+  offset: 0, 0
+  index: -1
+emission_effect0002
+  rotate: false
+  xy: 2, 208
+  size: 151, 150
+  orig: 151, 150
+  offset: 0, 0
+  index: -1
+emission_effect0003
+  rotate: false
+  xy: 155, 360
+  size: 151, 150
+  orig: 151, 150
+  offset: 0, 0
+  index: -1
+emission_effect0004
+  rotate: false
+  xy: 2, 56
+  size: 151, 150
+  orig: 151, 150
+  offset: 0, 0
+  index: -1
+emission_effect0005
+  rotate: false
+  xy: 155, 208
+  size: 151, 150
+  orig: 151, 150
+  offset: 0, 0
+  index: -1
+emission_effect0006
+  rotate: false
+  xy: 308, 360
+  size: 151, 150
+  orig: 151, 150
+  offset: 0, 0
+  index: -1
+emission_effect0007
+  rotate: false
+  xy: 155, 56
+  size: 151, 150
+  orig: 151, 150
+  offset: 0, 0
+  index: -1
+music_icon1
+  rotate: true
+  xy: 983, 469
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+music_icon2
+  rotate: false
+  xy: 717, 278
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+music_icon3
+  rotate: false
+  xy: 27, 14
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+p_up_alpha
+  rotate: false
+  xy: 308, 60
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+p_up_effect 20001
+  rotate: false
+  xy: 582, 320
+  size: 119, 72
+  orig: 119, 72
+  offset: 0, 0
+  index: -1
+p_up_effect 20002
+  rotate: false
+  xy: 703, 320
+  size: 119, 72
+  orig: 119, 72
+  offset: 0, 0
+  index: -1
+p_up_effect 20003
+  rotate: false
+  xy: 824, 320
+  size: 119, 72
+  orig: 119, 72
+  offset: 0, 0
+  index: -1
+p_up_effect0001
+  rotate: true
+  xy: 308, 85
+  size: 119, 72
+  orig: 119, 72
+  offset: 0, 0
+  index: -1
+p_up_effect0002
+  rotate: true
+  xy: 382, 121
+  size: 119, 72
+  orig: 119, 72
+  offset: 0, 0
+  index: -1
+p_up_effect0003
+  rotate: false
+  xy: 461, 320
+  size: 119, 72
+  orig: 119, 72
+  offset: 0, 0
+  index: -1
+text_effect_kit-
+  rotate: false
+  xy: 945, 379
+  size: 30, 13
+  orig: 30, 13
+  offset: 0, 0
+  index: -1
+text_effect_kit_BAM_
+  rotate: true
+  xy: 308, 206
+  size: 152, 58
+  orig: 152, 58
+  offset: 0, 0
+  index: -1
+text_effect_kit_a
+  rotate: false
+  xy: 456, 156
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+text_effect_kit_r
+  rotate: true
+  xy: 382, 86
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+text_effect_kit_t
+  rotate: false
+  xy: 2, 2
+  size: 23, 52
+  orig: 23, 52
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "ghVjxgU3+UP9Jk5A49CTeb0fJjE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./asha-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect set", "parent": "root", "color": "9c009aff" },
+	{ "name": "fire_meteo0", "parent": "effect set", "scaleX": 1.6, "scaleY": 1.6, "color": "039c00ff" }
+],
+"slots": [
+	{ "name": "fire_meteo0001", "bone": "fire_meteo0" }
+],
+"skins": {
+	"default": {
+		"fire_meteo0001": {
+			"fire_meteo0001": { "width": 790, "height": 283 },
+			"fire_meteo0002": { "width": 790, "height": 283 },
+			"fire_meteo0003": { "width": 790, "height": 283 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"fire_meteo0001": {
+				"attachment": [
+					{ "time": 0, "name": "fire_meteo0001" },
+					{ "time": 0.0666, "name": "fire_meteo0002" },
+					{ "time": 0.1333, "name": "fire_meteo0003" }
+				]
+			}
+		},
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_meteo0": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.625, "y": 0.625, "curve": "stepped" },
+					{ "time": 0.2, "x": -0.624, "y": 0.625 }
+				]
+			}
+		}
+	}
+}
+}

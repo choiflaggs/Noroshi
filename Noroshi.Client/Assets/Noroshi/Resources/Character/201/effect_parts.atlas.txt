@@ -1,0 +1,223 @@
+
+effect_parts.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk_effect0001
+  rotate: false
+  xy: 2, 2
+  size: 93, 64
+  orig: 102, 64
+  offset: 5, 0
+  index: -1
+atk_effect0002
+  rotate: false
+  xy: 280, 136
+  size: 90, 64
+  orig: 102, 64
+  offset: 5, 0
+  index: -1
+atk_effect0003
+  rotate: false
+  xy: 97, 2
+  size: 91, 64
+  orig: 102, 64
+  offset: 5, 0
+  index: -1
+creature1_effect0001
+  rotate: false
+  xy: 130, 321
+  size: 105, 120
+  orig: 175, 295
+  offset: 48, 46
+  index: -1
+creature1_effect0002
+  rotate: true
+  xy: 676, 333
+  size: 99, 115
+  orig: 175, 295
+  offset: 62, 55
+  index: -1
+creature1_effect0003
+  rotate: true
+  xy: 887, 316
+  size: 97, 108
+  orig: 175, 295
+  offset: 64, 72
+  index: -1
+creature1_effect0004
+  rotate: true
+  xy: 887, 415
+  size: 95, 116
+  orig: 175, 295
+  offset: 52, 83
+  index: -1
+creature1_effect0005
+  rotate: true
+  xy: 558, 337
+  size: 99, 116
+  orig: 175, 295
+  offset: 40, 130
+  index: -1
+creature1_effect0006
+  rotate: false
+  xy: 129, 204
+  size: 76, 111
+  orig: 175, 295
+  offset: 39, 153
+  index: -1
+creature1_effect0007
+  rotate: false
+  xy: 793, 325
+  size: 92, 107
+  orig: 175, 295
+  offset: 36, 161
+  index: -1
+creature_emission_effect
+  rotate: false
+  xy: 195, 118
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+creature_emission_effect2
+  rotate: false
+  xy: 355, 76
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+creature２_effect0001
+  rotate: true
+  xy: 240, 440
+  size: 70, 168
+  orig: 115, 261
+  offset: 20, 61
+  index: -1
+creature２_effect0002
+  rotate: true
+  xy: 410, 444
+  size: 66, 166
+  orig: 115, 261
+  offset: 23, 65
+  index: -1
+creature２_effect0003
+  rotate: true
+  xy: 578, 438
+  size: 72, 156
+  orig: 115, 261
+  offset: 21, 74
+  index: -1
+creature２_effect0004
+  rotate: false
+  xy: 125, 74
+  size: 68, 116
+  orig: 115, 261
+  offset: 26, 86
+  index: -1
+creature２_effect0005
+  rotate: true
+  xy: 410, 364
+  size: 78, 146
+  orig: 115, 261
+  offset: 16, 55
+  index: -1
+creature２_effect0006
+  rotate: true
+  xy: 237, 288
+  size: 72, 147
+  orig: 115, 261
+  offset: 21, 57
+  index: -1
+creature２_effect0007
+  rotate: true
+  xy: 736, 434
+  size: 76, 149
+  orig: 115, 261
+  offset: 18, 63
+  index: -1
+creature２_effect0008
+  rotate: true
+  xy: 237, 362
+  size: 76, 155
+  orig: 115, 261
+  offset: 17, 68
+  index: -1
+pskill1 effect
+  rotate: false
+  xy: 372, 145
+  size: 55, 55
+  orig: 58, 58
+  offset: 2, 1
+  index: -1
+sp_alpha
+  rotate: false
+  xy: 190, 5
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+sp_pskill_effect
+  rotate: false
+  xy: 2, 443
+  size: 236, 67
+  orig: 243, 68
+  offset: 2, 0
+  index: -1
+sp_spanky0001
+  rotate: false
+  xy: 2, 192
+  size: 125, 123
+  orig: 169, 169
+  offset: 22, 19
+  index: -1
+sp_spanky0002
+  rotate: false
+  xy: 2, 68
+  size: 121, 122
+  orig: 169, 169
+  offset: 26, 17
+  index: -1
+sp_spanky0003
+  rotate: false
+  xy: 2, 317
+  size: 126, 124
+  orig: 169, 169
+  offset: 22, 19
+  index: -1
+sp_spark0001
+  rotate: false
+  xy: 280, 75
+  size: 73, 59
+  orig: 92, 97
+  offset: 15, 0
+  index: -1
+sp_spark0002
+  rotate: false
+  xy: 298, 202
+  size: 88, 84
+  orig: 92, 97
+  offset: 4, 9
+  index: -1
+sp_spark0003
+  rotate: false
+  xy: 207, 203
+  size: 89, 83
+  orig: 92, 97
+  offset: 2, 9
+  index: -1
+sp_spark0004
+  rotate: true
+  xy: 195, 44
+  size: 72, 81
+  orig: 92, 97
+  offset: 3, 7
+  index: -1
+sp_spark0005
+  rotate: false
+  xy: 278, 17
+  size: 65, 56
+  orig: 92, 97
+  offset: 11, 13
+  index: -1

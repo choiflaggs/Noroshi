@@ -1,0 +1,1 @@
+﻿namespace Noroshi.Core.WebApi.Request.Guild{    public class CreateGuildChatMessageRequest    {        /// <summary>        /// 投稿するメッセージ.        /// </summary>        public string Message { get; set; }    }}

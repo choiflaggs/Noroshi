@@ -1,0 +1,4621 @@
+{
+"skeleton": { "hash": "2Kw079iIQlaSU62aaKiD2f/Nq0I", "spine": "2.1.27", "width": 0, "height": 0, "images": "./pogopogo_assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "atk_emission", "parent": "root", "scaleX": 2 },
+	{ "name": "effect set", "parent": "root", "scaleX": 1.4, "scaleY": 1.4, "color": "9b0300ff" },
+	{ "name": "shell set", "parent": "root" },
+	{ "name": "askill_fire", "parent": "effect set", "color": "9b0300ff" },
+	{ "name": "askill_ice", "parent": "effect set", "color": "00089bff" },
+	{ "name": "askill_ice2", "parent": "effect set", "color": "9b9b00ff" },
+	{ "name": "common smoke set", "parent": "effect set", "color": "009b19ff" },
+	{ "name": "shell_fire_1-2", "parent": "shell set" },
+	{ "name": "shell_ice_1-2", "parent": "shell set" },
+	{ "name": "shell_normal", "parent": "shell set" },
+	{ "name": "shell_thander_1-2", "parent": "shell set" },
+	{ "name": "askill fire alpha", "parent": "askill_fire", "y": 93.19, "scaleX": 3, "scaleY": 3, "color": "9b0300ff" },
+	{ "name": "askill ice alpha", "parent": "askill_ice", "y": 93.19, "scaleX": 3, "scaleY": 3, "color": "9b0300ff" },
+	{ "name": "askill thander alpha", "parent": "askill_ice2", "y": 93.19, "scaleX": 3, "scaleY": 3, "color": "9b0300ff" },
+	{ "name": "askill_common smoke1", "parent": "common smoke set", "scaleX": 2, "scaleY": 2, "color": "9b0300ff" },
+	{ "name": "askill_common smoke2", "parent": "common smoke set", "y": -51.37, "scaleX": 2.35, "scaleY": 2.35, "color": "9b0300ff" },
+	{ "name": "askill_fire_emissiom", "parent": "askill_fire", "scaleX": 2, "scaleY": 2, "color": "9b0300ff" },
+	{ "name": "askill_ice_emissiom", "parent": "askill_ice", "scaleX": 2, "scaleY": 2, "color": "9b0300ff" },
+	{ "name": "askill_thander_emissiom", "parent": "askill_ice2", "scaleX": 2, "scaleY": 2, "color": "9b0300ff" }
+],
+"slots": [
+	{ "name": "atk_emission", "bone": "atk_emission" },
+	{ "name": "askill_fire_emissiom0001", "bone": "askill_fire_emissiom" },
+	{ "name": "askill_ice_emissiom", "bone": "askill_ice_emissiom" },
+	{ "name": "askill_thander_emissiom", "bone": "askill_thander_emissiom" },
+	{ "name": "askill_fire_smoke_set0001", "bone": "askill_common smoke1" },
+	{ "name": "shell_normal", "bone": "shell_normal" },
+	{ "name": "askill_fire_smoke_set1", "bone": "askill_common smoke2" },
+	{ "name": "askill_fire_alpha", "bone": "askill fire alpha", "blend": "additive" },
+	{ "name": "askill_ice_alpha", "bone": "askill ice alpha", "blend": "additive" },
+	{ "name": "askill_thander_alpha", "bone": "askill thander alpha", "blend": "additive" },
+	{ "name": "shell_fire_1-2", "bone": "shell_fire_1-2" },
+	{ "name": "shell_ice_1-2", "bone": "shell_ice_1-2" },
+	{ "name": "shell_thunder_1-2", "bone": "shell_thander_1-2" }
+],
+"skins": {
+	"default": {
+		"askill_fire_alpha": {
+			"askill_fire_alpha": { "width": 280, "height": 280 }
+		},
+		"askill_fire_emissiom0001": {
+			"askill_fire_emissiom0001": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0002": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0003": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0004": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0005": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0006": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0007": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0008": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0009": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0010": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0011": { "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0012": { "y": 289.57, "width": 721, "height": 873 }
+		},
+		"askill_fire_smoke_set0001": {
+			"askill_fire_smoke_set0001": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0002": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0003": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0004": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0005": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0006": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0007": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0008": { "width": 687, "height": 385 }
+		},
+		"askill_fire_smoke_set1": {
+			"askill_fire_smoke_set0001": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0002": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0003": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0004": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0005": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0006": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0007": { "width": 687, "height": 385 },
+			"askill_fire_smoke_set0008": { "width": 687, "height": 385 }
+		},
+		"askill_ice_alpha": {
+			"askill_fire_alpha": { "path": "askill_ice_alpha", "width": 280, "height": 280 }
+		},
+		"askill_ice_emissiom": {
+			"askill_fire_emissiom0001": { "path": "askill_ice_emissiom0001", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0002": { "path": "askill_ice_emissiom0002", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0003": { "path": "askill_ice_emissiom0003", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0004": { "path": "askill_ice_emissiom0004", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0005": { "path": "askill_ice_emissiom0005", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0006": { "path": "askill_ice_emissiom0006", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0007": { "path": "askill_ice_emissiom0007", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0008": { "path": "askill_ice_emissiom0008", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0009": { "path": "askill_ice_emissiom0009", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0010": { "path": "askill_ice_emissiom0010", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0011": { "path": "askill_ice_emissiom0011", "y": 289.57, "width": 721, "height": 873 },
+			"askill_fire_emissiom0012": { "path": "askill_ice_emissiom0012", "y": 289.57, "width": 721, "height": 873 }
+		},
+		"askill_thander_alpha": {
+			"askill_fire_alpha": { "path": "askill_thander_alpha", "width": 280, "height": 280 }
+		},
+		"askill_thander_emissiom": {
+			"askill_fire_emissiom0001": { "path": "askill_thander_emissiom0001", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0002": { "path": "askill_thander_emissiom0002", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0003": { "path": "askill_thander_emissiom0003", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0004": { "path": "askill_thander_emissiom0004", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0005": { "path": "askill_thander_emissiom0005", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0006": { "path": "askill_thander_emissiom0006", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0007": { "path": "askill_thander_emissiom0007", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0008": { "path": "askill_thander_emissiom0008", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0009": { "path": "askill_thander_emissiom0009", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0010": { "path": "askill_thander_emissiom0010", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0011": { "path": "askill_thander_emissiom0011", "y": 289.57, "width": 777, "height": 911 },
+			"askill_fire_emissiom0012": { "path": "askill_thander_emissiom0012", "y": 289.57, "width": 777, "height": 911 }
+		},
+		"atk_emission": {
+			"atk_emission": { "width": 228, "height": 228 }
+		},
+		"shell_normal": {
+			"shell_normal": { "width": 266, "height": 246 }
+		}
+	},
+	"step1": {
+		"shell_fire_1-2": {
+			"skin shell_fire_3-5": { "name": "shell_fire_1-2", "width": 243, "height": 243 }
+		},
+		"shell_ice_1-2": {
+			"skin shell_ice_3-5": { "name": "shell_ice_1-2", "width": 243, "height": 243 }
+		},
+		"shell_thunder_1-2": {
+			"skin shell_thunder_3-5": { "name": "shell_thunder_1-2", "width": 243, "height": 243 }
+		}
+	},
+	"step2": {
+		"shell_fire_1-2": {
+			"skin shell_fire_3-5": { "name": "shell_fire_1-2", "width": 243, "height": 243 }
+		},
+		"shell_ice_1-2": {
+			"skin shell_ice_3-5": { "name": "shell_ice_1-2", "width": 243, "height": 243 }
+		},
+		"shell_thunder_1-2": {
+			"skin shell_thunder_3-5": { "name": "shell_thunder_1-2", "width": 243, "height": 243 }
+		}
+	},
+	"step3": {
+		"shell_fire_1-2": {
+			"skin shell_fire_3-5": { "name": "shell_fire_3-5", "x": 22, "width": 294, "height": 304 }
+		},
+		"shell_ice_1-2": {
+			"skin shell_ice_3-5": { "name": "shell_ice_3-5", "x": 22, "width": 293, "height": 304 }
+		},
+		"shell_thunder_1-2": {
+			"skin shell_thunder_3-5": { "name": "shell_thunder_3-5", "x": 22, "width": 294, "height": 304 }
+		}
+	},
+	"step4": {
+		"shell_fire_1-2": {
+			"skin shell_fire_3-5": { "name": "shell_fire_3-5", "x": 22, "width": 294, "height": 304 }
+		},
+		"shell_ice_1-2": {
+			"skin shell_ice_3-5": { "name": "shell_ice_3-5", "x": 22, "width": 293, "height": 304 }
+		},
+		"shell_thunder_1-2": {
+			"skin shell_thunder_3-5": { "name": "shell_thunder_3-5", "x": 22, "width": 294, "height": 304 }
+		}
+	},
+	"step5": {
+		"shell_fire_1-2": {
+			"skin shell_fire_3-5": { "name": "shell_fire_3-5", "x": 22, "width": 294, "height": 304 }
+		},
+		"shell_ice_1-2": {
+			"skin shell_ice_3-5": { "name": "shell_ice_3-5", "x": 22, "width": 293, "height": 304 }
+		},
+		"shell_thunder_1-2": {
+			"skin shell_thunder_3-5": { "name": "shell_thunder_3-5", "x": 22, "width": 294, "height": 304 }
+		}
+	}
+},
+"animations": {
+	"a_skill1_1_attack": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": "skin shell_fire_3-5" }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"a_skill1_1_effect": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_alpha" },
+					{ "time": 0.0666, "name": "askill_fire_alpha" },
+					{ "time": 0.3, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "askill_fire_emissiom0001" },
+					{ "time": 0.0666, "name": "askill_fire_emissiom0002" },
+					{ "time": 0.1, "name": "askill_fire_emissiom0003" },
+					{ "time": 0.1333, "name": "askill_fire_emissiom0004" },
+					{ "time": 0.1666, "name": "askill_fire_emissiom0005" },
+					{ "time": 0.2, "name": "askill_fire_emissiom0006" },
+					{ "time": 0.2333, "name": "askill_fire_emissiom0007" },
+					{ "time": 0.2666, "name": "askill_fire_emissiom0008" },
+					{ "time": 0.3333, "name": "askill_fire_emissiom0009" },
+					{ "time": 0.4, "name": "askill_fire_emissiom0010" },
+					{ "time": 0.4666, "name": "askill_fire_emissiom0011" },
+					{ "time": 0.5333, "name": "askill_fire_emissiom0012" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.3, "x": 2.081, "y": 2.081 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"a_skill1_2_attack": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": "skin shell_thunder_3-5" }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"a_skill1_2_effect": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_alpha" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "askill_fire_emissiom0001" },
+					{ "time": 0.0666, "name": "askill_fire_emissiom0002" },
+					{ "time": 0.1, "name": "askill_fire_emissiom0003" },
+					{ "time": 0.1333, "name": "askill_fire_emissiom0004" },
+					{ "time": 0.1666, "name": "askill_fire_emissiom0005" },
+					{ "time": 0.2, "name": "askill_fire_emissiom0006" },
+					{ "time": 0.2333, "name": "askill_fire_emissiom0007" },
+					{ "time": 0.2666, "name": "askill_fire_emissiom0008" },
+					{ "time": 0.3333, "name": "askill_fire_emissiom0009" },
+					{ "time": 0.4, "name": "askill_fire_emissiom0010" },
+					{ "time": 0.4666, "name": "askill_fire_emissiom0011" },
+					{ "time": 0.5333, "name": "askill_fire_emissiom0012" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 2, "y": 2 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"a_skill1_3_attack": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": "skin shell_ice_3-5" }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"a_skill1_3_effect": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_alpha" },
+					{ "time": 0.3333, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "askill_fire_emissiom0001" },
+					{ "time": 0.0666, "name": "askill_fire_emissiom0002" },
+					{ "time": 0.1, "name": "askill_fire_emissiom0003" },
+					{ "time": 0.1333, "name": "askill_fire_emissiom0004" },
+					{ "time": 0.1666, "name": "askill_fire_emissiom0005" },
+					{ "time": 0.2, "name": "askill_fire_emissiom0006" },
+					{ "time": 0.2333, "name": "askill_fire_emissiom0007" },
+					{ "time": 0.2666, "name": "askill_fire_emissiom0008" },
+					{ "time": 0.3333, "name": "askill_fire_emissiom0009" },
+					{ "time": 0.4, "name": "askill_fire_emissiom0010" },
+					{ "time": 0.4666, "name": "askill_fire_emissiom0011" },
+					{ "time": 0.5333, "name": "askill_fire_emissiom0012" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 2, "y": 2 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"attack_attack": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": "shell_normal" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"attack_effect": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": "atk_emission" },
+					{ "time": 0.1666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": "shell_normal" },
+					{ "time": 0.1, "name": "shell_normal" },
+					{ "time": 0.3, "name": "shell_normal" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": 54.1 },
+					{ "time": 0.3, "angle": 157.63 },
+					{ "time": 0.4666, "angle": -120.62 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": -22.5, "y": 143.4 },
+					{ "time": 0.1, "x": -108.73, "y": 430.21 },
+					{ "time": 0.2, "x": -248.85, "y": 570.33 },
+					{ "time": 0.3, "x": -310.21, "y": 572.16 },
+					{ "time": 0.4666, "x": -397.21, "y": 425.63 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.785, "y": 0.785 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.701, "y": 0.701 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -84.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.578, "y": 0.364 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.685, "y": 0.685 },
+					{ "time": 0.1666, "x": 3.274, "y": 3.274 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill1_attack": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": "skin shell_fire_3-5" }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill1_effect": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_alpha" },
+					{ "time": 0.0666, "name": "askill_fire_alpha" },
+					{ "time": 0.3, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "askill_fire_emissiom0001" },
+					{ "time": 0.0666, "name": "askill_fire_emissiom0002" },
+					{ "time": 0.1, "name": "askill_fire_emissiom0003" },
+					{ "time": 0.1333, "name": "askill_fire_emissiom0004" },
+					{ "time": 0.1666, "name": "askill_fire_emissiom0005" },
+					{ "time": 0.2, "name": "askill_fire_emissiom0006" },
+					{ "time": 0.2333, "name": "askill_fire_emissiom0007" },
+					{ "time": 0.2666, "name": "askill_fire_emissiom0008" },
+					{ "time": 0.3333, "name": "askill_fire_emissiom0009" },
+					{ "time": 0.4, "name": "askill_fire_emissiom0010" },
+					{ "time": 0.4666, "name": "askill_fire_emissiom0011" },
+					{ "time": 0.5333, "name": "askill_fire_emissiom0012" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.3, "x": 2.081, "y": 2.081 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill2_attack": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": "skin shell_ice_3-5" }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill2_effect": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_alpha" },
+					{ "time": 0.3333, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "askill_fire_emissiom0001" },
+					{ "time": 0.0666, "name": "askill_fire_emissiom0002" },
+					{ "time": 0.1, "name": "askill_fire_emissiom0003" },
+					{ "time": 0.1333, "name": "askill_fire_emissiom0004" },
+					{ "time": 0.1666, "name": "askill_fire_emissiom0005" },
+					{ "time": 0.2, "name": "askill_fire_emissiom0006" },
+					{ "time": 0.2333, "name": "askill_fire_emissiom0007" },
+					{ "time": 0.2666, "name": "askill_fire_emissiom0008" },
+					{ "time": 0.3333, "name": "askill_fire_emissiom0009" },
+					{ "time": 0.4, "name": "askill_fire_emissiom0010" },
+					{ "time": 0.4666, "name": "askill_fire_emissiom0011" },
+					{ "time": 0.5333, "name": "askill_fire_emissiom0012" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 2, "y": 2 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill3_attack": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": "skin shell_thunder_3-5" }
+				]
+			}
+		},
+		"bones": {
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill3_effect": {
+		"slots": {
+			"askill_fire_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_fire_emissiom0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_fire_smoke_set1": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_fire_smoke_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_smoke_set0001" },
+					{ "time": 0.0333, "name": "askill_fire_smoke_set0002" },
+					{ "time": 0.0666, "name": "askill_fire_smoke_set0003" },
+					{ "time": 0.1, "name": "askill_fire_smoke_set0004" },
+					{ "time": 0.1333, "name": "askill_fire_smoke_set0005" },
+					{ "time": 0.2, "name": "askill_fire_smoke_set0006" },
+					{ "time": 0.2666, "name": "askill_fire_smoke_set0007" },
+					{ "time": 0.3333, "name": "askill_fire_smoke_set0008" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"askill_ice_alpha": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"askill_ice_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"askill_thander_alpha": {
+				"attachment": [
+					{ "time": 0, "name": "askill_fire_alpha" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"askill_thander_emissiom": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "askill_fire_emissiom0001" },
+					{ "time": 0.0666, "name": "askill_fire_emissiom0002" },
+					{ "time": 0.1, "name": "askill_fire_emissiom0003" },
+					{ "time": 0.1333, "name": "askill_fire_emissiom0004" },
+					{ "time": 0.1666, "name": "askill_fire_emissiom0005" },
+					{ "time": 0.2, "name": "askill_fire_emissiom0006" },
+					{ "time": 0.2333, "name": "askill_fire_emissiom0007" },
+					{ "time": 0.2666, "name": "askill_fire_emissiom0008" },
+					{ "time": 0.3333, "name": "askill_fire_emissiom0009" },
+					{ "time": 0.4, "name": "askill_fire_emissiom0010" },
+					{ "time": 0.4666, "name": "askill_fire_emissiom0011" },
+					{ "time": 0.5333, "name": "askill_fire_emissiom0012" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"atk_emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_fire_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_ice_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shell_normal": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"shell_thunder_1-2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill fire alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill ice alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_common smoke1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill thander alpha": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 2, "y": 2 }
+				]
+			},
+			"askill_thander_emissiom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_thander_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_normal": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_ice_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"shell_fire_1-2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"common smoke set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_ice": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"askill_fire": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"atk_emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

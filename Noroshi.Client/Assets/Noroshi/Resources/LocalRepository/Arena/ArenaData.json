@@ -1,0 +1,26 @@
+[
+    {
+        "name": "プレイヤー1",
+        "level": 30,
+        "rank": 123,
+        "power": 3000,
+        "avaterID": 5,
+        "winNum": 100
+    },
+    {
+        "name": "プレイヤー2",
+        "level": 20,
+        "rank": 456,
+        "power": 2000,
+        "avaterID": 4,
+        "winNum": 50
+    },
+    {
+        "name": "プレイヤー3",
+        "level": 10,
+        "rank": 789,
+        "power": 1000,
+        "avaterID": 2,
+        "winNum": 10
+    }
+]

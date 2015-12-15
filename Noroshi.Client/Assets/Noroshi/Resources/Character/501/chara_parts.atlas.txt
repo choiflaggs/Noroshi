@@ -1,0 +1,405 @@
+
+chara_parts.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 1144, 838
+  size: 283, 275
+  orig: 283, 275
+  offset: 0, 0
+  index: -1
+chest
+  rotate: true
+  xy: 1436, 1503
+  size: 263, 269
+  orig: 263, 269
+  offset: 0, 0
+  index: -1
+common_leg_right_back
+  rotate: false
+  xy: 1712, 1076
+  size: 144, 190
+  orig: 144, 190
+  offset: 0, 0
+  index: -1
+evo1_claw
+  rotate: true
+  xy: 1300, 549
+  size: 144, 77
+  orig: 144, 77
+  offset: 0, 0
+  index: -1
+evo1_clawleft_back
+  rotate: true
+  xy: 1514, 691
+  size: 90, 76
+  orig: 90, 76
+  offset: 0, 0
+  index: -1
+evo1_clawright_back
+  rotate: true
+  xy: 1563, 600
+  size: 89, 76
+  orig: 89, 76
+  offset: 0, 0
+  index: -1
+evo1_face
+  rotate: false
+  xy: 781, 43
+  size: 77, 80
+  orig: 77, 80
+  offset: 0, 0
+  index: -1
+evo1_head
+  rotate: false
+  xy: 1421, 879
+  size: 207, 195
+  orig: 207, 195
+  offset: 0, 0
+  index: -1
+evo1_horn
+  rotate: false
+  xy: 1366, 1595
+  size: 54, 83
+  orig: 54, 83
+  offset: 0, 0
+  index: -1
+evo1_leg1_front
+  rotate: false
+  xy: 1144, 766
+  size: 148, 70
+  orig: 148, 70
+  offset: 0, 0
+  index: -1
+evo1_leg2_back
+  rotate: false
+  xy: 1792, 885
+  size: 143, 189
+  orig: 143, 189
+  offset: 0, 0
+  index: -1
+evo1_leg2_front
+  rotate: false
+  xy: 1855, 1320
+  size: 149, 222
+  orig: 149, 222
+  offset: 0, 0
+  index: -1
+evo1_leg_back1
+  rotate: false
+  xy: 1089, 1123
+  size: 177, 246
+  orig: 177, 246
+  offset: 0, 0
+  index: -1
+evo1_tail
+  rotate: false
+  xy: 2, 1891
+  size: 1091, 151
+  orig: 1091, 151
+  offset: 0, 0
+  index: -1
+evo1_wing_back_inside
+  rotate: false
+  xy: 1079, 382
+  size: 219, 377
+  orig: 219, 377
+  offset: 0, 0
+  index: -1
+evo1_wing_back_outside
+  rotate: false
+  xy: 593, 285
+  size: 185, 471
+  orig: 185, 471
+  offset: 0, 0
+  index: -1
+evo1_wing_claw
+  rotate: true
+  xy: 1858, 1077
+  size: 36, 67
+  orig: 36, 67
+  offset: 0, 0
+  index: -1
+evo1_wing_front_inside
+  rotate: true
+  xy: 780, 309
+  size: 450, 297
+  orig: 450, 297
+  offset: 0, 0
+  index: -1
+evo1_wing_front_outside
+  rotate: false
+  xy: 671, 761
+  size: 471, 345
+  orig: 471, 345
+  offset: 0, 0
+  index: -1
+evo2_3_4_5_claw_left_back
+  rotate: false
+  xy: 1421, 694
+  size: 91, 87
+  orig: 91, 87
+  offset: 0, 0
+  index: -1
+evo2_claw_left_back
+  rotate: false
+  xy: 1937, 877
+  size: 91, 87
+  orig: 91, 87
+  offset: 0, 0
+  index: -1
+evo2_claw_rightt_back
+  rotate: true
+  xy: 1300, 457
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+evo2_horn
+  rotate: true
+  xy: 593, 191
+  size: 92, 179
+  orig: 92, 179
+  offset: 0, 0
+  index: -1
+evo2_horn_back
+  rotate: false
+  xy: 695, 15
+  size: 84, 174
+  orig: 84, 174
+  offset: 0, 0
+  index: -1
+evo2_left_front_claw
+  rotate: true
+  xy: 1937, 966
+  size: 147, 94
+  orig: 147, 94
+  offset: 0, 0
+  index: -1
+evo2_tail_claw
+  rotate: false
+  xy: 1707, 1518
+  size: 141, 248
+  orig: 141, 248
+  offset: 0, 0
+  index: -1
+evo3_4_5_claw_rightt_back
+  rotate: false
+  xy: 1471, 601
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+evo3_face
+  rotate: false
+  xy: 873, 135
+  size: 77, 80
+  orig: 77, 80
+  offset: 0, 0
+  index: -1
+evo3_hair_01
+  rotate: true
+  xy: 1300, 695
+  size: 141, 119
+  orig: 141, 119
+  offset: 0, 0
+  index: -1
+evo3_hair_02
+  rotate: false
+  xy: 1850, 1544
+  size: 167, 232
+  orig: 167, 232
+  offset: 0, 0
+  index: -1
+evo3_hair_03
+  rotate: false
+  xy: 1079, 273
+  size: 222, 107
+  orig: 222, 107
+  offset: 0, 0
+  index: -1
+evo3_hair_04
+  rotate: false
+  xy: 1095, 1680
+  size: 339, 86
+  orig: 339, 86
+  offset: 0, 0
+  index: -1
+evo3_leg_back1
+  rotate: false
+  xy: 1268, 1123
+  size: 177, 246
+  orig: 177, 246
+  offset: 0, 0
+  index: -1
+evo3_leg_front2
+  rotate: true
+  xy: 1447, 1076
+  size: 154, 250
+  orig: 154, 250
+  offset: 0, 0
+  index: -1
+evo3_leg_front_claw2
+  rotate: false
+  xy: 1421, 783
+  size: 147, 94
+  orig: 147, 94
+  offset: 0, 0
+  index: -1
+evo3_tail_claw
+  rotate: false
+  xy: 1712, 1268
+  size: 141, 248
+  orig: 141, 248
+  offset: 0, 0
+  index: -1
+evo3_wing_back_inside
+  rotate: false
+  xy: 278, 217
+  size: 313, 539
+  orig: 313, 539
+  offset: 0, 0
+  index: -1
+evo3_wing_back_outside
+  rotate: true
+  xy: 1095, 1768
+  size: 274, 698
+  orig: 274, 698
+  offset: 0, 0
+  index: -1
+evo3_wing_claw
+  rotate: true
+  xy: 2, 2
+  size: 54, 125
+  orig: 54, 125
+  offset: 0, 0
+  index: -1
+evo3_wing_front_inside
+  rotate: true
+  xy: 671, 1108
+  size: 628, 416
+  orig: 628, 416
+  offset: 0, 0
+  index: -1
+evo3_wing_front_outside
+  rotate: false
+  xy: 2, 1248
+  size: 667, 488
+  orig: 667, 488
+  offset: 0, 0
+  index: -1
+evo4_chest
+  rotate: false
+  xy: 1447, 1232
+  size: 263, 269
+  orig: 263, 269
+  offset: 0, 0
+  index: -1
+evo4_hair_01
+  rotate: true
+  xy: 1630, 871
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+evo4_tail
+  rotate: false
+  xy: 2, 1738
+  size: 1091, 151
+  orig: 1091, 151
+  offset: 0, 0
+  index: -1
+evo4_wing_back_outside
+  rotate: false
+  xy: 2, 58
+  size: 274, 698
+  orig: 274, 698
+  offset: 0, 0
+  index: -1
+evo4_wing_front_outside
+  rotate: false
+  xy: 2, 758
+  size: 667, 488
+  orig: 667, 488
+  offset: 0, 0
+  index: -1
+evo5_hair_01
+  rotate: false
+  xy: 1795, 1778
+  size: 230, 264
+  orig: 230, 264
+  offset: 0, 0
+  index: -1
+evo5_wing_claw
+  rotate: false
+  xy: 580, 34
+  size: 113, 155
+  orig: 113, 155
+  offset: 0, 0
+  index: -1
+face_attack
+  rotate: false
+  xy: 1379, 602
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+face_damage
+  rotate: false
+  xy: 780, 217
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+face_dead
+  rotate: false
+  xy: 872, 217
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+face_normal
+  rotate: false
+  xy: 964, 217
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+face_win
+  rotate: false
+  xy: 781, 125
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 1858, 1115
+  size: 203, 158
+  orig: 203, 158
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 278, 6
+  size: 209, 300
+  orig: 209, 300
+  offset: 0, 0
+  index: -1
+neck2
+  rotate: false
+  xy: 1089, 1371
+  size: 275, 307
+  orig: 275, 307
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1089, 1108
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1

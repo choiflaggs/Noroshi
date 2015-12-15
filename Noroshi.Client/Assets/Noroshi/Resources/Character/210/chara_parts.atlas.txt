@@ -1,0 +1,572 @@
+
+chara_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 269, 88
+  size: 320, 209
+  orig: 320, 209
+  offset: 0, 0
+  index: -1
+buckler1
+  rotate: false
+  xy: 641, 729
+  size: 61, 65
+  orig: 61, 65
+  offset: 0, 0
+  index: -1
+buckler2-3
+  rotate: true
+  xy: 480, 128
+  size: 281, 105
+  orig: 281, 105
+  offset: 0, 0
+  index: -1
+chair
+  rotate: true
+  xy: 2, 44
+  size: 362, 265
+  orig: 362, 265
+  offset: 0, 0
+  index: -1
+chair_decoration_2-3
+  rotate: true
+  xy: 587, 137
+  size: 272, 147
+  orig: 272, 147
+  offset: 0, 0
+  index: -1
+chair_horn_3a
+  rotate: false
+  xy: 194, 8
+  size: 94, 34
+  orig: 94, 34
+  offset: 0, 0
+  index: -1
+chair_horn_3b
+  rotate: false
+  xy: 704, 810
+  size: 85, 112
+  orig: 85, 112
+  offset: 0, 0
+  index: -1
+chair_horn_3c
+  rotate: false
+  xy: 487, 411
+  size: 48, 98
+  orig: 48, 98
+  offset: 0, 0
+  index: -1
+chair_horn_skull
+  rotate: true
+  xy: 130, 7
+  size: 35, 62
+  orig: 35, 62
+  offset: 0, 0
+  index: -1
+fetters
+  rotate: false
+  xy: 50, 7
+  size: 78, 35
+  orig: 78, 35
+  offset: 0, 0
+  index: -1
+harness
+  rotate: true
+  xy: 508, 514
+  size: 280, 131
+  orig: 280, 131
+  offset: 0, 0
+  index: -1
+harness2
+  rotate: true
+  xy: 857, 139
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 301, 511
+  size: 205, 282
+  orig: 205, 282
+  offset: 0, 0
+  index: -1
+hindleg_back
+  rotate: false
+  xy: 478, 796
+  size: 74, 126
+  orig: 74, 126
+  offset: 0, 0
+  index: -1
+hindleg_back_3
+  rotate: false
+  xy: 554, 796
+  size: 74, 126
+  orig: 74, 126
+  offset: 0, 0
+  index: -1
+hindleg_front
+  rotate: true
+  xy: 801, 484
+  size: 109, 220
+  orig: 109, 220
+  offset: 0, 0
+  index: -1
+horn_1
+  rotate: false
+  xy: 791, 421
+  size: 66, 61
+  orig: 66, 61
+  offset: 0, 0
+  index: -1
+horn_2-3
+  rotate: false
+  xy: 537, 411
+  size: 86, 101
+  orig: 86, 101
+  offset: 0, 0
+  index: -1
+lance_1
+  rotate: true
+  xy: 480, 924
+  size: 98, 520
+  orig: 98, 520
+  offset: 0, 0
+  index: -1
+lance_2
+  rotate: false
+  xy: 156, 441
+  size: 143, 581
+  orig: 143, 581
+  offset: 0, 0
+  index: -1
+lance_3
+  rotate: false
+  xy: 2, 408
+  size: 152, 614
+  orig: 152, 614
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 704, 712
+  size: 96, 77
+  orig: 96, 77
+  offset: 0, 0
+  index: -1
+paw_back
+  rotate: false
+  xy: 641, 600
+  size: 93, 110
+  orig: 93, 110
+  offset: 0, 0
+  index: -1
+paw_front
+  rotate: true
+  xy: 625, 415
+  size: 97, 164
+  orig: 97, 164
+  offset: 0, 0
+  index: -1
+paw_front_3
+  rotate: true
+  xy: 857, 198
+  size: 97, 164
+  orig: 97, 164
+  offset: 0, 0
+  index: -1
+pierce
+  rotate: false
+  xy: 269, 44
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+rago_arm_back
+  rotate: false
+  xy: 554, 2
+  size: 80, 124
+  orig: 80, 124
+  offset: 0, 0
+  index: -1
+rago_body
+  rotate: true
+  xy: 860, 3
+  size: 134, 132
+  orig: 134, 132
+  offset: 0, 0
+  index: -1
+rago_face_attack
+  rotate: false
+  xy: 156, 410
+  size: 52, 29
+  orig: 52, 29
+  offset: 0, 0
+  index: -1
+rago_face_damage
+  rotate: false
+  xy: 210, 410
+  size: 52, 29
+  orig: 52, 29
+  offset: 0, 0
+  index: -1
+rago_face_dead
+  rotate: false
+  xy: 264, 410
+  size: 52, 29
+  orig: 52, 29
+  offset: 0, 0
+  index: -1
+rago_face_normal
+  rotate: false
+  xy: 771, 144
+  size: 52, 29
+  orig: 52, 29
+  offset: 0, 0
+  index: -1
+rago_face_win
+  rotate: false
+  xy: 736, 681
+  size: 52, 29
+  orig: 52, 29
+  offset: 0, 0
+  index: -1
+rago_hand_back_deco_2-3a
+  rotate: false
+  xy: 736, 137
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+rago_hand_back_deco_2-3b
+  rotate: true
+  xy: 736, 357
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+rago_hand_cover_back_1
+  rotate: false
+  xy: 641, 515
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+rago_hand_cover_back_2-3
+  rotate: false
+  xy: 721, 515
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+rago_hand_front_deco_2-3a
+  rotate: true
+  xy: 510, 98
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+rago_hand_front_deco_2-3b
+  rotate: true
+  xy: 2, 5
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+rago_inside_mouth
+  rotate: true
+  xy: 459, 5
+  size: 81, 93
+  orig: 81, 93
+  offset: 0, 0
+  index: -1
+rago_reins_ handle
+  rotate: true
+  xy: 736, 182
+  size: 173, 52
+  orig: 173, 52
+  offset: 0, 0
+  index: -1
+rago_reins_ rope
+  rotate: true
+  xy: 318, 411
+  size: 98, 167
+  orig: 98, 167
+  offset: 0, 0
+  index: -1
+rago_shoulder_back_1
+  rotate: false
+  xy: 922, 142
+  size: 71, 54
+  orig: 71, 54
+  offset: 0, 0
+  index: -1
+rago_shoulder_front_1
+  rotate: true
+  xy: 791, 339
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+rago_shoulder_front_2
+  rotate: true
+  xy: 790, 257
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+rago_shoulder_front_3
+  rotate: true
+  xy: 790, 175
+  size: 80, 65
+  orig: 80, 65
+  offset: 0, 0
+  index: -1
+rago_skull_3
+  rotate: false
+  xy: 314, 3
+  size: 143, 83
+  orig: 143, 83
+  offset: 0, 0
+  index: -1
+rago_tongue
+  rotate: true
+  xy: 736, 614
+  size: 65, 50
+  orig: 65, 50
+  offset: 0, 0
+  index: -1
+rago_underjaw
+  rotate: true
+  xy: 630, 796
+  size: 126, 72
+  orig: 126, 72
+  offset: 0, 0
+  index: -1
+reins_horn
+  rotate: false
+  xy: 480, 92
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 290, 17
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+shield_1
+  rotate: false
+  xy: 860, 297
+  size: 158, 185
+  orig: 158, 185
+  offset: 0, 0
+  index: -1
+shield_2
+  rotate: false
+  xy: 318, 795
+  size: 158, 227
+  orig: 158, 227
+  offset: 0, 0
+  index: -1
+shield_3
+  rotate: true
+  xy: 791, 595
+  size: 173, 228
+  orig: 173, 228
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 636, 3
+  size: 222, 132
+  orig: 222, 132
+  offset: 0, 0
+  index: -1
+tail_3
+  rotate: false
+  xy: 791, 770
+  size: 231, 152
+  orig: 231, 152
+  offset: 0, 0
+  index: -1
+
+chara_parts2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+face_attack
+  rotate: false
+  xy: 252, 173
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+face_damage
+  rotate: false
+  xy: 252, 99
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+face_dead
+  rotate: true
+  xy: 713, 383
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+face_normal
+  rotate: true
+  xy: 787, 383
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+face_win
+  rotate: true
+  xy: 861, 383
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+facemask_3
+  rotate: false
+  xy: 2, 168
+  size: 170, 169
+  orig: 170, 169
+  offset: 0, 0
+  index: -1
+hindleg_front_3
+  rotate: true
+  xy: 203, 401
+  size: 109, 220
+  orig: 109, 220
+  offset: 0, 0
+  index: -1
+paw_back_3
+  rotate: true
+  xy: 601, 417
+  size: 93, 110
+  orig: 93, 110
+  offset: 0, 0
+  index: -1
+rago_apron_1
+  rotate: true
+  xy: 281, 247
+  size: 88, 49
+  orig: 88, 49
+  offset: 0, 0
+  index: -1
+rago_apron_2-3
+  rotate: false
+  xy: 332, 274
+  size: 88, 49
+  orig: 88, 49
+  offset: 0, 0
+  index: -1
+rago_arm_cover_front_1
+  rotate: false
+  xy: 174, 168
+  size: 76, 89
+  orig: 76, 89
+  offset: 0, 0
+  index: -1
+rago_arm_cover_front_2-3
+  rotate: false
+  xy: 174, 77
+  size: 76, 89
+  orig: 76, 89
+  offset: 0, 0
+  index: -1
+rago_arm_front
+  rotate: false
+  xy: 79, 57
+  size: 93, 109
+  orig: 93, 109
+  offset: 0, 0
+  index: -1
+rago_hair_1
+  rotate: false
+  xy: 425, 407
+  size: 174, 103
+  orig: 174, 103
+  offset: 0, 0
+  index: -1
+rago_hair_2-3
+  rotate: false
+  xy: 2, 339
+  size: 199, 171
+  orig: 199, 171
+  offset: 0, 0
+  index: -1
+rago_hand_back
+  rotate: true
+  xy: 174, 2
+  size: 73, 74
+  orig: 73, 74
+  offset: 0, 0
+  index: -1
+rago_hand_front
+  rotate: false
+  xy: 344, 325
+  size: 75, 74
+  orig: 75, 74
+  offset: 0, 0
+  index: -1
+rago_head
+  rotate: false
+  xy: 174, 259
+  size: 105, 76
+  orig: 105, 76
+  offset: 0, 0
+  index: -1
+rago_leg_front
+  rotate: false
+  xy: 2, 36
+  size: 75, 130
+  orig: 75, 130
+  offset: 0, 0
+  index: -1
+rago_shoulder_back_2
+  rotate: true
+  xy: 935, 375
+  size: 71, 54
+  orig: 71, 54
+  offset: 0, 0
+  index: -1
+rago_shoulder_back_3
+  rotate: false
+  xy: 332, 218
+  size: 71, 54
+  orig: 71, 54
+  offset: 0, 0
+  index: -1
+rago_skirt_1
+  rotate: false
+  xy: 713, 448
+  size: 139, 62
+  orig: 139, 62
+  offset: 0, 0
+  index: -1
+rago_skirt_2
+  rotate: false
+  xy: 854, 448
+  size: 139, 62
+  orig: 139, 62
+  offset: 0, 0
+  index: -1
+rago_skirt_3
+  rotate: false
+  xy: 203, 337
+  size: 139, 62
+  orig: 139, 62
+  offset: 0, 0
+  index: -1

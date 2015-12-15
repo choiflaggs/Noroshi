@@ -1,0 +1,83 @@
+{
+"SessionID" : "test",
+"Battle": {
+  "ID": 1,
+  "Exp": 0,
+  "Money": 0,
+  "FieldID": 1,
+  "Waves":[
+  {
+    "PlayerCharacter1": {
+      "ID": 1,
+      "CharacterID": 11,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "PlayerCharacter2": {
+      "ID": 2,
+      "CharacterID": 12,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "PlayerCharacter3": {
+      "ID": 3,
+      "CharacterID": 13,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "PlayerCharacter4": {
+      "ID": 4,
+      "CharacterID": 14,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "PlayerCharacter5": {
+      "ID": 5,
+      "CharacterID": 15,
+      "Level": 5,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    }
+  }
+  ]
+},
+"DropItems":[
+  [
+    []
+  ]
+]
+}

@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &110024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 446822}
+  - 33: {fileID: 3308514}
+  - 23: {fileID: 2383130}
+  - 114: {fileID: 11485756}
+  m_Layer: 0
+  m_Name: Layer1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &154888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 460192}
+  - 114: {fileID: 11423320}
+  m_Layer: 0
+  m_Name: Action
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446822
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 460192}
+  m_RootOrder: 0
+--- !u!4 &460192
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 446822}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2383130
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110024}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3308514
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110024}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11423320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f434db8ade72f4f81aa97e19bbc43592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _debugLog: 0
+  _unreversibleTransforms: []
+  _action1AsynchronousMoveParam:
+    _isAsynchronous: 0
+    _moveType: 1
+    _duration: 1
+    _positionType: 1
+    _upperPosition: 0
+    _horizontalEasing: 1
+    _verticalEasing: 1
+    _verticalInEasing: 1
+    _verticalOutEasing: 1
+    _sortingLayerSettings:
+    - _meshRenderer: {fileID: 2383130}
+      _layerName: Default
+      _relativeSortingOrder: 0
+  _action2AsynchronousMoveParam:
+    _isAsynchronous: 1
+    _moveType: 1
+    _duration: 1
+    _positionType: 1
+    _upperPosition: 0
+    _horizontalEasing: 1
+    _verticalEasing: 1
+    _verticalInEasing: 17
+    _verticalOutEasing: 18
+    _sortingLayerSettings:
+    - _meshRenderer: {fileID: 2383130}
+      _layerName: Default
+      _relativeSortingOrder: 0
+  _action3AsynchronousMoveParam:
+    _isAsynchronous: 1
+    _moveType: 1
+    _duration: 1
+    _positionType: 1
+    _upperPosition: 0
+    _horizontalEasing: 1
+    _verticalEasing: 1
+    _verticalInEasing: 17
+    _verticalOutEasing: 18
+    _sortingLayerSettings:
+    - _meshRenderer: {fileID: 2383130}
+      _layerName: Default
+      _relativeSortingOrder: 0
+  _action4AsynchronousMoveParam:
+    _isAsynchronous: 0
+    _moveType: 1
+    _duration: 1
+    _positionType: 1
+    _upperPosition: 0
+    _horizontalEasing: 1
+    _verticalEasing: 1
+    _verticalInEasing: 1
+    _verticalOutEasing: 1
+    _sortingLayerSettings: []
+  _action5AsynchronousMoveParam:
+    _isAsynchronous: 0
+    _moveType: 1
+    _duration: 1
+    _positionType: 1
+    _upperPosition: 0
+    _horizontalEasing: 1
+    _verticalEasing: 1
+    _verticalInEasing: 1
+    _verticalOutEasing: 1
+    _sortingLayerSettings: []
+--- !u!114 &11485756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: a8bed4a979efc484da12b6509fe6c3d2, type: 2}
+  initialSkinName: default
+  calculateNormals: 0
+  calculateTangents: 0
+  zSpacing: 0
+  renderMeshes: 1
+  immutableTriangles: 0
+  frontFacing: 0
+  logErrors: 0
+  submeshSeparators: []
+  timeScale: 1
+  loop: 0
+  _animationName: attack
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: _action1AsynchronousMoveParam._sortingLayerSettings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action2AsynchronousMoveParam._sortingLayerSettings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action3AsynchronousMoveParam._sortingLayerSettings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _moveType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action1MoveType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action2MoveType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action3MoveType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action4MoveType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action5MoveType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _debugLog
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action1AsynchronousMoveParam._sortingLayerSettings.Array.data[0]._meshRenderer
+      value: 
+      objectReference: {fileID: 2383130}
+    - target: {fileID: 0}
+      propertyPath: _action2AsynchronousMoveParam._isAsynchronous
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action2AsynchronousMoveParam._verticalInEasing
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action2AsynchronousMoveParam._verticalOutEasing
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action2AsynchronousMoveParam._sortingLayerSettings.Array.data[0]._meshRenderer
+      value: 
+      objectReference: {fileID: 2383130}
+    - target: {fileID: 0}
+      propertyPath: _action3AsynchronousMoveParam._isAsynchronous
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action3AsynchronousMoveParam._verticalInEasing
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action3AsynchronousMoveParam._verticalOutEasing
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _action3AsynchronousMoveParam._sortingLayerSettings.Array.data[0]._meshRenderer
+      value: 
+      objectReference: {fileID: 2383130}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 154888}
+  m_IsPrefabParent: 1

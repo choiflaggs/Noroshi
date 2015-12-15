@@ -1,0 +1,208 @@
+
+effect_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chara_001_a_skill_effect
+  rotate: false
+  xy: 938, 134
+  size: 82, 82
+  orig: 91, 91
+  offset: 5, 4
+  index: -1
+chara_001_atk_ground_effect_back0001
+  rotate: true
+  xy: 250, 122
+  size: 419, 204
+  orig: 514, 258
+  offset: 57, 2
+  index: -1
+chara_001_atk_ground_effect_back0002
+  rotate: true
+  xy: 2, 89
+  size: 452, 246
+  orig: 514, 258
+  offset: 41, 1
+  index: -1
+chara_001_atk_ground_effect_back0003
+  rotate: false
+  xy: 2, 543
+  size: 453, 245
+  orig: 514, 258
+  offset: 40, 2
+  index: -1
+chara_001_atk_ground_effect_front0001
+  rotate: false
+  xy: 516, 592
+  size: 463, 200
+  orig: 529, 255
+  offset: 29, 0
+  index: -1
+chara_001_atk_ground_effect_front0002
+  rotate: false
+  xy: 516, 794
+  size: 505, 228
+  orig: 529, 255
+  offset: 8, 0
+  index: -1
+chara_001_atk_ground_effect_front0003
+  rotate: false
+  xy: 2, 790
+  size: 512, 232
+  orig: 529, 255
+  offset: 8, 0
+  index: -1
+chara_001_emission_effect0006
+  rotate: false
+  xy: 842, 218
+  size: 168, 167
+  orig: 301, 301
+  offset: 65, 64
+  index: -1
+chara_001_skill_atk_effect0001
+  rotate: false
+  xy: 456, 135
+  size: 229, 406
+  orig: 269, 448
+  offset: 18, 25
+  index: -1
+chara_001_skill_atk_effect0002
+  rotate: false
+  xy: 687, 2
+  size: 153, 383
+  orig: 269, 448
+  offset: 18, 25
+  index: -1
+chara_001_skill_atk_effect0004
+  rotate: true
+  xy: 2, 5
+  size: 82, 291
+  orig: 269, 448
+  offset: 17, 33
+  index: -1
+guildford_E
+  rotate: true
+  xy: 938, 55
+  size: 77, 82
+  orig: 77, 82
+  offset: 0, 0
+  index: -1
+guildford_G
+  rotate: true
+  xy: 295, 9
+  size: 111, 122
+  orig: 111, 122
+  offset: 0, 0
+  index: -1
+guildford_I
+  rotate: false
+  xy: 613, 42
+  size: 60, 91
+  orig: 60, 91
+  offset: 0, 0
+  index: -1
+guildford_L
+  rotate: false
+  xy: 419, 13
+  size: 94, 107
+  orig: 94, 107
+  offset: 0, 0
+  index: -1
+guildford_R
+  rotate: false
+  xy: 515, 37
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+guildford_T
+  rotate: true
+  xy: 842, 130
+  size: 86, 94
+  orig: 86, 94
+  offset: 0, 0
+  index: -1
+guildford__
+  rotate: false
+  xy: 457, 699
+  size: 48, 89
+  orig: 48, 89
+  offset: 0, 0
+  index: -1
+p_skill3_effect0002
+  rotate: true
+  xy: 687, 387
+  size: 203, 329
+  orig: 283, 421
+  offset: 39, 0
+  index: -1
+
+effect_parts2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chara_001_emission_effect0001
+  rotate: false
+  xy: 493, 360
+  size: 195, 191
+  orig: 301, 301
+  offset: 54, 54
+  index: -1
+chara_001_emission_effect0002
+  rotate: false
+  xy: 216, 51
+  size: 236, 234
+  orig: 301, 301
+  offset: 33, 33
+  index: -1
+chara_001_emission_effect0003
+  rotate: false
+  xy: 282, 609
+  size: 276, 274
+  orig: 301, 301
+  offset: 13, 13
+  index: -1
+chara_001_emission_effect0004
+  rotate: false
+  xy: 2, 606
+  size: 278, 277
+  orig: 301, 301
+  offset: 12, 11
+  index: -1
+chara_001_emission_effect0005
+  rotate: false
+  xy: 2, 327
+  size: 278, 277
+  orig: 301, 301
+  offset: 12, 11
+  index: -1
+chara_001_skill_atk_effect0003
+  rotate: true
+  xy: 560, 553
+  size: 121, 327
+  orig: 269, 448
+  offset: 17, 32
+  index: -1
+p_skill3_effect0001
+  rotate: true
+  xy: 560, 676
+  size: 207, 325
+  orig: 283, 421
+  offset: 33, 1
+  index: -1
+p_skill3_effect0003
+  rotate: false
+  xy: 282, 287
+  size: 209, 320
+  orig: 283, 421
+  offset: 37, 0
+  index: -1
+p_skill3_effect0004
+  rotate: false
+  xy: 2, 2
+  size: 212, 323
+  orig: 283, 421
+  offset: 36, 0
+  index: -1

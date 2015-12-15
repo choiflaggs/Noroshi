@@ -1,0 +1,729 @@
+{
+"skeleton": { "hash": "r/el2XLyF0RBWXLAnZnLSLXRw1Y", "spine": "2.1.27", "width": 0, "height": 0, "images": "./gabowa-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect set", "parent": "root", "color": "9b008cff" },
+	{ "name": "atk big effect set", "parent": "effect set", "color": "9b008cff" },
+	{
+		"name": "inpact effect",
+		"parent": "effect set",
+		"x": -585.49,
+		"y": 432.42,
+		"scaleX": 2.78,
+		"scaleY": 4.241,
+		"color": "9b008cff"
+	},
+	{
+		"name": "atk big effect",
+		"parent": "atk big effect set",
+		"length": 300,
+		"x": -912.98,
+		"y": 398.97,
+		"scaleX": 2,
+		"scaleY": 2,
+		"rotation": 32.25,
+		"color": "9b008cff"
+	},
+	{
+		"name": "atk big effect2",
+		"parent": "atk big effect set",
+		"length": 300,
+		"x": -978.24,
+		"y": 281.5,
+		"scaleX": 2,
+		"scaleY": 2,
+		"rotation": -150.75,
+		"color": "9b008cff"
+	},
+	{
+		"name": "atk big effect3",
+		"parent": "atk big effect set",
+		"length": 300,
+		"x": -1023.92,
+		"y": 402.23,
+		"scaleX": 1.5,
+		"scaleY": 1.5,
+		"rotation": 133.54,
+		"color": "9b008cff"
+	},
+	{
+		"name": "atk big effect4",
+		"parent": "atk big effect set",
+		"length": 300,
+		"x": -884.61,
+		"y": 316.5,
+		"scaleX": 1.5,
+		"scaleY": 1.5,
+		"rotation": -43.85,
+		"color": "9b008cff"
+	}
+],
+"slots": [
+	{ "name": "askill_atk0001", "bone": "atk big effect" },
+	{ "name": "askill_atk1", "bone": "atk big effect2" },
+	{ "name": "askill_atk2", "bone": "atk big effect3" },
+	{ "name": "askill_atk3", "bone": "atk big effect4" },
+	{ "name": "emission", "bone": "inpact effect", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"askill_atk0001": {
+			"askill_atk0001": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0002": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0003": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0004": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0005": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0006": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 }
+		},
+		"askill_atk1": {
+			"askill_atk0001": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0002": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0003": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0004": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0005": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0006": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 }
+		},
+		"askill_atk2": {
+			"askill_atk0001": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0002": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0003": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0004": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0005": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0006": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 }
+		},
+		"askill_atk3": {
+			"askill_atk0001": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0002": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0003": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0004": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0005": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 },
+			"askill_atk0006": { "x": 351.34, "y": 15.97, "width": 963, "height": 419 }
+		},
+		"emission": {
+			"emission": { "width": 202, "height": 202 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"askill_atk0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 8, "name": "askill_atk0001" },
+					{ "time": 8.0333, "name": "askill_atk0002" },
+					{ "time": 8.0666, "name": "askill_atk0003" },
+					{ "time": 8.1, "name": "askill_atk0004" },
+					{ "time": 8.1666, "name": "askill_atk0005" },
+					{ "time": 8.2333, "name": "askill_atk0006" },
+					{ "time": 8.3, "name": null }
+				]
+			},
+			"askill_atk1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 8, "name": "askill_atk0001" },
+					{ "time": 8.0333, "name": "askill_atk0002" },
+					{ "time": 8.0666, "name": "askill_atk0003" },
+					{ "time": 8.1, "name": "askill_atk0004" },
+					{ "time": 8.1666, "name": "askill_atk0005" },
+					{ "time": 8.2333, "name": "askill_atk0006" },
+					{ "time": 8.3, "name": null }
+				]
+			},
+			"askill_atk2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 8, "name": "askill_atk0001" },
+					{ "time": 8.0333, "name": "askill_atk0002" },
+					{ "time": 8.0666, "name": "askill_atk0003" },
+					{ "time": 8.1, "name": "askill_atk0004" },
+					{ "time": 8.1666, "name": "askill_atk0005" },
+					{ "time": 8.2333, "name": "askill_atk0006" },
+					{ "time": 8.3, "name": null }
+				]
+			},
+			"askill_atk3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 8, "name": "askill_atk0001" },
+					{ "time": 8.0333, "name": "askill_atk0002" },
+					{ "time": 8.0666, "name": "askill_atk0003" },
+					{ "time": 8.1, "name": "askill_atk0004" },
+					{ "time": 8.1666, "name": "askill_atk0005" },
+					{ "time": 8.2333, "name": "askill_atk0006" },
+					{ "time": 8.3, "name": null }
+				]
+			},
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 8, "name": "emission" },
+					{ "time": 8.1, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 8, "color": "ffffff66" },
+					{ "time": 8.1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 7.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 7.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.7333, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 8, "angle": 0, "curve": "stepped" },
+					{ "time": 8.1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8, "x": -365.8, "y": -105.03 },
+					{ "time": 8.1, "x": -365.8, "y": -93.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8, "x": 2.082, "y": 1.365 },
+					{ "time": 8.1, "x": 2.354, "y": 1.543 }
+				]
+			},
+			"atk big effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8, "x": 1, "y": 1 }
+				]
+			},
+			"atk big effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8, "x": 1, "y": 1 }
+				]
+			},
+			"atk big effect3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8, "x": 1, "y": 1 }
+				]
+			},
+			"atk big effect4": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 8, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"attack": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"damage": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"dead": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill1": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill2": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"run": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"walk": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"win": {
+		"slots": {
+			"emission": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"inpact effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

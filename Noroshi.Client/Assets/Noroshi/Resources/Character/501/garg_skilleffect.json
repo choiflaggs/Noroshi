@@ -1,0 +1,1431 @@
+{
+"skeleton": { "hash": "x/YWlbEE3YUol8mI/itcFeQ23Ko", "spine": "2.1.27", "width": 0, "height": 0, "images": "./garg_master_v3-assets/" },
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "fire_emission_breath",
+		"parent": "root",
+		"length": 461.97,
+		"y": 2500.79,
+		"scaleX": 6.433,
+		"scaleY": 4,
+		"rotation": 180,
+		"color": "9b0407ff"
+	},
+	{
+		"name": "fire_floor_effect",
+		"parent": "root",
+		"length": 132.35,
+		"y": 2001.68,
+		"scaleX": 7,
+		"scaleY": 7,
+		"rotation": 270,
+		"color": "9b0400ff"
+	},
+	{
+		"name": "roar_effect1",
+		"parent": "root",
+		"length": 98.1,
+		"x": 415.04,
+		"y": 2989.2,
+		"scaleX": 4,
+		"scaleY": 4,
+		"rotation": -92.7,
+		"color": "9b000bff"
+	},
+	{
+		"name": "roar_effect2",
+		"parent": "root",
+		"length": 98.1,
+		"x": 704,
+		"y": 2989.2,
+		"scaleX": 4,
+		"scaleY": 4,
+		"rotation": -92.7,
+		"color": "9b000bff"
+	},
+	{
+		"name": "tail_effect",
+		"parent": "root",
+		"length": 107.88,
+		"x": 1008.72,
+		"y": 2989.2,
+		"scaleX": 4,
+		"scaleY": 4,
+		"rotation": -92.25,
+		"color": "9b0007ff"
+	},
+	{
+		"name": "tail_effect2",
+		"parent": "root",
+		"length": 107.88,
+		"x": 1292.42,
+		"y": 2989.2,
+		"scaleX": 4,
+		"scaleY": 4,
+		"rotation": -92.25,
+		"color": "9b0007ff"
+	}
+],
+"slots": [
+	{ "name": "fire_floor_effect", "bone": "fire_floor_effect" },
+	{ "name": "fire_emission_breath0001", "bone": "fire_emission_breath" },
+	{ "name": "roar_effect", "bone": "roar_effect1" },
+	{ "name": "roar_effect2", "bone": "roar_effect2" },
+	{ "name": "tail_effect2", "bone": "tail_effect" },
+	{ "name": "tail_effect3", "bone": "tail_effect2" }
+],
+"skins": {
+	"default": {
+		"fire_emission_breath0001": {
+			"fire_emission_breath0001": { "rotation": -180, "width": 521, "height": 236 },
+			"fire_emission_breath0002": { "rotation": -180, "width": 521, "height": 236 },
+			"fire_emission_breath0003": { "rotation": -180, "width": 521, "height": 236 },
+			"fire_emission_breath0004": { "rotation": -180, "width": 521, "height": 236 },
+			"fire_emission_breath0005": { "rotation": -180, "width": 521, "height": 236 },
+			"fire_emission_breath0006": { "rotation": -180, "width": 521, "height": 236 },
+			"fire_emission_breath0007": { "rotation": -180, "width": 521, "height": 236 },
+			"fire_emission_breath0008": { "rotation": -180, "width": 521, "height": 236 }
+		},
+		"fire_floor_effect": {
+			"fire_floor_effect": { "rotation": 90, "width": 310, "height": 163 }
+		},
+		"roar_effect": {
+			"roar_effect": { "rotation": 92.7, "width": 209, "height": 209 }
+		},
+		"roar_effect2": {
+			"roar_effect": { "rotation": 92.7, "width": 209, "height": 209 }
+		},
+		"tail_effect2": {
+			"tail_effect": { "rotation": 92.25, "width": 313, "height": 313 }
+		},
+		"tail_effect3": {
+			"tail_effect": { "rotation": 92.25, "width": 313, "height": 313 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.4666, "name": "fire_emission_breath0001" },
+					{ "time": 1.5, "name": "fire_emission_breath0002" },
+					{ "time": 1.5333, "name": "fire_emission_breath0003" },
+					{ "time": 1.5666, "name": "fire_emission_breath0004" },
+					{ "time": 1.6, "name": "fire_emission_breath0005" },
+					{ "time": 1.6333, "name": "fire_emission_breath0006" },
+					{ "time": 1.6666, "name": "fire_emission_breath0007" },
+					{ "time": 1.7, "name": "fire_emission_breath0008" },
+					{ "time": 1.7333, "name": "fire_emission_breath0001" },
+					{ "time": 1.7666, "name": "fire_emission_breath0002" },
+					{ "time": 1.8, "name": "fire_emission_breath0003" },
+					{ "time": 1.8333, "name": "fire_emission_breath0004" },
+					{ "time": 1.8666, "name": "fire_emission_breath0005" },
+					{ "time": 1.9, "name": "fire_emission_breath0006" },
+					{ "time": 1.9333, "name": "fire_emission_breath0007" },
+					{ "time": 1.9666, "name": "fire_emission_breath0008" },
+					{ "time": 2, "name": "fire_emission_breath0001" },
+					{ "time": 2.0333, "name": "fire_emission_breath0002" },
+					{ "time": 2.0666, "name": "fire_emission_breath0003" },
+					{ "time": 2.1, "name": "fire_emission_breath0004" },
+					{ "time": 2.1333, "name": "fire_emission_breath0005" },
+					{ "time": 2.1666, "name": "fire_emission_breath0006" },
+					{ "time": 2.2, "name": "fire_emission_breath0007" },
+					{ "time": 2.2333, "name": "fire_emission_breath0008" },
+					{ "time": 2.2666, "name": "fire_emission_breath0001" },
+					{ "time": 2.3, "name": "fire_emission_breath0002" },
+					{ "time": 2.3333, "name": "fire_emission_breath0003" },
+					{ "time": 2.3666, "name": "fire_emission_breath0004" },
+					{ "time": 2.4333, "name": "fire_emission_breath0005" },
+					{ "time": 2.5, "name": "fire_emission_breath0006" },
+					{ "time": 2.5666, "name": "fire_emission_breath0007" },
+					{ "time": 2.6333, "name": "fire_emission_breath0008" },
+					{ "time": 2.7, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.4666, "name": "fire_floor_effect" },
+					{ "time": 2, "name": "fire_floor_effect" },
+					{ "time": 2.2666, "name": "fire_floor_effect" },
+					{ "time": 2.6, "name": "fire_floor_effect" },
+					{ "time": 3, "name": "fire_floor_effect" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4666, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.2666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.6, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4666, "angle": -341.48, "curve": "stepped" },
+					{ "time": 1.7333, "angle": -341.48, "curve": "stepped" },
+					{ "time": 2, "angle": -341.48, "curve": "stepped" },
+					{ "time": 2.2666, "angle": -341.48 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4666, "x": -1681.51, "y": -2369.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4666, "x": 0.759, "y": 1, "curve": "stepped" },
+					{ "time": 1.7333, "x": 0.759, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 0.759, "y": 1, "curve": "stepped" },
+					{ "time": 2.2666, "x": 0.759, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4666, "x": -2608.09, "y": -2459.66, "curve": "stepped" },
+					{ "time": 2, "x": -2608.09, "y": -2459.66, "curve": "stepped" },
+					{ "time": 2.2666, "x": -2608.09, "y": -2459.66, "curve": "stepped" },
+					{ "time": 2.6, "x": -2608.09, "y": -2459.66, "curve": "stepped" },
+					{ "time": 3, "x": -2608.09, "y": -2459.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4666, "x": 1.166, "y": 1.166, "curve": "stepped" },
+					{ "time": 2, "x": 1.166, "y": 1.166, "curve": "stepped" },
+					{ "time": 2.2666, "x": 1.166, "y": 1.166, "curve": "stepped" },
+					{ "time": 2.6, "x": 1.166, "y": 1.166, "curve": "stepped" },
+					{ "time": 3, "x": 1.166, "y": 1.166 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"attack": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"damage": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"dead": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill1": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5333, "name": "roar_effect" },
+					{ "time": 1.7333, "name": "roar_effect" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.5333,
+						"color": "ffffffff",
+						"curve": [ 0.01, 0.87, 0.75, 1 ]
+					},
+					{ "time": 1.7333, "color": "ffffff00" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6333, "name": "roar_effect" },
+					{ "time": 1.8, "name": "roar_effect" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.6333,
+						"color": "ffffffff",
+						"curve": [ 0.005, 0.64, 0.75, 1 ]
+					},
+					{ "time": 1.8, "color": "ffffff00" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5333, "name": "tail_effect" },
+					{ "time": 1.7333, "name": "tail_effect" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffffff" },
+					{ "time": 1.7333, "color": "ffffff00" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5333, "x": -2975.25, "y": -3231.19, "curve": "stepped" },
+					{ "time": 1.7333, "x": -2975.25, "y": -3231.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.5333,
+						"x": 0.798,
+						"y": 1.329,
+						"curve": [ 0.01, 0.87, 0.75, 1 ]
+					},
+					{ "time": 1.7333, "x": 1.693, "y": 2.819 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6333, "x": -3268.03, "y": -3229.38, "curve": "stepped" },
+					{ "time": 1.8, "x": -3268.03, "y": -3229.38 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.6333,
+						"x": 0.586,
+						"y": 1,
+						"curve": [ 0.005, 0.64, 0.75, 1 ]
+					},
+					{ "time": 1.8, "x": 1.652, "y": 2.817 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5333, "x": -3567.51, "y": -3222.31, "curve": "stepped" },
+					{ "time": 1.7333, "x": -3567.51, "y": -3222.31 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5333, "x": 0.644, "y": 1.078 },
+					{ "time": 1.7333, "x": 1.866, "y": 3.121 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill2": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.4, "name": "roar_effect" },
+					{ "time": 1.5666, "name": "roar_effect" },
+					{ "time": 1.6666, "name": "roar_effect" },
+					{ "time": 1.8333, "name": "roar_effect" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4, "color": "ff0900ff" },
+					{ "time": 1.5666, "color": "ff010000", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ff0900ff" },
+					{ "time": 1.8333, "color": "ff010000" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": "roar_effect" },
+					{ "time": 1.5, "name": "roar_effect" },
+					{ "time": 1.5333, "name": "roar_effect" },
+					{ "time": 1.7, "name": "roar_effect" },
+					{ "time": 1.7333, "name": "roar_effect" },
+					{ "time": 1.9, "name": "roar_effect" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff0300ff" },
+					{ "time": 1.5, "color": "ff010000", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ff0300ff" },
+					{ "time": 1.7, "color": "ff010000", "curve": "stepped" },
+					{ "time": 1.7333, "color": "ff0300ff" },
+					{ "time": 1.9, "color": "ff010000" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": "tail_effect" },
+					{ "time": 1.9, "name": "tail_effect" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"color": "ff0300ff",
+						"curve": [ 0, 0.64, 0.6, 0.91 ]
+					},
+					{ "time": 1.9, "color": "ff050007" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": -1022.53, "y": -2311.41, "curve": "stepped" },
+					{ "time": 1.5666, "x": -1022.53, "y": -2311.41, "curve": "stepped" },
+					{ "time": 1.6666, "x": -1022.53, "y": -2311.41, "curve": "stepped" },
+					{ "time": 1.8333, "x": -1022.53, "y": -2311.41 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4, "x": 0.475, "y": 0.349 },
+					{ "time": 1.5666, "x": 1.777, "y": 1.308, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0.475, "y": 0.349 },
+					{ "time": 1.8333, "x": 1.777, "y": 1.308 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": -1308.31, "y": -2318.06, "curve": "stepped" },
+					{ "time": 1.5, "x": -1308.31, "y": -2318.06, "curve": "stepped" },
+					{ "time": 1.5333, "x": -1308.31, "y": -2318.06, "curve": "stepped" },
+					{ "time": 1.7, "x": -1308.31, "y": -2318.06, "curve": "stepped" },
+					{ "time": 1.7333, "x": -1308.31, "y": -2318.06, "curve": "stepped" },
+					{ "time": 1.9, "x": -1308.31, "y": -2318.06 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.554, "y": 0.41 },
+					{ "time": 1.5, "x": 1.442, "y": 1.067, "curve": "stepped" },
+					{ "time": 1.5333, "x": 0.554, "y": 0.41 },
+					{ "time": 1.7, "x": 1.442, "y": 1.067, "curve": "stepped" },
+					{ "time": 1.7333, "x": 0.554, "y": 0.41 },
+					{ "time": 1.9, "x": 1.442, "y": 1.067 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": -1896.96, "y": -2316.22, "curve": "stepped" },
+					{ "time": 1.9, "x": -1896.96, "y": -2316.22 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.3333,
+						"x": 0.567,
+						"y": 0.394,
+						"curve": [ 0, 0.78, 0.75, 1 ]
+					},
+					{ "time": 1.9, "x": 1.447, "y": 1.005 }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"walk": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"win": {
+		"slots": {
+			"fire_emission_breath0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire_floor_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"roar_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"roar_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"tail_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fire_emission_breath": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire_floor_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"roar_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"tail_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "sJCg4hrIo6aC/r2WK5VtgUzjiRw", "spine": "2.1.27", "width": 196, "height": 150, "images": "./enemy_mob-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "attackeffect", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "hit_area", "parent": "root" }
+],
+"slots": [
+	{ "name": "soulboll0001", "bone": "attackeffect", "attachment": "soulboll0001" },
+	{ "name": "hit_area", "bone": "hit_area", "attachment": "hit_area" }
+],
+"skins": {
+	"default": {
+		"hit_area": {
+			"hit_area": {
+				"type": "boundingbox",
+				"vertices": [ -9.33857, 8.95127, -10.02456, -10.25671, 10.55542, -10.94271, 10.55542, 8.26526 ]
+			}
+		},
+		"soulboll0001": {
+			"soulboll0001": { "width": 98, "height": 75 },
+			"soulboll0002": { "width": 98, "height": 75 },
+			"soulboll0003": { "width": 98, "height": 75 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"soulboll0001": {
+				"attachment": [
+					{ "time": 0, "name": "soulboll0001" },
+					{ "time": 0.0666, "name": "soulboll0002" },
+					{ "time": 0.1333, "name": "soulboll0003" }
+				]
+			}
+		},
+		"bones": {
+			"attackeffect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

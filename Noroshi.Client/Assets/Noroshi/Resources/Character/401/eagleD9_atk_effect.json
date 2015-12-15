@@ -1,0 +1,350 @@
+{
+"skeleton": { "hash": "QKIi0HoB61t2xJjwXIt5QaiT2T0", "spine": "2.1.27", "width": 0, "height": 0, "images": "./format_eagleD9_fix-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "sonic emission", "parent": "root", "scaleX": 3, "scaleY": 3 },
+	{ "name": "sonic_atk", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "sonic_emission_effect", "parent": "root", "y": 121.33, "scaleX": 4.449, "scaleY": 1.518, "rotation": 81.25 },
+	{ "name": "sonic_emission_effect2", "parent": "root", "y": 111.7, "scaleX": 4.09, "scaleY": 2.41, "rotation": -48.95 },
+	{ "name": "sonic_emission_effect3", "parent": "root", "y": 152.15, "scaleX": 7.119, "scaleY": 2.105, "rotation": 32.04 }
+],
+"slots": [
+	{ "name": "sonic_atk", "bone": "sonic_atk" },
+	{ "name": "skill_effect1_set0001", "bone": "sonic emission" },
+	{ "name": "sonic_emission_effect", "bone": "sonic_emission_effect", "blend": "additive" },
+	{ "name": "sonic_emission_effect2", "bone": "sonic_emission_effect2", "blend": "additive" },
+	{ "name": "sonic_emission_effect3", "bone": "sonic_emission_effect3", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"skill_effect1_set0001": {
+			"skill_effect1_set0001": { "x": -93.23, "y": 188.18, "width": 474, "height": 640 },
+			"skill_effect1_set0002": { "x": -93.23, "y": 188.18, "width": 474, "height": 640 },
+			"skill_effect1_set0003": { "x": -93.23, "y": 188.18, "width": 474, "height": 640 },
+			"skill_effect1_set0004": { "x": -93.23, "y": 188.18, "width": 474, "height": 640 },
+			"skill_effect1_set0005": { "x": -93.23, "y": 188.18, "width": 474, "height": 640 },
+			"skill_effect1_set0006": { "x": -93.23, "y": 188.18, "width": 474, "height": 640 }
+		},
+		"sonic_atk": {
+			"sonic_atk": { "width": 285, "height": 295 }
+		},
+		"sonic_emission_effect": {
+			"sonic_emission_effect": { "width": 220, "height": 220 },
+			"sonic_emission_effect2": { "path": "sonic_emission_effect", "rotation": 30, "width": 220, "height": 220 },
+			"sonic_emission_effect3": { "path": "sonic_emission_effect", "rotation": 60, "width": 220, "height": 220 },
+			"sonic_emission_effect4": { "path": "sonic_emission_effect", "rotation": 90, "width": 220, "height": 220 },
+			"sonic_emission_effect5": { "path": "sonic_emission_effect", "rotation": 120, "width": 220, "height": 220 },
+			"sonic_emission_effect6": { "path": "sonic_emission_effect", "rotation": 150, "width": 220, "height": 220 },
+			"sonic_emission_effect7": { "path": "sonic_emission_effect", "rotation": 180, "width": 220, "height": 220 },
+			"sonic_emission_effect8": { "path": "sonic_emission_effect", "rotation": 210, "width": 220, "height": 220 },
+			"sonic_emission_effect9": { "path": "sonic_emission_effect", "rotation": 240, "width": 220, "height": 220 },
+			"sonic_emission_effect10": { "path": "sonic_emission_effect", "rotation": 270, "width": 220, "height": 220 },
+			"sonic_emission_effect11": { "path": "sonic_emission_effect", "rotation": 300, "width": 220, "height": 220 },
+			"sonic_emission_effect12": { "path": "sonic_emission_effect", "rotation": 330, "width": 220, "height": 220 }
+		},
+		"sonic_emission_effect2": {
+			"sonic_emission_effect": { "width": 220, "height": 220 },
+			"sonic_emission_effect2": { "path": "sonic_emission_effect", "rotation": 30, "width": 220, "height": 220 },
+			"sonic_emission_effect3": { "path": "sonic_emission_effect", "rotation": 60, "width": 220, "height": 220 },
+			"sonic_emission_effect4": { "path": "sonic_emission_effect", "rotation": 90, "width": 220, "height": 220 },
+			"sonic_emission_effect5": { "path": "sonic_emission_effect", "rotation": 120, "width": 220, "height": 220 },
+			"sonic_emission_effect6": { "path": "sonic_emission_effect", "rotation": 150, "width": 220, "height": 220 },
+			"sonic_emission_effect7": { "path": "sonic_emission_effect", "rotation": 180, "width": 220, "height": 220 },
+			"sonic_emission_effect8": { "path": "sonic_emission_effect", "rotation": 210, "width": 220, "height": 220 },
+			"sonic_emission_effect9": { "path": "sonic_emission_effect", "rotation": 240, "width": 220, "height": 220 },
+			"sonic_emission_effect10": { "path": "sonic_emission_effect", "rotation": 270, "width": 220, "height": 220 },
+			"sonic_emission_effect11": { "path": "sonic_emission_effect", "rotation": 300, "width": 220, "height": 220 },
+			"sonic_emission_effect12": { "path": "sonic_emission_effect", "rotation": 330, "width": 220, "height": 220 }
+		},
+		"sonic_emission_effect3": {
+			"sonic_emission_effect": { "width": 220, "height": 220 },
+			"sonic_emission_effect2": { "path": "sonic_emission_effect", "rotation": 30, "width": 220, "height": 220 },
+			"sonic_emission_effect3": { "path": "sonic_emission_effect", "rotation": 60, "width": 220, "height": 220 },
+			"sonic_emission_effect4": { "path": "sonic_emission_effect", "rotation": 90, "width": 220, "height": 220 },
+			"sonic_emission_effect5": { "path": "sonic_emission_effect", "rotation": 120, "width": 220, "height": 220 },
+			"sonic_emission_effect6": { "path": "sonic_emission_effect", "rotation": 150, "width": 220, "height": 220 },
+			"sonic_emission_effect7": { "path": "sonic_emission_effect", "rotation": 180, "width": 220, "height": 220 },
+			"sonic_emission_effect8": { "path": "sonic_emission_effect", "rotation": 210, "width": 220, "height": 220 },
+			"sonic_emission_effect9": { "path": "sonic_emission_effect", "rotation": 240, "width": 220, "height": 220 },
+			"sonic_emission_effect10": { "path": "sonic_emission_effect", "rotation": 270, "width": 220, "height": 220 },
+			"sonic_emission_effect11": { "path": "sonic_emission_effect", "rotation": 300, "width": 220, "height": 220 },
+			"sonic_emission_effect12": { "path": "sonic_emission_effect", "rotation": 330, "width": 220, "height": 220 }
+		}
+	}
+},
+"animations": {
+	"attack_attack": {
+		"slots": {
+			"skill_effect1_set0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sonic_atk": {
+				"attachment": [
+					{ "time": 0, "name": "sonic_atk" },
+					{ "time": 0.1666, "name": "sonic_atk" },
+					{ "time": 0.8333, "name": "sonic_atk" }
+				]
+			},
+			"sonic_emission_effect": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sonic_emission_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sonic_emission_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"sonic_emission_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"sonic_atk": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.122, "y": 2.07 },
+					{ "time": 0.1666, "x": 1.473, "y": 0.432, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.473, "y": 0.432 }
+				]
+			},
+			"sonic emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"sonic_emission_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"sonic_emission_effect3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.1666 },
+			{ "time": 0.8333 }
+		]
+	},
+	"attack_effect": {
+		"slots": {
+			"skill_effect1_set0001": {
+				"attachment": [
+					{ "time": 0, "name": "skill_effect1_set0001" },
+					{ "time": 0.1, "name": "skill_effect1_set0002" },
+					{ "time": 0.1666, "name": "skill_effect1_set0003" },
+					{ "time": 0.2333, "name": "skill_effect1_set0004" },
+					{ "time": 0.3, "name": "skill_effect1_set0005" },
+					{ "time": 0.4, "name": "skill_effect1_set0006" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"sonic_atk": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"sonic_emission_effect": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "sonic_emission_effect" },
+					{ "time": 0.2, "name": "sonic_emission_effect2" },
+					{ "time": 0.2333, "name": "sonic_emission_effect3" },
+					{ "time": 0.2666, "name": "sonic_emission_effect4" },
+					{ "time": 0.3, "name": "sonic_emission_effect5" },
+					{ "time": 0.3333, "name": "sonic_emission_effect6" },
+					{ "time": 0.3666, "name": "sonic_emission_effect7" },
+					{ "time": 0.4, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"sonic_emission_effect2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "sonic_emission_effect" },
+					{ "time": 0.1666, "name": "sonic_emission_effect2" },
+					{ "time": 0.2, "name": "sonic_emission_effect3" },
+					{ "time": 0.2333, "name": "sonic_emission_effect4" },
+					{ "time": 0.2666, "name": "sonic_emission_effect5" },
+					{ "time": 0.3, "name": "sonic_emission_effect6" },
+					{ "time": 0.3333, "name": "sonic_emission_effect7" },
+					{ "time": 0.3666, "name": "sonic_emission_effect8" },
+					{ "time": 0.4, "name": "sonic_emission_effect9" },
+					{ "time": 0.4333, "name": "sonic_emission_effect10" },
+					{ "time": 0.4666, "name": "sonic_emission_effect11" },
+					{ "time": 0.5, "name": "sonic_emission_effect12" },
+					{ "time": 0.5333, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"sonic_emission_effect3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "sonic_emission_effect" },
+					{ "time": 0.1666, "name": "sonic_emission_effect2" },
+					{ "time": 0.2, "name": "sonic_emission_effect3" },
+					{ "time": 0.2333, "name": "sonic_emission_effect4" },
+					{ "time": 0.2666, "name": "sonic_emission_effect5" },
+					{ "time": 0.3, "name": "sonic_emission_effect6" },
+					{ "time": 0.3333, "name": "sonic_emission_effect7" },
+					{ "time": 0.3666, "name": "sonic_emission_effect8" },
+					{ "time": 0.4, "name": "sonic_emission_effect9" },
+					{ "time": 0.4333, "name": "sonic_emission_effect10" },
+					{ "time": 0.4666, "name": "sonic_emission_effect11" },
+					{ "time": 0.5, "name": "sonic_emission_effect12" },
+					{ "time": 0.5333, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"sonic_emission_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.62, 0.75, 1 ]
+					},
+					{ "time": 0.4, "x": 1.496, "y": 1.496 }
+				]
+			},
+			"sonic_atk": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"sonic emission": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"sonic_emission_effect2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.1333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.63, 0.75, 1 ]
+					},
+					{ "time": 0.5333, "x": 1.533, "y": 1.533 }
+				]
+			},
+			"sonic_emission_effect3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.1333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.46, 0.75, 1 ]
+					},
+					{ "time": 0.5333, "x": 1.489, "y": 1.489 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

@@ -1,0 +1,1692 @@
+{
+"skeleton": { "hash": "R/Z2MfaUSdBckaK/O6j2ZaEnlvg", "spine": "2.1.27", "width": 0, "height": 0, "images": "./format_rago_fix-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "debris effectset", "parent": "root", "color": "9b008dff" },
+	{ "name": "debris_smoke", "parent": "debris effectset", "scaleX": 2, "scaleY": 2, "color": "9b008dff" },
+	{ "name": "debris_smoke2", "parent": "debris effectset", "scaleX": 2, "scaleY": 2, "color": "9b008dff" },
+	{ "name": "debris_smoke3", "parent": "debris effectset", "scaleX": 2, "scaleY": 2, "color": "9b008dff" },
+	{ "name": "storn_debris", "parent": "debris effectset", "scaleX": 2, "scaleY": 2, "color": "9b008dff" },
+	{ "name": "storn_debris2", "parent": "debris effectset", "scaleX": 2, "scaleY": 2, "color": "9b008dff" },
+	{ "name": "storn_debris3", "parent": "debris effectset", "scaleX": 2, "scaleY": 2, "color": "9b008dff" }
+],
+"slots": [
+	{ "name": "storn_debris", "bone": "storn_debris" },
+	{ "name": "storn_debris2", "bone": "storn_debris2" },
+	{ "name": "storn_debris3", "bone": "storn_debris3" },
+	{ "name": "debris_smoke", "bone": "debris_smoke" },
+	{ "name": "debris_smoke2", "bone": "debris_smoke2" },
+	{ "name": "debris_smoke3", "bone": "debris_smoke3" }
+],
+"skins": {
+	"default": {
+		"debris_smoke": {
+			"debris_smoke ": { "width": 136, "height": 292 }
+		},
+		"debris_smoke2": {
+			"debris_smoke ": { "width": 136, "height": 292 }
+		},
+		"debris_smoke3": {
+			"debris_smoke ": { "width": 136, "height": 292 }
+		},
+		"storn_debris": {
+			"storn_debris": { "width": 115, "height": 364 }
+		},
+		"storn_debris2": {
+			"storn_debris": { "width": 115, "height": 364 }
+		},
+		"storn_debris3": {
+			"storn_debris": { "width": 115, "height": 364 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1666, "name": "debris_smoke " },
+					{ "time": 1.8333, "name": null },
+					{ "time": 1.9, "name": "debris_smoke " },
+					{ "time": 2.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1666, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9, "color": "ffffffff" },
+					{ "time": 2.5666, "color": "ffffff00" }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.4, "name": "debris_smoke " },
+					{ "time": 1.9666, "name": null },
+					{ "time": 2, "name": "debris_smoke " },
+					{ "time": 2.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffffff" },
+					{ "time": 1.9666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 2.5666, "color": "ffffff00" }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.2333, "name": "debris_smoke " },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "debris_smoke " },
+					{ "time": 2.6, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 2.6, "color": "ffffff00" }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1666, "name": "storn_debris" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 1.9, "name": "storn_debris" },
+					{ "time": 2.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1666, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9, "color": "ffffffff" },
+					{ "time": 2.5666, "color": "ffffff00" }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.4, "name": "storn_debris" },
+					{ "time": 1.9666, "name": null },
+					{ "time": 2, "name": "storn_debris" },
+					{ "time": 2.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffffff" },
+					{ "time": 1.9666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 2.5666, "color": "ffffff00" }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.2333, "name": "storn_debris" },
+					{ "time": 1.8333, "name": null },
+					{ "time": 2, "name": "storn_debris" },
+					{ "time": 2.6, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 2.6, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6333, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1579.65, "y": 1474.7 },
+					{ "time": 1.8333, "x": 1579.65, "y": 893.95, "curve": "stepped" },
+					{ "time": 1.9, "x": -598.82, "y": 1474.7 },
+					{ "time": 2.5666, "x": -598.83, "y": 893.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1.499, "y": 2.356 },
+					{ "time": 1.8333, "x": 1.071, "y": 2.346, "curve": "stepped" },
+					{ "time": 1.9, "x": 1.499, "y": 2.356 },
+					{ "time": 2.5666, "x": 1.071, "y": 2.346 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9666, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": -1706.95, "y": 1501.83 },
+					{ "time": 1.9666, "x": -1706.95, "y": 434.52, "curve": "stepped" },
+					{ "time": 2, "x": 938.13, "y": 1501.83 },
+					{ "time": 2.5666, "x": 938.14, "y": 434.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4, "x": 1, "y": 1.904 },
+					{ "time": 1.9666, "x": 1, "y": 1.834, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1.904 },
+					{ "time": 2.5666, "x": 1, "y": 1.834 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.2333, "x": -1990.68, "y": 1434.79 },
+					{ "time": 1.8333, "x": -1990.68, "y": 473.89, "curve": "stepped" },
+					{ "time": 2, "x": 1856.84, "y": 1434.79 },
+					{ "time": 2.6, "x": 1804.26, "y": 473.89 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.2333, "x": 2.003, "y": 2.756 },
+					{ "time": 1.8333, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 2, "x": 2.003, "y": 2.756 },
+					{ "time": 2.6, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1579.65, "y": 1474.7 },
+					{ "time": 1.8333, "x": 1579.65, "y": -725.86, "curve": "stepped" },
+					{ "time": 1.9, "x": -598.83, "y": 1474.7 },
+					{ "time": 2.5666, "x": -598.83, "y": -725.86 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.5666, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9666, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": -1706.95, "y": 1501.83 },
+					{ "time": 1.9666, "x": -1706.95, "y": -344.32, "curve": "stepped" },
+					{ "time": 2, "x": 938.13, "y": 1501.83 },
+					{ "time": 2.5666, "x": 938.14, "y": -344.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.9666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.5666, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.2333, "x": -2043.26, "y": 1404.74 },
+					{ "time": 1.8333, "x": -2043.26, "y": -401.07, "curve": "stepped" },
+					{ "time": 2, "x": 1804.26, "y": 1404.74 },
+					{ "time": 2.6, "x": 1804.26, "y": -401.07 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.2333, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 1.8333, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 2, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 2.6, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	},
+	"attack": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"damage": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"dead": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"legend": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill1": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.5, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill2": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill3": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"run": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"walk": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"win": {
+		"slots": {
+			"debris_smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"debris_smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"storn_debris3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris effectset": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"debris_smoke3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"storn_debris3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

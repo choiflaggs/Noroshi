@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Login.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Main.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/CharacterList.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/BattleScene.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Story.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Arena.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Expedition.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Training.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Defense.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Trial.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Shop.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Gacha.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Item.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/Guild.unity
+  - enabled: 1
+    path: Assets/Noroshi/Scenes/RaidBoss.unity
+  - enabled: 1
+    path: Assets/NoroshiDebug/Scenes/DebugCharacter.unity
+  - enabled: 1
+    path: Assets/NoroshiDebug/Scenes/DebugItem.unity
+  - enabled: 1
+    path: Assets/NoroshiDebug/Scenes/DebugPlayer.unity

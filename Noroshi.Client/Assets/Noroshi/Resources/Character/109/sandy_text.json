@@ -1,0 +1,162 @@
+{
+"skeleton": { "hash": "C7IXQkrrbVlktWDTiDg1GTddo+o", "spine": "2.1.27", "width": 0, "height": 0, "images": "./sandy_v2-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "text_effect_blam", "parent": "root", "y": 441.38, "scaleX": 2, "scaleY": 2, "color": "08009bff" }
+],
+"slots": [
+	{ "name": "text_effect_BLAM__", "bone": "text_effect_blam" }
+],
+"skins": {
+	"default": {
+		"text_effect_BLAM__": {
+			"text_effect_BLAM__": { "x": 35.09, "width": 516, "height": 278 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"text_effect_BLAM__": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.9333, "name": "text_effect_BLAM__" },
+					{ "time": 2.0666, "name": "text_effect_BLAM__" },
+					{ "time": 2.1333, "name": "text_effect_BLAM__" },
+					{ "time": 2.2, "name": "text_effect_BLAM__" },
+					{ "time": 2.2666, "name": "text_effect_BLAM__" },
+					{ "time": 2.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text_effect_blam": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.2, "angle": 0, "curve": "stepped" },
+					{ "time": 2.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.9333, "x": 1, "y": 1 },
+					{ "time": 1.9666, "x": 1.3, "y": 1.3 },
+					{ "time": 2.0666, "x": 1, "y": 1 },
+					{ "time": 2.1333, "x": 1.05, "y": 1.05 },
+					{ "time": 2.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.2666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"attack": {
+		"slots": {
+			"text_effect_BLAM__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text_effect_blam": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill2": {
+		"slots": {
+			"text_effect_BLAM__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text_effect_blam": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill1_attack": {
+		"slots": {
+			"text_effect_BLAM__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text_effect_blam": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"p_skill1_effect": {
+		"slots": {
+			"text_effect_BLAM__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"text_effect_blam": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

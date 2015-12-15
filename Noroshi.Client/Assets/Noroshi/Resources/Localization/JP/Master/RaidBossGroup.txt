@@ -1,0 +1,4 @@
+{
+    "RaidBossGroup.1": "テストボスグループ", 
+    "RaidBossGroup.2": "テストボスグループ"
+}

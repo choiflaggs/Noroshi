@@ -1,0 +1,25 @@
+shard_ids:
+  - 1
+  - 2
+environment:
+  development:
+    driver: mysql
+    open: noroshi:rsNpJQpL0VLD0QIw@tcp(flaggs-dev.c4rqnbz0knbn.ap-northeast-1.rds.amazonaws.com:3306)/noroshi_shard%d?parseTime=true
+  dev_arai:
+    driver: mysql
+    open: noroshi:NoroshiServer@tcp(aar312313qn1ls.c4rqnbz0knbn.ap-northeast-1.rds.amazonaws.com:3306)/noroshi_dev_arai_shard%d?parseTime=true
+  dev_tomosada:
+    driver: mysql
+    open: noroshi:NoroshiServer@tcp(aar312313qn1ls.c4rqnbz0knbn.ap-northeast-1.rds.amazonaws.com:3306)/noroshi_tomosada_shard%d?parseTime=true
+  dev_nishimura:
+    driver: mysql
+    open: noroshi:NoroshiServer@tcp(aar312313qn1ls.c4rqnbz0knbn.ap-northeast-1.rds.amazonaws.com:3306)/noroshi_dev_nishimura_shard%d?parseTime=true
+  dev_okabe:
+    driver: mysql
+    open: noroshi:NoroshiServer@tcp(aar312313qn1ls.c4rqnbz0knbn.ap-northeast-1.rds.amazonaws.com:3306)/noroshi_dev_okabe_shard%d?parseTime=true
+  dev_tomita:
+    driver: mysql
+    open: noroshi:NoroshiServer@tcp(aar312313qn1ls.c4rqnbz0knbn.ap-northeast-1.rds.amazonaws.com:3306)/noroshi_dev_tomita_shard%d?parseTime=true
+  dev_choi:
+    driver: mysql
+    open: noroshi:NoroshiServer@tcp(aar312313qn1ls.c4rqnbz0knbn.ap-northeast-1.rds.amazonaws.com:3306)/noroshi_dev_choi_shard%d?parseTime=true

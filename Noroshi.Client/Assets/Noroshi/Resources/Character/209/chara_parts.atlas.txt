@@ -1,0 +1,307 @@
+
+chara_parts.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_back
+  rotate: true
+  xy: 242, 91
+  size: 24, 39
+  orig: 24, 39
+  offset: 0, 0
+  index: -1
+arm_front
+  rotate: true
+  xy: 878, 132
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 570, 13
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 972, 437
+  size: 50, 73
+  orig: 50, 73
+  offset: 0, 0
+  index: -1
+face_attack
+  rotate: false
+  xy: 372, 47
+  size: 41, 28
+  orig: 41, 28
+  offset: 0, 0
+  index: -1
+face_damage
+  rotate: false
+  xy: 242, 117
+  size: 39, 26
+  orig: 39, 26
+  offset: 0, 0
+  index: -1
+face_dead
+  rotate: false
+  xy: 328, 48
+  size: 42, 27
+  orig: 42, 27
+  offset: 0, 0
+  index: -1
+face_nomal
+  rotate: true
+  xy: 943, 167
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+face_win
+  rotate: false
+  xy: 282, 49
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+finger_attack
+  rotate: true
+  xy: 415, 42
+  size: 33, 21
+  orig: 33, 21
+  offset: 0, 0
+  index: -1
+finger_front
+  rotate: false
+  xy: 1002, 414
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+finger_run
+  rotate: false
+  xy: 626, 2
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+finger_skill
+  rotate: true
+  xy: 719, 2
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+hair_back
+  rotate: false
+  xy: 943, 213
+  size: 29, 132
+  orig: 29, 132
+  offset: 0, 0
+  index: -1
+hair_front
+  rotate: true
+  xy: 90, 16
+  size: 25, 137
+  orig: 25, 137
+  offset: 0, 0
+  index: -1
+hand_attack
+  rotate: false
+  xy: 242, 49
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+hand_back
+  rotate: true
+  xy: 786, 102
+  size: 59, 30
+  orig: 59, 30
+  offset: 0, 0
+  index: -1
+hand_front
+  rotate: false
+  xy: 675, 28
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+hand_run
+  rotate: true
+  xy: 725, 68
+  size: 30, 44
+  orig: 30, 44
+  offset: 0, 0
+  index: -1
+hand_skill
+  rotate: true
+  xy: 818, 105
+  size: 32, 44
+  orig: 32, 44
+  offset: 0, 0
+  index: -1
+hat_1
+  rotate: false
+  xy: 438, 2
+  size: 130, 75
+  orig: 130, 75
+  offset: 0, 0
+  index: -1
+hat_2
+  rotate: false
+  xy: 438, 79
+  size: 145, 82
+  orig: 145, 82
+  offset: 0, 0
+  index: -1
+hat_3
+  rotate: false
+  xy: 283, 77
+  size: 153, 84
+  orig: 153, 84
+  offset: 0, 0
+  index: -1
+hat_accessory
+  rotate: true
+  xy: 675, 2
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 725, 100
+  size: 59, 61
+  orig: 59, 61
+  offset: 0, 0
+  index: -1
+leg_back
+  rotate: false
+  xy: 818, 139
+  size: 58, 193
+  orig: 58, 193
+  offset: 0, 0
+  index: -1
+leg_front
+  rotate: false
+  xy: 878, 161
+  size: 63, 184
+  orig: 63, 184
+  offset: 0, 0
+  index: -1
+peat_body
+  rotate: false
+  xy: 721, 30
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+peat_hand_back
+  rotate: true
+  xy: 1002, 383
+  size: 29, 16
+  orig: 29, 16
+  offset: 0, 0
+  index: -1
+peat_hand_front
+  rotate: false
+  xy: 918, 130
+  size: 16, 29
+  orig: 16, 29
+  offset: 0, 0
+  index: -1
+peat_head
+  rotate: false
+  xy: 626, 27
+  size: 47, 42
+  orig: 47, 42
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 283, 298
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+shoulderstrap
+  rotate: false
+  xy: 972, 358
+  size: 28, 77
+  orig: 28, 77
+  offset: 0, 0
+  index: -1
+skirt_1
+  rotate: true
+  xy: 2, 2
+  size: 141, 86
+  orig: 141, 86
+  offset: 0, 0
+  index: -1
+skirt_2
+  rotate: false
+  xy: 585, 71
+  size: 138, 90
+  orig: 138, 90
+  offset: 0, 0
+  index: -1
+skirt_3
+  rotate: false
+  xy: 90, 43
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+umbrella_1
+  rotate: false
+  xy: 298, 163
+  size: 258, 169
+  orig: 258, 169
+  offset: 0, 0
+  index: -1
+umbrella_2
+  rotate: false
+  xy: 558, 163
+  size: 258, 169
+  orig: 258, 169
+  offset: 0, 0
+  index: -1
+umbrella_3
+  rotate: false
+  xy: 2, 145
+  size: 279, 178
+  orig: 279, 178
+  offset: 0, 0
+  index: -1
+umbrella_effect
+  rotate: false
+  xy: 857, 347
+  size: 113, 163
+  orig: 113, 163
+  offset: 0, 0
+  index: -1
+umbrella_skill_1
+  rotate: false
+  xy: 298, 334
+  size: 278, 176
+  orig: 278, 176
+  offset: 0, 0
+  index: -1
+umbrella_skill_2
+  rotate: false
+  xy: 578, 334
+  size: 277, 176
+  orig: 277, 176
+  offset: 0, 0
+  index: -1
+umbrella_skill_3
+  rotate: false
+  xy: 2, 325
+  size: 294, 185
+  orig: 294, 185
+  offset: 0, 0
+  index: -1

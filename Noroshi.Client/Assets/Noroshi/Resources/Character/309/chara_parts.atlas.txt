@@ -1,0 +1,412 @@
+
+chara_parts.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_back_part1
+  rotate: false
+  xy: 657, 50
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+arm_back_part2
+  rotate: true
+  xy: 380, 53
+  size: 40, 62
+  orig: 40, 62
+  offset: 0, 0
+  index: -1
+arm_back_pipe
+  rotate: false
+  xy: 589, 66
+  size: 13, 47
+  orig: 13, 47
+  offset: 0, 0
+  index: -1
+arm_front_part1
+  rotate: false
+  xy: 995, 137
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: -1
+arm_front_part2
+  rotate: false
+  xy: 274, 75
+  size: 37, 76
+  orig: 37, 76
+  offset: 0, 0
+  index: -1
+arm_front_pipe
+  rotate: true
+  xy: 604, 46
+  size: 28, 51
+  orig: 28, 51
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 14
+  size: 182, 119
+  orig: 182, 119
+  offset: 0, 0
+  index: -1
+body_pipe_back
+  rotate: false
+  xy: 923, 102
+  size: 60, 40
+  orig: 60, 40
+  offset: 0, 0
+  index: -1
+body_pipe_front
+  rotate: false
+  xy: 864, 145
+  size: 58, 51
+  orig: 58, 51
+  offset: 0, 0
+  index: -1
+evo12_shoulder_front_dead
+  rotate: true
+  xy: 767, 45
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+evo2_arm_back_part
+  rotate: false
+  xy: 682, 73
+  size: 52, 26
+  orig: 52, 26
+  offset: 0, 0
+  index: -1
+evo2_arm_front_part
+  rotate: false
+  xy: 864, 111
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+evo2_body_tank
+  rotate: true
+  xy: 544, 168
+  size: 86, 100
+  orig: 86, 100
+  offset: 0, 0
+  index: -1
+evo2_head_part_back
+  rotate: false
+  xy: 444, 59
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+evo2_head_part_front
+  rotate: true
+  xy: 381, 95
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+evo2_leg_back_part
+  rotate: false
+  xy: 604, 76
+  size: 47, 35
+  orig: 47, 35
+  offset: 0, 0
+  index: -1
+evo2_leg_front_part
+  rotate: true
+  xy: 496, 60
+  size: 54, 39
+  orig: 54, 39
+  offset: 0, 0
+  index: -1
+evo2_shoulder_back
+  rotate: false
+  xy: 186, 14
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+evo2_shoulder_front
+  rotate: false
+  xy: 943, 181
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+evo2_shoulder_front_dead
+  rotate: true
+  xy: 724, 43
+  size: 14, 41
+  orig: 14, 41
+  offset: 0, 0
+  index: -1
+evo3_1_tail
+  rotate: false
+  xy: 846, 198
+  size: 95, 56
+  orig: 95, 56
+  offset: 0, 0
+  index: -1
+evo3_2_tail
+  rotate: false
+  xy: 194, 153
+  size: 110, 101
+  orig: 110, 101
+  offset: 0, 0
+  index: -1
+evo3_3tail
+  rotate: false
+  xy: 748, 196
+  size: 96, 58
+  orig: 96, 58
+  offset: 0, 0
+  index: -1
+evo3_arm_back_part
+  rotate: false
+  xy: 736, 59
+  size: 52, 26
+  orig: 52, 26
+  offset: 0, 0
+  index: -1
+evo3_arm_front_part
+  rotate: false
+  xy: 742, 87
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+evo3_body
+  rotate: false
+  xy: 2, 135
+  size: 190, 119
+  orig: 190, 119
+  offset: 0, 0
+  index: -1
+evo3_body_tank
+  rotate: true
+  xy: 646, 168
+  size: 86, 100
+  orig: 86, 100
+  offset: 0, 0
+  index: -1
+evo3_head_part_back
+  rotate: false
+  xy: 537, 62
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+evo3_head_part_front
+  rotate: false
+  xy: 313, 53
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+evo3_head_top
+  rotate: false
+  xy: 425, 176
+  size: 117, 78
+  orig: 117, 78
+  offset: 0, 0
+  index: -1
+evo3_head_top_dead
+  rotate: false
+  xy: 985, 102
+  size: 37, 33
+  orig: 37, 33
+  offset: 0, 0
+  index: -1
+evo3_leg_back_part
+  rotate: false
+  xy: 633, 9
+  size: 47, 35
+  orig: 47, 35
+  offset: 0, 0
+  index: -1
+evo3_leg_front_part
+  rotate: true
+  xy: 497, 4
+  size: 54, 39
+  orig: 54, 39
+  offset: 0, 0
+  index: -1
+evo3_shoulder_back
+  rotate: false
+  xy: 313, 98
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+evo3_shoulder_front
+  rotate: false
+  xy: 748, 121
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+evo3_shoulder_front_dead
+  rotate: true
+  xy: 908, 86
+  size: 14, 41
+  orig: 14, 41
+  offset: 0, 0
+  index: -1
+evo3_shoulder_leg_front_parts
+  rotate: false
+  xy: 544, 115
+  size: 67, 51
+  orig: 67, 51
+  offset: 0, 0
+  index: -1
+evo3_tail_front_part
+  rotate: false
+  xy: 581, 12
+  size: 50, 32
+  orig: 50, 32
+  offset: 0, 0
+  index: -1
+gus_nozzle
+  rotate: false
+  xy: 951, 84
+  size: 35, 16
+  orig: 35, 16
+  offset: 0, 0
+  index: -1
+head_part_back
+  rotate: false
+  xy: 445, 6
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+head_part_front
+  rotate: false
+  xy: 307, 8
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+head_top
+  rotate: false
+  xy: 306, 162
+  size: 117, 92
+  orig: 117, 92
+  offset: 0, 0
+  index: -1
+head_top_dead
+  rotate: true
+  xy: 801, 89
+  size: 30, 22
+  orig: 30, 22
+  offset: 0, 0
+  index: -1
+head_under_back
+  rotate: true
+  xy: 682, 101
+  size: 65, 58
+  orig: 65, 58
+  offset: 0, 0
+  index: -1
+head_under_front
+  rotate: false
+  xy: 613, 113
+  size: 67, 53
+  orig: 67, 53
+  offset: 0, 0
+  index: -1
+head_under_front_screw
+  rotate: false
+  xy: 538, 12
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+leg_back_part1
+  rotate: false
+  xy: 682, 30
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+leg_back_part2
+  rotate: true
+  xy: 924, 144
+  size: 35, 69
+  orig: 35, 69
+  offset: 0, 0
+  index: -1
+leg_back_pipe
+  rotate: true
+  xy: 682, 2
+  size: 26, 45
+  orig: 26, 45
+  offset: 0, 0
+  index: -1
+leg_front_part1
+  rotate: true
+  xy: 863, 71
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+leg_front_part2
+  rotate: false
+  xy: 828, 118
+  size: 34, 76
+  orig: 34, 76
+  offset: 0, 0
+  index: -1
+leg_front_pipe
+  rotate: false
+  xy: 653, 77
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 825, 78
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 374, 15
+  size: 69, 36
+  orig: 69, 36
+  offset: 0, 0
+  index: -1
+shoulder_back
+  rotate: false
+  xy: 426, 112
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+shoulder_front
+  rotate: false
+  xy: 194, 78
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+shoulder_leg_front_parts
+  rotate: true
+  xy: 254, 6
+  size: 67, 51
+  orig: 67, 51
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 494, 116
+  size: 48, 58
+  orig: 48, 58
+  offset: 0, 0
+  index: -1

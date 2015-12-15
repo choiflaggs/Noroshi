@@ -1,0 +1,67 @@
+[
+{
+"ID": 1,
+"CharacterID": 11,
+"Level":1,
+"PromotionLevel":10,
+"EvolutionLevel":2,
+"ActionLevel1":1,
+"ActionLevel2":2,
+"ActionLevel3":3,
+"ActionLevel4":4,
+"ActionLevel5":5,
+"GearIDs" :[11, 0, 0, 0, 0, 0]
+},
+{
+"ID": 2,
+"CharacterID": 12,
+"Level":1,
+"PromotionLevel":10,
+"EvolutionLevel":1,
+"ActionLevel1":1,
+"ActionLevel2":2,
+"ActionLevel3":3,
+"ActionLevel4":4,
+"ActionLevel5":5,
+"GearIDs" :[0, 0, 0, 0, 0, 0]
+},
+{
+"ID": 3,
+"CharacterID": 13,
+"Level":1,
+"PromotionLevel":10,
+"EvolutionLevel":2,
+"ActionLevel1":1,
+"ActionLevel2":2,
+"ActionLevel3":3,
+"ActionLevel4":4,
+"ActionLevel5":5,
+"GearIDs" :[0, 0, 0, 0, 0, 0]
+},
+{
+"ID": 4,
+"CharacterID": 14,
+"Level":1,
+"PromotionLevel":10,
+"EvolutionLevel":1,
+"ActionLevel1":1,
+"ActionLevel2":2,
+"ActionLevel3":3,
+"ActionLevel4":4,
+"ActionLevel5":5,
+"GearIDs" :[0, 0, 0, 0, 0, 0]
+},
+{
+"ID": 5,
+"CharacterID": 15,
+"Level":1,
+"PromotionLevel":10,
+"EvolutionLevel":1,
+"ActionLevel1":1,
+"ActionLevel2":2,
+"ActionLevel3":3,
+"ActionLevel4":4,
+"ActionLevel5":5,
+"GearIDs" :[0, 0, 0, 0, 0, 0]
+}
+]

@@ -1,0 +1,104 @@
+
+ui_param.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_gm_status_avoiddown
+  rotate: false
+  xy: 2, 233
+  size: 302, 75
+  orig: 600, 80
+  offset: 157, 3
+  index: -1
+ui_gm_status_avoidup
+  rotate: false
+  xy: 2, 79
+  size: 219, 75
+  orig: 600, 80
+  offset: 195, 3
+  index: -1
+ui_gm_status_hitdown
+  rotate: false
+  xy: 2, 156
+  size: 299, 75
+  orig: 600, 80
+  offset: 158, 3
+  index: -1
+ui_gm_status_hitup
+  rotate: false
+  xy: 223, 79
+  size: 218, 75
+  orig: 600, 80
+  offset: 196, 3
+  index: -1
+ui_gm_status_magic_defencedown
+  rotate: false
+  xy: 308, 310
+  size: 302, 75
+  orig: 600, 80
+  offset: 157, 3
+  index: -1
+ui_gm_status_magic_defenceup
+  rotate: false
+  xy: 306, 233
+  size: 221, 75
+  orig: 600, 80
+  offset: 195, 3
+  index: -1
+ui_gm_status_magic_powerdown
+  rotate: false
+  xy: 2, 387
+  size: 306, 75
+  orig: 600, 80
+  offset: 157, 3
+  index: -1
+ui_gm_status_magic_powerup
+  rotate: false
+  xy: 612, 310
+  size: 221, 75
+  orig: 600, 80
+  offset: 195, 3
+  index: -1
+ui_gm_status_physics_defencedown
+  rotate: false
+  xy: 616, 387
+  size: 301, 75
+  orig: 600, 80
+  offset: 157, 3
+  index: -1
+ui_gm_status_physics_defenceup
+  rotate: false
+  xy: 303, 156
+  size: 219, 75
+  orig: 600, 80
+  offset: 195, 3
+  index: -1
+ui_gm_status_physics_powerdown
+  rotate: false
+  xy: 2, 310
+  size: 304, 75
+  orig: 600, 80
+  offset: 157, 3
+  index: -1
+ui_gm_status_physics_powerup
+  rotate: false
+  xy: 529, 233
+  size: 219, 75
+  orig: 600, 80
+  offset: 196, 3
+  index: -1
+ui_gm_status_speeddown
+  rotate: false
+  xy: 310, 387
+  size: 304, 75
+  orig: 600, 80
+  offset: 157, 3
+  index: -1
+ui_gm_status_speedup
+  rotate: false
+  xy: 2, 2
+  size: 219, 75
+  orig: 600, 80
+  offset: 195, 3
+  index: -1

@@ -1,0 +1,167 @@
+
+effect_parts.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_alpha
+  rotate: false
+  xy: 759, 110
+  size: 43, 43
+  orig: 48, 48
+  offset: 3, 2
+  index: -1
+fire_ball0001
+  rotate: true
+  xy: 970, 330
+  size: 77, 52
+  orig: 88, 63
+  offset: 6, 7
+  index: -1
+fire_ball0002
+  rotate: false
+  xy: 141, 25
+  size: 78, 51
+  orig: 88, 63
+  offset: 6, 7
+  index: -1
+fire_ball0003
+  rotate: true
+  xy: 970, 251
+  size: 77, 52
+  orig: 88, 63
+  offset: 6, 7
+  index: -1
+fire_emission0001
+  rotate: true
+  xy: 670, 262
+  size: 143, 123
+  orig: 191, 163
+  offset: 21, 25
+  index: -1
+fire_emission0002
+  rotate: false
+  xy: 416, 6
+  size: 156, 128
+  orig: 191, 163
+  offset: 14, 26
+  index: -1
+fire_emission0003
+  rotate: false
+  xy: 434, 136
+  size: 164, 133
+  orig: 191, 163
+  offset: 12, 22
+  index: -1
+fire_emission0004
+  rotate: false
+  xy: 494, 271
+  size: 174, 134
+  orig: 191, 163
+  offset: 11, 20
+  index: -1
+fire_emission0005
+  rotate: false
+  xy: 795, 272
+  size: 173, 135
+  orig: 191, 163
+  offset: 12, 18
+  index: -1
+fire_emission0006
+  rotate: false
+  xy: 260, 174
+  size: 172, 136
+  orig: 191, 163
+  offset: 11, 15
+  index: -1
+fire_emission0007
+  rotate: false
+  xy: 245, 40
+  size: 169, 132
+  orig: 191, 163
+  offset: 13, 16
+  index: -1
+fire_emission_breath0001
+  rotate: false
+  xy: 2, 189
+  size: 252, 98
+  orig: 261, 118
+  offset: 7, 13
+  index: -1
+fire_emission_breath0002
+  rotate: false
+  xy: 2, 289
+  size: 256, 107
+  orig: 261, 118
+  offset: 3, 5
+  index: -1
+fire_emission_breath0003
+  rotate: false
+  xy: 2, 398
+  size: 257, 111
+  orig: 261, 118
+  offset: 2, 3
+  index: -1
+fire_emission_breath0004
+  rotate: false
+  xy: 2, 78
+  size: 241, 109
+  orig: 261, 118
+  offset: 10, 5
+  index: -1
+fire_emission_breath0005
+  rotate: false
+  xy: 526, 407
+  size: 240, 102
+  orig: 261, 118
+  offset: 4, 3
+  index: -1
+fire_emission_breath0006
+  rotate: false
+  xy: 768, 409
+  size: 233, 100
+  orig: 261, 118
+  offset: 4, 3
+  index: -1
+fire_emission_breath0007
+  rotate: false
+  xy: 261, 312
+  size: 231, 100
+  orig: 261, 118
+  offset: 5, 3
+  index: -1
+fire_emission_breath0008
+  rotate: false
+  xy: 574, 9
+  size: 155, 94
+  orig: 261, 118
+  offset: 8, 9
+  index: -1
+fire_floor_effect
+  rotate: false
+  xy: 2, 2
+  size: 137, 74
+  orig: 155, 82
+  offset: 12, 5
+  index: -1
+roar_effect
+  rotate: false
+  xy: 759, 155
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+tail_effect
+  rotate: false
+  xy: 600, 105
+  size: 157, 155
+  orig: 157, 157
+  offset: 0, 1
+  index: -1
+text_effect_garg_Booo__
+  rotate: false
+  xy: 261, 414
+  size: 263, 95
+  orig: 263, 95
+  offset: 0, 0
+  index: -1

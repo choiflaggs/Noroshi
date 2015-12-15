@@ -1,0 +1,94 @@
+{
+"Battle": {
+  "ID": 1,
+  "Exp": 6,
+  "Money": 47,
+  "Waves":[
+  {
+    "EnemyCharacter1": {
+      "ID": 1,
+      "CharacterID": 31,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "EnemyCharacter2": null,
+    "EnemyCharacter3": null,
+    "EnemyCharacter4": null,
+    "EnemyCharacter5": null
+  },
+  {
+    "EnemyCharacter1": {
+      "ID": 2,
+      "CharacterID": 32,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "EnemyCharacter2": null,
+    "EnemyCharacter3": null,
+    "EnemyCharacter4": null,
+    "EnemyCharacter5": null
+  },
+  {
+    "EnemyCharacter1": {
+      "ID": 1,
+      "CharacterID": 31,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "EnemyCharacter2": {
+      "ID": 2,
+      "CharacterID": 32,
+      "Level": 1,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "EnemyCharacter3": {
+      "ID": 3,
+      "CharacterID": 31,
+      "Level": 5,
+      "PromotionLevel": 1,
+      "EvolutionLevel": 2,
+      "ActionLevel1": 1,
+      "ActionLevel2": 2,
+      "ActionLevel3": 3,
+      "ActionLevel4": 4,
+      "ActionLevel5": 5,
+      "GearIDs" :[0,0,0,0,0,0]
+    },
+    "EnemyCharacter4": null,
+    "EnemyCharacter5": null
+  }
+  ]
+},
+"DropItems":[
+  {"ItemID": 11, "Num" :4 },
+  {"ItemID": 12, "Num" :3 }
+]
+}

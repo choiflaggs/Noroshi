@@ -1,0 +1,65 @@
+{
+"skeleton": { "hash": "DyMXyrj/KVRV83AyB7gkPCfw3As", "spine": "2.1.27", "width": 0, "height": 0, "images": "./zabowa-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "weapon_attack", "parent": "root" }
+],
+"slots": [
+	{ "name": "weapon_attack", "bone": "weapon_attack", "attachment": "weapon_attack" }
+],
+"skins": {
+	"default": {
+		"weapon_attack": {
+			"weapon_attack": { "width": 111, "height": 290 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"weapon_attack": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_attack" },
+					{ "time": 0.2333, "name": "weapon_attack" },
+					{ "time": 0.4666, "name": "weapon_attack" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"weapon_attack": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 176.92 },
+					{ "time": 0.4666, "angle": -5.13 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2333 },
+			{ "time": 0.4666 }
+		]
+	}
+}
+}

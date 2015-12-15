@@ -1,0 +1,551 @@
+{
+"skeleton": { "hash": "mPPeccCbuzwRy/xm4SYv7PWVHIo", "spine": "2.1.27", "width": 0, "height": 0, "images": "./asha-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect set", "parent": "root", "color": "9c009aff" },
+	{ "name": "fire emission0", "parent": "effect set", "color": "9c009aff" },
+	{ "name": "fire emission1", "parent": "effect set", "color": "9c009aff" },
+	{ "name": "fire back emission0001", "parent": "fire emission0", "y": 36.39, "color": "9c009aff" },
+	{ "name": "fire back emission1", "parent": "fire emission1", "y": 36.39, "color": "9c009aff" }
+],
+"slots": [
+	{ "name": "fire back emission0001", "bone": "fire back emission0001" },
+	{ "name": "fire back emission1", "bone": "fire back emission1" }
+],
+"skins": {
+	"default": {
+		"fire back emission0001": {
+			"fire back emission0001": { "width": 510, "height": 396 },
+			"fire back emission0002": { "width": 510, "height": 396 },
+			"fire back emission0003": { "width": 510, "height": 396 },
+			"fire back emission0004": { "width": 510, "height": 396 },
+			"fire back emission0005": { "width": 510, "height": 396 }
+		},
+		"fire back emission1": {
+			"fire back emission0001": { "width": 510, "height": 396 },
+			"fire back emission0002": { "width": 510, "height": 396 },
+			"fire back emission0003": { "width": 510, "height": 396 },
+			"fire back emission0004": { "width": 510, "height": 396 },
+			"fire back emission0005": { "width": 510, "height": 396 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"fire back emission0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.2, "name": "fire back emission0001" },
+					{ "time": 1.2333, "name": "fire back emission0002" },
+					{ "time": 1.2666, "name": "fire back emission0003" },
+					{ "time": 1.3, "name": "fire back emission0004" },
+					{ "time": 1.3333, "name": "fire back emission0005" },
+					{ "time": 1.3666, "name": "fire back emission0001" },
+					{ "time": 1.4, "name": "fire back emission0002" },
+					{ "time": 1.4333, "name": "fire back emission0003" },
+					{ "time": 1.4666, "name": "fire back emission0004" },
+					{ "time": 1.5, "name": "fire back emission0005" },
+					{ "time": 1.5333, "name": "fire back emission0001" },
+					{ "time": 1.5666, "name": "fire back emission0002" },
+					{ "time": 1.6, "name": "fire back emission0003" },
+					{ "time": 1.6333, "name": "fire back emission0004" },
+					{ "time": 1.6666, "name": "fire back emission0005" },
+					{ "time": 1.7, "name": "fire back emission0001" },
+					{ "time": 1.7333, "name": "fire back emission0002" },
+					{ "time": 1.7666, "name": "fire back emission0003" },
+					{ "time": 1.8, "name": "fire back emission0004" },
+					{ "time": 1.8333, "name": "fire back emission0005" },
+					{ "time": 1.8666, "name": "fire back emission0001" },
+					{ "time": 1.9, "name": "fire back emission0002" },
+					{ "time": 1.9333, "name": "fire back emission0003" },
+					{ "time": 1.9666, "name": "fire back emission0004" },
+					{ "time": 2, "name": "fire back emission0005" },
+					{ "time": 2.0333, "name": "fire back emission0001" },
+					{ "time": 2.0666, "name": "fire back emission0002" },
+					{ "time": 2.1, "name": "fire back emission0003" },
+					{ "time": 2.1333, "name": "fire back emission0004" },
+					{ "time": 2.1666, "name": "fire back emission0005" },
+					{ "time": 2.2, "name": "fire back emission0001" },
+					{ "time": 2.2333, "name": "fire back emission0002" },
+					{ "time": 2.2666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.2666, "color": "ffffffff" }
+				]
+			},
+			"fire back emission1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5, "name": "fire back emission0001" },
+					{ "time": 1.5333, "name": "fire back emission0002" },
+					{ "time": 1.5666, "name": "fire back emission0003" },
+					{ "time": 1.6, "name": "fire back emission0004" },
+					{ "time": 1.6333, "name": "fire back emission0005" },
+					{ "time": 1.6666, "name": "fire back emission0001" },
+					{ "time": 1.7, "name": "fire back emission0002" },
+					{ "time": 1.7333, "name": "fire back emission0003" },
+					{ "time": 1.7666, "name": "fire back emission0004" },
+					{ "time": 1.8, "name": "fire back emission0005" },
+					{ "time": 1.8333, "name": "fire back emission0001" },
+					{ "time": 1.8666, "name": "fire back emission0002" },
+					{ "time": 1.9, "name": "fire back emission0003" },
+					{ "time": 1.9333, "name": "fire back emission0004" },
+					{ "time": 1.9666, "name": "fire back emission0005" },
+					{ "time": 2, "name": "fire back emission0001" },
+					{ "time": 2.0333, "name": "fire back emission0002" },
+					{ "time": 2.0666, "name": "fire back emission0003" },
+					{ "time": 2.1, "name": "fire back emission0004" },
+					{ "time": 2.1333, "name": "fire back emission0005" },
+					{ "time": 2.1666, "name": "fire back emission0001" },
+					{ "time": 2.2, "name": "fire back emission0002" },
+					{ "time": 2.2333, "name": "fire back emission0003" },
+					{ "time": 2.2666, "name": "fire back emission0004" },
+					{ "time": 2.3, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffff00" },
+					{ "time": 1.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.2666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 3.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 3.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 4.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.1333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.1333, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0, "curve": "stepped" },
+					{ "time": 2.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 3, "y": 3, "curve": "stepped" },
+					{ "time": 2.2666, "x": 3, "y": 3 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.2, "angle": 0, "curve": "stepped" },
+					{ "time": 2.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.2, "x": 4, "y": 4, "curve": "stepped" },
+					{ "time": 2.2666, "x": 4, "y": 4 }
+				]
+			},
+			"fire back emission0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.2, "angle": 0, "curve": "stepped" },
+					{ "time": 2.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.2666, "x": 1, "y": 1 }
+				]
+			},
+			"fire back emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0, "curve": "stepped" },
+					{ "time": 2.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.2666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 2.3 },
+			{ "time": 2.4 },
+			{ "time": 3.2333 },
+			{ "time": 3.2666 },
+			{ "time": 3.3 }
+		]
+	},
+	"attack": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"damage": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"dead": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill1": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"p_skill2": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"run": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"walk": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"win": {
+		"bones": {
+			"effect set": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fire emission0": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,146 @@
+
+effect_parts.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud
+  rotate: false
+  xy: 2, 32
+  size: 147, 79
+  orig: 151, 81
+  offset: 2, 2
+  index: -1
+rain_emission0001
+  rotate: true
+  xy: 310, 108
+  size: 31, 33
+  orig: 59, 59
+  offset: 14, 13
+  index: -1
+rain_emission0002
+  rotate: false
+  xy: 255, 72
+  size: 37, 39
+  orig: 59, 59
+  offset: 11, 10
+  index: -1
+rain_emission0003
+  rotate: false
+  xy: 363, 154
+  size: 41, 42
+  orig: 59, 59
+  offset: 9, 8
+  index: -1
+rain_emission0004
+  rotate: false
+  xy: 208, 64
+  size: 45, 47
+  orig: 59, 59
+  offset: 7, 6
+  index: -1
+rain_emission0005
+  rotate: false
+  xy: 436, 203
+  size: 49, 51
+  orig: 59, 59
+  offset: 5, 4
+  index: -1
+rain_emission0006
+  rotate: false
+  xy: 310, 141
+  size: 51, 55
+  orig: 59, 59
+  offset: 4, 2
+  index: -1
+rain_emission0007
+  rotate: false
+  xy: 151, 54
+  size: 55, 57
+  orig: 59, 59
+  offset: 2, 1
+  index: -1
+rain_line_set
+  rotate: true
+  xy: 2, 113
+  size: 141, 306
+  orig: 142, 306
+  offset: 0, 0
+  index: -1
+rain_smoke 
+  rotate: false
+  xy: 310, 198
+  size: 124, 56
+  orig: 125, 56
+  offset: 0, 0
+  index: -1
+thander_effect
+  rotate: false
+  xy: 406, 162
+  size: 32, 34
+  orig: 35, 35
+  offset: 1, 1
+  index: -1
+thander_line0001
+  rotate: true
+  xy: 294, 95
+  size: 16, 14
+  orig: 42, 39
+  offset: 2, 25
+  index: -1
+thander_line0002
+  rotate: false
+  xy: 487, 234
+  size: 16, 20
+  orig: 42, 39
+  offset: 2, 19
+  index: -1
+thander_line0003
+  rotate: true
+  xy: 345, 106
+  size: 33, 30
+  orig: 42, 39
+  offset: 3, 2
+  index: -1
+thander_line0004
+  rotate: false
+  xy: 2, 3
+  size: 36, 27
+  orig: 42, 39
+  offset: 1, 1
+  index: -1
+thander_line0005
+  rotate: false
+  xy: 151, 33
+  size: 41, 19
+  orig: 42, 39
+  offset: 0, 1
+  index: -1
+thander_line0006
+  rotate: false
+  xy: 440, 169
+  size: 32, 32
+  orig: 42, 39
+  offset: 8, 2
+  index: -1
+thander_line0007
+  rotate: true
+  xy: 151, 2
+  size: 29, 30
+  orig: 42, 39
+  offset: 12, 5
+  index: -1
+thander_line0008
+  rotate: false
+  xy: 40, 15
+  size: 19, 15
+  orig: 42, 39
+  offset: 22, 24
+  index: -1
+thander_line0009
+  rotate: false
+  xy: 487, 218
+  size: 15, 14
+  orig: 42, 39
+  offset: 23, 25
+  index: -1

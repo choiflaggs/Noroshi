@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+  m_Name: gabowa_SkeletonData
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: 278a3761f2e63484ab083f0cbcdb5e90, type: 2}
+  - {fileID: 11400000, guid: aa698b1bc82ee4e47bdd5639afb8f165, type: 2}
+  - {fileID: 11400000, guid: 39aac8a78632a40af832c4bf949b7158, type: 2}
+  skeletonJSON: {fileID: 4900000, guid: 35f34f202f0824f4c9d358438e862908, type: 3}
+  scale: .00999999978
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0
+  controller: {fileID: 0}

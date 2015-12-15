@@ -1,0 +1,7 @@
+ID	TextKey	GameContentID	OpenAt	ClosedAt	GachaID	LotNum	MaxTotalLotNum	MaxDailyFreeLotNum	FreeLotCoolTimeMinute	PaymentPossessionCategory	PaymentPossessionID	PaymentPossessionNum	GuaranteedPossessionCategory
+1	GachaEntryPoint.200000001	0	0	0	200000001	1	0	5	10	11	2	10000	0
+2	GachaEntryPoint.200000002	0	0	0	200000002	10	0	0	0	11	2	90000	0
+3	GachaEntryPoint.200000003	0	0	0	200000003	1	0	0	0	11	3	300	0
+4	GachaEntryPoint.200000004	0	0	0	200000004	10	0	0	0	11	3	3000	2
+5	GachaEntryPoint.200000005	0	0	0	200000005	1	0	0	0	11	3	0	0
+6	GachaEntryPoint.200000006	0	0	0	200000006	1	0	0	0	11	3	1500	0

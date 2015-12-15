@@ -1,0 +1,132 @@
+
+effect_parts.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_skill1_rockon_emisstion
+  rotate: false
+  xy: 2, 220
+  size: 367, 284
+  orig: 371, 285
+  offset: 2, 0
+  index: -1
+a_skill_rockon
+  rotate: false
+  xy: 371, 309
+  size: 195, 195
+  orig: 195, 195
+  offset: 0, 0
+  index: -1
+alpha
+  rotate: false
+  xy: 789, 389
+  size: 51, 51
+  orig: 55, 55
+  offset: 2, 2
+  index: -1
+atk_effect0001
+  rotate: true
+  xy: 530, 260
+  size: 47, 23
+  orig: 63, 23
+  offset: 9, 0
+  index: -1
+atk_effect0002
+  rotate: false
+  xy: 568, 324
+  size: 47, 23
+  orig: 63, 23
+  offset: 9, 0
+  index: -1
+atk_effect0003
+  rotate: false
+  xy: 842, 417
+  size: 47, 23
+  orig: 63, 23
+  offset: 9, 0
+  index: -1
+emisstion_effect
+  rotate: false
+  xy: 167, 2
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+grenade
+  rotate: true
+  xy: 632, 350
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+magic_gun0001
+  rotate: false
+  xy: 632, 450
+  size: 155, 54
+  orig: 166, 65
+  offset: 7, 6
+  index: -1
+magic_gun0002
+  rotate: false
+  xy: 632, 394
+  size: 155, 54
+  orig: 166, 65
+  offset: 7, 6
+  index: -1
+magic_gun0003
+  rotate: true
+  xy: 262, 74
+  size: 144, 54
+  orig: 166, 65
+  offset: 7, 6
+  index: -1
+magic_gun_effect0001
+  rotate: false
+  xy: 318, 82
+  size: 57, 136
+  orig: 299, 175
+  offset: 218, 14
+  index: -1
+magic_gun_effect0002
+  rotate: true
+  xy: 789, 442
+  size: 62, 140
+  orig: 299, 175
+  offset: 220, 13
+  index: -1
+magic_gun_effect0003
+  rotate: true
+  xy: 371, 242
+  size: 65, 157
+  orig: 299, 175
+  offset: 224, 7
+  index: -1
+magic_gun_effect0004
+  rotate: false
+  xy: 568, 349
+  size: 62, 155
+  orig: 299, 175
+  offset: 224, 7
+  index: -1
+magic_gun_effect0005
+  rotate: true
+  xy: 2, 14
+  size: 63, 163
+  orig: 299, 175
+  offset: 227, 3
+  index: -1
+semicircle_effect
+  rotate: false
+  xy: 931, 451
+  size: 71, 53
+  orig: 71, 53
+  offset: 0, 0
+  index: -1
+text_effect_BLAM__
+  rotate: false
+  xy: 2, 79
+  size: 258, 139
+  orig: 258, 139
+  offset: 0, 0
+  index: -1

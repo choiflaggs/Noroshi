@@ -1,0 +1,26 @@
+[
+{
+"ID" : 1,
+"MaterialItemID" : 12,
+"CraftItemID" : 11,
+"Count" : 1,
+},
+{
+"ID" : 2,
+"MaterialItemID" : 13,
+"CraftItemID" : 12,
+"Count" : 5,
+},
+{
+"ID" : 3,
+"MaterialItemID" : 15,
+"CraftItemID" : 14,
+"Count" : 1,
+},
+{
+"ID" : 4,
+"MaterialItemID" : 16,
+"CraftItemID" : 14,
+"Count" : 1,
+},
+]

@@ -1,0 +1,135 @@
+{
+    "progress": 5,
+    "stages": [
+        {
+            "name": "プレイヤー1",
+            "level": 10,
+            "avaterID": 11,
+            "guildName": "ギルド1",
+            "characters": [
+                {"CharacterID": 1001, "Level": 10, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 11, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 12, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 13, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 14, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー2",
+            "level": 11,
+            "avaterID": 12,
+            "guildName": "ギルド2",
+            "characters": [
+                {"CharacterID": 1002, "Level": 11, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 12, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 13, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 14, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 15, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー3",
+            "level": 12,
+            "avaterID": 13,
+            "guildName": "ギルド3",
+            "characters": [
+                {"CharacterID": 1003, "Level": 12, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 13, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 14, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 15, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 16, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー4",
+            "level": 13,
+            "avaterID": 14,
+            "guildName": "ギルド4",
+            "characters": [
+                {"CharacterID": 1004, "Level": 13, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 14, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 15, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 16, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 17, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー5",
+            "level": 14,
+            "avaterID": 15,
+            "guildName": "ギルド5",
+            "characters": [
+                {"CharacterID": 1005, "Level": 14, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 15, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 16, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 17, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 18, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー6",
+            "level": 15,
+            "avaterID": 11,
+            "guildName": "ギルド6",
+            "characters": [
+                {"CharacterID": 1001, "Level": 15, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 16, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 17, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 18, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 19, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+                {
+            "name": "プレイヤー7",
+            "level": 16,
+            "avaterID": 12,
+            "guildName": "ギルド7",
+            "characters": [
+                {"CharacterID": 1002, "Level": 16, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 17, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 18, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 19, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 20, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー8",
+            "level": 17,
+            "avaterID": 13,
+            "guildName": "ギルド8",
+            "characters": [
+                {"CharacterID": 1003, "Level": 17, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 18, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 19, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 20, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 21, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー9",
+            "level": 18,
+            "avaterID": 14,
+            "guildName": "ギルド9",
+            "characters": [
+                {"CharacterID": 1004, "Level": 18, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1005, "Level": 19, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 20, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 21, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 22, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        },
+        {
+            "name": "プレイヤー10",
+            "level": 19,
+            "avaterID": 15,
+            "guildName": "ギルド10",
+            "characters": [
+                {"CharacterID": 1005, "Level": 19, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1001, "Level": 20, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1002, "Level": 21, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1003, "Level": 22, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100},
+                {"CharacterID": 1004, "Level": 23, "EvolutionLevel": 1, "PromotionLevel": 2, "MaxHP": 100, "CurrentHp": 100}
+            ]
+        }
+    ]
+}

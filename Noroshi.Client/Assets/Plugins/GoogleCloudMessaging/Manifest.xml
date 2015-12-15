@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<application>
+		<receiver
+	        android:name="com.prime31.GCMBroadcastReceiver"
+	        android:permission="com.google.android.c2dm.permission.SEND">
+	        <intent-filter>
+	            <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+	            <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+	            <category android:name="CURRENT_PACKAGE_NAME"/>
+	        </intent-filter>
+	    </receiver>
+	</application>
+
+	<permission android:name="CURRENT_PACKAGE_NAME.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+	<uses-permission android:name="CURRENT_PACKAGE_NAME.permission.C2D_MESSAGE"/>
+</manifest>

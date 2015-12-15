@@ -1,0 +1,111 @@
+
+character_common.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+common_graund_smoke20001
+  rotate: false
+  xy: 189, 19
+  size: 160, 70
+  orig: 254, 153
+  offset: 44, 51
+  index: -1
+common_graund_smoke20002
+  rotate: false
+  xy: 214, 91
+  size: 180, 77
+  orig: 254, 153
+  offset: 29, 48
+  index: -1
+common_graund_smoke20003
+  rotate: false
+  xy: 633, 411
+  size: 194, 97
+  orig: 254, 153
+  offset: 22, 33
+  index: -1
+common_graund_smoke20004
+  rotate: false
+  xy: 2, 116
+  size: 210, 120
+  orig: 254, 153
+  offset: 17, 26
+  index: -1
+common_graund_smoke20005
+  rotate: false
+  xy: 226, 380
+  size: 212, 128
+  orig: 254, 153
+  offset: 18, 22
+  index: -1
+common_graund_smoke20006
+  rotate: false
+  xy: 2, 374
+  size: 222, 134
+  orig: 254, 153
+  offset: 13, 19
+  index: -1
+common_graund_smoke20007
+  rotate: false
+  xy: 2, 238
+  size: 222, 134
+  orig: 254, 153
+  offset: 13, 19
+  index: -1
+common_smoke0001
+  rotate: false
+  xy: 226, 170
+  size: 184, 90
+  orig: 205, 138
+  offset: 2, 8
+  index: -1
+common_smoke0002
+  rotate: false
+  xy: 440, 400
+  size: 191, 108
+  orig: 205, 138
+  offset: 5, 7
+  index: -1
+common_smoke0003
+  rotate: false
+  xy: 226, 262
+  size: 188, 116
+  orig: 205, 138
+  offset: 3, 8
+  index: -1
+common_smoke0004
+  rotate: false
+  xy: 2, 2
+  size: 185, 112
+  orig: 205, 138
+  offset: 12, 9
+  index: -1
+common_smoke0005
+  rotate: false
+  xy: 829, 395
+  size: 180, 113
+  orig: 205, 138
+  offset: 22, 3
+  index: -1
+common_smoke0006
+  rotate: false
+  xy: 440, 287
+  size: 178, 111
+  orig: 205, 138
+  offset: 24, 5
+  index: -1
+common_smoke0007
+  rotate: false
+  xy: 633, 297
+  size: 172, 112
+  orig: 205, 138
+  offset: 29, 3
+  index: -1
+common_smoke0008
+  rotate: false
+  xy: 807, 281
+  size: 123, 112
+  orig: 205, 138
+  offset: 76, 3
+  index: -1

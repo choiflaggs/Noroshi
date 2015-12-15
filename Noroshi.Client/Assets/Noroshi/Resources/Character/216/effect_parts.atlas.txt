@@ -1,0 +1,146 @@
+
+effect_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+noroi_alpha
+  rotate: false
+  xy: 514, 377
+  size: 56, 56
+  orig: 58, 58
+  offset: 1, 1
+  index: -1
+noroi_emission0001
+  rotate: false
+  xy: 2, 626
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+noroi_emission0002
+  rotate: false
+  xy: 2, 240
+  size: 384, 384
+  orig: 384, 384
+  offset: 0, 0
+  index: -1
+noroi_light
+  rotate: true
+  xy: 821, 525
+  size: 171, 33
+  orig: 181, 34
+  offset: 5, 0
+  index: -1
+noroi_spark0001
+  rotate: true
+  xy: 600, 466
+  size: 210, 110
+  orig: 258, 197
+  offset: 39, 24
+  index: -1
+noroi_spark0002
+  rotate: false
+  xy: 529, 678
+  size: 252, 164
+  orig: 258, 197
+  offset: 0, 24
+  index: -1
+noroi_spark0003
+  rotate: false
+  xy: 529, 844
+  size: 253, 166
+  orig: 258, 197
+  offset: 5, 7
+  index: -1
+noroi_spark0004
+  rotate: false
+  xy: 784, 859
+  size: 204, 151
+  orig: 258, 197
+  offset: 11, 12
+  index: -1
+noroi_spark0005
+  rotate: true
+  xy: 712, 488
+  size: 188, 107
+  orig: 258, 197
+  offset: 48, 16
+  index: -1
+noroi_spark_main0001
+  rotate: true
+  xy: 2, 108
+  size: 130, 319
+  orig: 145, 339
+  offset: 7, 7
+  index: -1
+noroi_spark_main0002
+  rotate: false
+  xy: 388, 683
+  size: 139, 327
+  orig: 145, 339
+  offset: 0, 5
+  index: -1
+noroi_spark_main0003
+  rotate: false
+  xy: 388, 365
+  size: 124, 316
+  orig: 145, 339
+  offset: 8, 8
+  index: -1
+noroi_spark_main0004
+  rotate: true
+  xy: 2, 5
+  size: 101, 286
+  orig: 145, 339
+  offset: 4, 18
+  index: -1
+noroi_spark_main0005
+  rotate: false
+  xy: 514, 435
+  size: 84, 241
+  orig: 145, 339
+  offset: 11, 46
+  index: -1
+pskill1_effect
+  rotate: true
+  xy: 784, 837
+  size: 20, 225
+  orig: 21, 225
+  offset: 0, 0
+  index: -1
+pskill2 effect0001
+  rotate: false
+  xy: 388, 242
+  size: 67, 121
+  orig: 163, 197
+  offset: 31, 37
+  index: -1
+pskill2 effect0002
+  rotate: false
+  xy: 783, 698
+  size: 87, 137
+  orig: 163, 197
+  offset: 40, 36
+  index: -1
+pskill2 effect0003
+  rotate: false
+  xy: 872, 691
+  size: 71, 144
+  orig: 163, 197
+  offset: 56, 33
+  index: -1
+pskill2 effect0004
+  rotate: false
+  xy: 945, 686
+  size: 65, 149
+  orig: 163, 197
+  offset: 67, 32
+  index: -1
+pskill2 effect0005
+  rotate: false
+  xy: 323, 84
+  size: 60, 154
+  orig: 163, 197
+  offset: 72, 31
+  index: -1

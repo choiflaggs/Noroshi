@@ -1,0 +1,237 @@
+
+chara_parts.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_back
+  rotate: true
+  xy: 2, 2
+  size: 47, 36
+  orig: 47, 36
+  offset: 0, 0
+  index: -1
+arm_back2
+  rotate: false
+  xy: 420, 125
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+arm_front
+  rotate: false
+  xy: 340, 6
+  size: 54, 35
+  orig: 54, 35
+  offset: 0, 0
+  index: -1
+arm_front2
+  rotate: false
+  xy: 388, 58
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+belt
+  rotate: false
+  xy: 446, 202
+  size: 104, 52
+  orig: 104, 52
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 221, 171
+  size: 116, 83
+  orig: 116, 83
+  offset: 0, 0
+  index: -1
+clone_face
+  rotate: true
+  xy: 988, 192
+  size: 62, 33
+  orig: 62, 33
+  offset: 0, 0
+  index: -1
+clone_hat
+  rotate: false
+  xy: 40, 6
+  size: 75, 43
+  orig: 75, 43
+  offset: 0, 0
+  index: -1
+drum
+  rotate: false
+  xy: 221, 103
+  size: 97, 66
+  orig: 97, 66
+  offset: 0, 0
+  index: -1
+ear_back
+  rotate: true
+  xy: 417, 168
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+ear_front
+  rotate: false
+  xy: 447, 170
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+evo2_dram
+  rotate: false
+  xy: 833, 192
+  size: 76, 62
+  orig: 76, 62
+  offset: 0, 0
+  index: -1
+evo3_dram
+  rotate: false
+  xy: 2, 51
+  size: 217, 203
+  orig: 217, 203
+  offset: 0, 0
+  index: -1
+evo3_hair
+  rotate: true
+  xy: 221, 44
+  size: 57, 69
+  orig: 57, 69
+  offset: 0, 0
+  index: -1
+evo_flagg
+  rotate: true
+  xy: 911, 195
+  size: 59, 75
+  orig: 59, 75
+  offset: 0, 0
+  index: -1
+evo_hair
+  rotate: true
+  xy: 320, 109
+  size: 57, 69
+  orig: 57, 69
+  offset: 0, 0
+  index: -1
+evo_hat
+  rotate: false
+  xy: 651, 186
+  size: 93, 68
+  orig: 93, 68
+  offset: 0, 0
+  index: -1
+evo_stick_front
+  rotate: true
+  xy: 117, 18
+  size: 31, 87
+  orig: 31, 87
+  offset: 0, 0
+  index: -1
+face_angry
+  rotate: false
+  xy: 833, 169
+  size: 56, 21
+  orig: 56, 21
+  offset: 0, 0
+  index: -1
+face_damage
+  rotate: true
+  xy: 292, 40
+  size: 61, 31
+  orig: 61, 31
+  offset: 0, 0
+  index: -1
+face_dead
+  rotate: false
+  xy: 325, 43
+  size: 60, 29
+  orig: 60, 29
+  offset: 0, 0
+  index: -1
+face_normal
+  rotate: true
+  xy: 391, 106
+  size: 60, 27
+  orig: 60, 27
+  offset: 0, 0
+  index: -1
+face_win
+  rotate: false
+  xy: 325, 74
+  size: 61, 33
+  orig: 61, 33
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 284, 2
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+hand_front
+  rotate: false
+  xy: 420, 106
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 552, 198
+  size: 97, 56
+  orig: 97, 56
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 746, 186
+  size: 85, 68
+  orig: 85, 68
+  offset: 0, 0
+  index: -1
+leg
+  rotate: false
+  xy: 339, 197
+  size: 105, 57
+  orig: 105, 57
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 387, 43
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+shoulder
+  rotate: false
+  xy: 479, 179
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+shoulder_back
+  rotate: true
+  xy: 891, 171
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+stick_back
+  rotate: true
+  xy: 339, 168
+  size: 27, 76
+  orig: 27, 76
+  offset: 0, 0
+  index: -1
+stick_front
+  rotate: true
+  xy: 206, 16
+  size: 26, 76
+  orig: 26, 76
+  offset: 0, 0
+  index: -1

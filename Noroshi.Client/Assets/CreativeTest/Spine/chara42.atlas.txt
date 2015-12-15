@@ -1,0 +1,265 @@
+
+chara42.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk_effect
+  rotate: false
+  xy: 415, 482
+  size: 372, 28
+  orig: 372, 28
+  offset: 0, 0
+  index: -1
+atk_effect_1_1
+  rotate: false
+  xy: 800, 274
+  size: 53, 52
+  orig: 86, 80
+  offset: 12, 18
+  index: -1
+atk_effect_1_2
+  rotate: true
+  xy: 824, 215
+  size: 57, 54
+  orig: 86, 80
+  offset: 11, 16
+  index: -1
+atk_effect_1_3
+  rotate: false
+  xy: 945, 453
+  size: 59, 57
+  orig: 86, 80
+  offset: 11, 14
+  index: -1
+atk_effect_1_4
+  rotate: false
+  xy: 882, 452
+  size: 61, 58
+  orig: 86, 80
+  offset: 11, 13
+  index: -1
+atk_effect_1_5
+  rotate: true
+  xy: 762, 209
+  size: 63, 60
+  orig: 86, 80
+  offset: 11, 12
+  index: -1
+atk_effect_1_6
+  rotate: false
+  xy: 814, 385
+  size: 65, 61
+  orig: 86, 80
+  offset: 10, 11
+  index: -1
+atk_effect_1_7
+  rotate: false
+  xy: 814, 448
+  size: 66, 62
+  orig: 86, 80
+  offset: 10, 10
+  index: -1
+atk_effect_1_8
+  rotate: false
+  xy: 693, 210
+  size: 67, 62
+  orig: 86, 80
+  offset: 10, 10
+  index: -1
+body
+  rotate: true
+  xy: 685, 328
+  size: 152, 127
+  orig: 152, 127
+  offset: 0, 0
+  index: -1
+body_back
+  rotate: false
+  xy: 152, 120
+  size: 81, 15
+  orig: 81, 15
+  offset: 0, 0
+  index: -1
+cannon_base
+  rotate: false
+  xy: 685, 274
+  size: 113, 52
+  orig: 113, 52
+  offset: 0, 0
+  index: -1
+cannon_head
+  rotate: true
+  xy: 370, 133
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+cap_close
+  rotate: false
+  xy: 292, 135
+  size: 76, 45
+  orig: 76, 45
+  offset: 0, 0
+  index: -1
+cap_open
+  rotate: true
+  xy: 610, 210
+  size: 58, 81
+  orig: 58, 81
+  offset: 0, 0
+  index: -1
+cat_arm_back
+  rotate: true
+  xy: 235, 120
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+cat_arm_front
+  rotate: true
+  xy: 46, 4
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+cat_belt
+  rotate: true
+  xy: 490, 160
+  size: 51, 26
+  orig: 51, 26
+  offset: 0, 0
+  index: -1
+cat_body
+  rotate: true
+  xy: 576, 142
+  size: 54, 37
+  orig: 54, 37
+  offset: 0, 0
+  index: -1
+cat_face_attack
+  rotate: false
+  xy: 668, 180
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+cat_face_damage
+  rotate: false
+  xy: 668, 151
+  size: 40, 27
+  orig: 40, 27
+  offset: 0, 0
+  index: -1
+cat_face_win
+  rotate: false
+  xy: 710, 180
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+cat_head
+  rotate: false
+  xy: 615, 157
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+cat_tail
+  rotate: true
+  xy: 518, 155
+  size: 41, 56
+  orig: 41, 56
+  offset: 0, 0
+  index: -1
+cat_waist
+  rotate: false
+  xy: 2, 2
+  size: 42, 25
+  orig: 42, 25
+  offset: 0, 0
+  index: -1
+caterpillar_set
+  rotate: false
+  xy: 2, 29
+  size: 138, 81
+  orig: 155, 106
+  offset: 8, 10
+  index: -1
+muffler
+  rotate: true
+  xy: 415, 123
+  size: 41, 65
+  orig: 41, 65
+  offset: 0, 0
+  index: -1
+muffler_cover
+  rotate: false
+  xy: 814, 329
+  size: 61, 54
+  orig: 61, 54
+  offset: 0, 0
+  index: -1
+rail
+  rotate: false
+  xy: 518, 198
+  size: 90, 68
+  orig: 90, 68
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1006, 470
+  size: 40, 13
+  orig: 40, 13
+  offset: 0, 0
+  index: -1
+skill_effect1
+  rotate: false
+  xy: 415, 213
+  size: 101, 267
+  orig: 177, 450
+  offset: 47, 103
+  index: -1
+skill_effect2
+  rotate: false
+  xy: 292, 182
+  size: 121, 328
+  orig: 177, 450
+  offset: 36, 68
+  index: -1
+skill_effect3
+  rotate: false
+  xy: 152, 137
+  size: 138, 373
+  orig: 177, 450
+  offset: 26, 42
+  index: -1
+skill_effect4
+  rotate: false
+  xy: 2, 112
+  size: 148, 398
+  orig: 177, 450
+  offset: 20, 27
+  index: -1
+skill_effect5
+  rotate: false
+  xy: 602, 270
+  size: 81, 210
+  orig: 177, 450
+  offset: 57, 133
+  index: -1
+skill_effect6
+  rotate: false
+  xy: 518, 268
+  size: 82, 212
+  orig: 177, 450
+  offset: 56, 132
+  index: -1
+tank
+  rotate: true
+  xy: 415, 166
+  size: 45, 73
+  orig: 45, 73
+  offset: 0, 0
+  index: -1

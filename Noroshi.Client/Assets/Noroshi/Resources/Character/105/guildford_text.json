@@ -1,0 +1,2593 @@
+{
+"skeleton": { "hash": "LSTxLLpE81Wxin/MWzlGHeyLrVw", "spine": "2.1.27", "width": 0, "height": 0, "images": "./guildford-assets/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "text effect", "parent": "root", "color": "9b0015ff" },
+	{ "name": "guildford_", "parent": "text effect", "x": 806.94, "y": 1436.08, "color": "9b0015ff" },
+	{ "name": "guildford_2", "parent": "text effect", "x": 971.06, "y": 1499.91, "color": "9b0015ff" },
+	{ "name": "guildford_E", "parent": "text effect", "x": 328.24, "y": 1285.63, "color": "9b0015ff" },
+	{ "name": "guildford_G", "parent": "text effect", "x": -806.94, "y": 1212.69, "color": "9b0015ff" },
+	{ "name": "guildford_I", "parent": "text effect", "x": -278.09, "y": 1235.48, "color": "9b0015ff" },
+	{ "name": "guildford_L", "parent": "text effect", "x": -487.81, "y": 1317.55, "color": "9b0015ff" },
+	{ "name": "guildford_R", "parent": "text effect", "x": 569.87, "y": 1417.84, "color": "9b0015ff" },
+	{ "name": "guildford_T", "parent": "text effect", "x": -86.62, "y": 1385.93, "color": "9b0015ff" },
+	{ "name": "guildford_T2", "parent": "text effect", "x": 141.32, "y": 1354.02, "color": "9b0015ff" }
+],
+"slots": [
+	{ "name": "guildford_G", "bone": "guildford_G" },
+	{ "name": "guildford_L", "bone": "guildford_L" },
+	{ "name": "guildford_I", "bone": "guildford_I" },
+	{ "name": "guildford_T2", "bone": "guildford_T" },
+	{ "name": "guildford_T", "bone": "guildford_T2" },
+	{ "name": "guildford_E", "bone": "guildford_E" },
+	{ "name": "guildford_R", "bone": "guildford_R" },
+	{ "name": "guildford__2", "bone": "guildford_" },
+	{ "name": "guildford__", "bone": "guildford_2" }
+],
+"skins": {
+	"default": {
+		"guildford_E": {
+			"guildford_E": { "x": 2.63, "y": -33.14, "scaleX": 2, "scaleY": 2, "width": 153, "height": 164 }
+		},
+		"guildford_G": {
+			"guildford_G": { "x": -4.33, "y": -26.34, "scaleX": 2, "scaleY": 2, "width": 222, "height": 244 }
+		},
+		"guildford_I": {
+			"guildford_I": { "x": -4.66, "y": -13.34, "scaleX": 2, "scaleY": 2, "width": 119, "height": 182 }
+		},
+		"guildford_L": {
+			"guildford_L": { "x": 31.81, "y": -27.04, "scaleX": 2, "scaleY": 2, "width": 187, "height": 213 }
+		},
+		"guildford_R": {
+			"guildford_R": { "x": 17.78, "y": -22.12, "scaleX": 2, "scaleY": 2, "width": 191, "height": 191 }
+		},
+		"guildford_T": {
+			"guildford_T": { "x": 5.56, "y": -37.02, "scaleX": 2, "scaleY": 2, "width": 171, "height": 188 }
+		},
+		"guildford_T2": {
+			"guildford_T": { "x": 15.43, "y": -12.69, "scaleX": 2, "scaleY": 2, "width": 171, "height": 188 }
+		},
+		"guildford__": {
+			"guildford__": { "x": 10.1, "y": -38.27, "scaleX": 2.2, "scaleY": 2.2, "rotation": -10.68, "width": 95, "height": 177 }
+		},
+		"guildford__2": {
+			"guildford__": { "x": 23.48, "y": -9.31, "scaleX": 2, "scaleY": 2, "width": 95, "height": 177 }
+		}
+	}
+},
+"animations": {
+	"a_skill1": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6, "name": "guildford_E" },
+					{ "time": 1.7333, "name": "guildford_E" },
+					{ "time": 1.8333, "name": "guildford_E" },
+					{ "time": 2.3333, "name": "guildford_E" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.6,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7333, "color": "ff7a00ff" },
+					{
+						"time": 1.8333,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.4333, "name": "guildford_G" },
+					{ "time": 1.5666, "name": "guildford_G" },
+					{ "time": 1.6666, "name": "guildford_G" },
+					{ "time": 2.3333, "name": "guildford_G" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.4333,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.5666, "color": "ff7a00ff" },
+					{
+						"time": 1.6666,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5, "name": "guildford_I" },
+					{ "time": 1.6333, "name": "guildford_I" },
+					{ "time": 1.7333, "name": "guildford_I" },
+					{ "time": 2.3333, "name": "guildford_I" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.5,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6333, "color": "ff7a00ff" },
+					{
+						"time": 1.7333,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.4666, "name": "guildford_L" },
+					{ "time": 1.6, "name": "guildford_L" },
+					{ "time": 1.7, "name": "guildford_L" },
+					{ "time": 2.3333, "name": "guildford_L" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.4666,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6, "color": "ff7a00ff" },
+					{
+						"time": 1.7,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6333, "name": "guildford_R" },
+					{ "time": 1.7666, "name": "guildford_R" },
+					{ "time": 1.8666, "name": "guildford_R" },
+					{ "time": 2.3333, "name": "guildford_R" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.6333,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7666, "color": "ff7a00ff" },
+					{
+						"time": 1.8666,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5666, "name": "guildford_T" },
+					{ "time": 1.7, "name": "guildford_T" },
+					{ "time": 1.8, "name": "guildford_T" },
+					{ "time": 2.3333, "name": "guildford_T" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.5666,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7, "color": "ff7a00ff" },
+					{
+						"time": 1.8,
+						"color": "ff0100ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5333, "name": "guildford_T" },
+					{ "time": 1.6666, "name": "guildford_T" },
+					{ "time": 1.7666, "name": "guildford_T" },
+					{ "time": 2.3333, "name": "guildford_T" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.5333,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6666, "color": "ff7a00ff" },
+					{
+						"time": 1.7666,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.7, "name": "guildford__" },
+					{ "time": 1.8333, "name": "guildford__" },
+					{ "time": 1.9333, "name": "guildford__" },
+					{ "time": 2.3333, "name": "guildford__" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.7,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8333, "color": "ff7a00ff" },
+					{
+						"time": 1.9333,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6666, "name": "guildford__" },
+					{ "time": 1.8, "name": "guildford__" },
+					{ "time": 1.9, "name": "guildford__" },
+					{ "time": 2.3333, "name": "guildford__" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.6666,
+						"color": "ffffffff",
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8, "color": "ff7a00ff" },
+					{
+						"time": 1.9,
+						"color": "ff5108ff",
+						"curve": [ 0, 0.81, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.6666,
+						"angle": 176.81,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.6666,
+						"x": 319.18,
+						"y": 0,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9, "x": 0, "y": 0 },
+					{ "time": 1.9666, "x": 0, "y": -70.14 },
+					{ "time": 2.3333, "x": 0, "y": -45.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.6666,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8, "x": 0.8, "y": 0.8 },
+					{ "time": 1.9, "x": 1.2, "y": 1.2 },
+					{ "time": 1.9666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.7,
+						"angle": 159.41,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.7,
+						"x": 325.7,
+						"y": 0,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9333, "x": 0, "y": 0 },
+					{ "time": 2, "x": 0, "y": -70.14 },
+					{ "time": 2.3333, "x": 0, "y": -45.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.7,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.8333, "x": 0.8, "y": 0.8 },
+					{ "time": 1.9333, "x": 1.2, "y": 1.2 },
+					{ "time": 2, "x": 1.055, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1.055, "y": 1 }
+				]
+			},
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.5666,
+						"angle": 179.58,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.5666,
+						"x": 384.32,
+						"y": 0,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8, "x": 0, "y": 0 },
+					{ "time": 1.8666, "x": 0, "y": -79.94 },
+					{ "time": 2.3333, "x": 0, "y": -55.18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.5666,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7, "x": 0.8, "y": 0.8 },
+					{ "time": 1.8, "x": 1, "y": 1 },
+					{ "time": 1.8666, "x": 1, "y": 1.055, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1, "y": 1.055 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.5333,
+						"angle": 133.75,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.5333,
+						"x": 156.33,
+						"y": 0,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.7666, "x": 0, "y": 0 },
+					{ "time": 1.8333, "x": 0, "y": -70.14 },
+					{ "time": 2.3333, "x": 0, "y": -45.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.5333,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6666, "x": 0.8, "y": 0.8 },
+					{ "time": 1.7666, "x": 1.2, "y": 1.2 },
+					{ "time": 1.8333, "x": 1.056, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1.056, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.6333,
+						"angle": 149.78,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.6333,
+						"x": 416.89,
+						"y": 0,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8666, "x": 0, "y": 0 },
+					{ "time": 1.9333, "x": 0, "y": -55.35 },
+					{ "time": 2.3333, "x": 0, "y": -30.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.6333,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7666, "x": 0.8, "y": 0.8 },
+					{ "time": 1.8666, "x": 1.2, "y": 1.2 },
+					{ "time": 1.9333, "x": 1, "y": 1.056, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1, "y": 1.056 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.4666,
+						"angle": 124.65,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.4666,
+						"x": -110.73,
+						"y": 190.9,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.7, "x": 0, "y": 0 },
+					{ "time": 1.7666, "x": 0, "y": -63.74 },
+					{ "time": 2.3333, "x": 0, "y": -38.99 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.4666,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6, "x": 0.8, "y": 0.8 },
+					{ "time": 1.7, "x": 1.2, "y": 1.2 },
+					{ "time": 1.7666, "x": 1.111, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1.111, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.5,
+						"angle": 177.72,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.5,
+						"x": 214.96,
+						"y": 241.01,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.7333, "x": 0, "y": 0 },
+					{ "time": 1.8, "x": 0, "y": -61.75 },
+					{ "time": 2.3333, "x": 0, "y": -37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.5,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.6333, "x": 0.8, "y": 0.8 },
+					{ "time": 1.7333, "x": 1.2, "y": 1.2 },
+					{ "time": 1.8, "x": 1.168, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1.168, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.4333,
+						"angle": 150.1,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.4333,
+						"x": -547.17,
+						"y": 0,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0, "y": 0 },
+					{ "time": 1.7333, "x": -9.71, "y": -52.27 },
+					{ "time": 2.3333, "x": -9.71, "y": -27.51 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.4333,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.5666, "x": 0.8, "y": 0.8 },
+					{ "time": 1.6666, "x": 1.2, "y": 1.2 },
+					{ "time": 1.7333, "x": 1.111, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1.111, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 1.6,
+						"angle": 164.12,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.6,
+						"x": 495.06,
+						"y": 0,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8333, "x": 0, "y": 0 },
+					{ "time": 1.9, "x": 0, "y": -89.35 },
+					{ "time": 2.3333, "x": 0, "y": -64.59 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.6,
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.739, 0, 0.885, 0.31 ]
+					},
+					{ "time": 1.7333, "x": 0.8, "y": 0.8 },
+					{ "time": 1.8333, "x": 1.2, "y": 1.2 },
+					{ "time": 1.9, "x": 1.055, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1.055, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.1333 },
+			{ "time": 0.5 },
+			{ "time": 0.5666 },
+			{ "time": 0.8333 },
+			{ "time": 1.4 },
+			{ "time": 1.5 },
+			{ "time": 1.8666 },
+			{ "time": 1.9333 },
+			{ "time": 2.2333 },
+			{ "time": 2.3666 },
+			{ "time": 2.7666 }
+		]
+	},
+	"attack": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.1333 },
+			{ "time": 0.6666 },
+			{ "time": 1 }
+		]
+	},
+	"damage": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.1 },
+			{ "time": 0.5333 },
+			{ "time": 0.6666 }
+		]
+	},
+	"dead": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.1 },
+			{ "time": 0.8 },
+			{ "time": 1.9666 }
+		]
+	},
+	"idle": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.3 },
+			{ "time": 0.4333 },
+			{ "time": 0.8333 }
+		]
+	},
+	"p_skill1": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.9333 }
+		]
+	},
+	"p_skill2": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2666 },
+			{ "time": 0.5666 },
+			{ "time": 0.6666 },
+			{ "time": 1.0333 },
+			{ "time": 1.1 }
+		]
+	},
+	"p_skill3": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"run": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2333 },
+			{ "time": 0.3 },
+			{ "time": 0.4 }
+		]
+	},
+	"walk": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2666 },
+			{ "time": 0.8666 },
+			{ "time": 1 }
+		]
+	},
+	"win": {
+		"slots": {
+			"guildford_E": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_G": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_I": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_L": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_R": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford_T2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"guildford__2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"text effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_T": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_R": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_L": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_I": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_G": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_E": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"guildford_": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 2 }
+		]
+	}
+}
+}

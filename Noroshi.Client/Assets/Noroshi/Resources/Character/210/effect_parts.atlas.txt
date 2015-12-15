@@ -1,0 +1,69 @@
+
+effect_parts.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alpha_effect
+  rotate: false
+  xy: 808, 387
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+debris_smoke 
+  rotate: false
+  xy: 287, 187
+  size: 68, 139
+  orig: 68, 146
+  offset: 0, 7
+  index: -1
+emisstion_effect
+  rotate: false
+  xy: 2, 109
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+line_effect
+  rotate: false
+  xy: 529, 337
+  size: 157, 155
+  orig: 157, 157
+  offset: 0, 1
+  index: -1
+pskill1_effect_stone0001
+  rotate: false
+  xy: 688, 338
+  size: 118, 154
+  orig: 198, 235
+  offset: 40, 2
+  index: -1
+pskill1_effect_stone0002
+  rotate: true
+  xy: 2, 2
+  size: 105, 181
+  orig: 198, 235
+  offset: 45, 3
+  index: -1
+pskill1_effect_stone0003
+  rotate: true
+  xy: 310, 328
+  size: 164, 217
+  orig: 198, 235
+  offset: 13, 3
+  index: -1
+ragoza_text_DUMP
+  rotate: false
+  xy: 2, 334
+  size: 306, 158
+  orig: 306, 158
+  offset: 0, 0
+  index: -1
+storn_debris
+  rotate: false
+  xy: 227, 150
+  size: 58, 182
+  orig: 58, 182
+  offset: 0, 0
+  index: -1

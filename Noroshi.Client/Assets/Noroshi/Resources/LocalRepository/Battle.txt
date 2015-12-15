@@ -1,0 +1,86 @@
+[
+{
+"ID": 1,
+"Exp": 6,
+"Money": 47,
+"MinDropItemNum": 0,
+"MaxDropItemNum": 3,
+"BossEnemyCharacterID": 3,
+"BossStoneDropRatio": 0.5,
+"BattleDrops":[
+{"ItemID":11,"Ratio":0.5}
+],
+"Waves":[
+{
+"ID": 1001,
+"BattleID": 1,
+"EnemyCharacterID1": 1,
+"EnemyCharacterID2": 0,
+"EnemyCharacterID3": 0,
+"EnemyCharacterID4": 0,
+"EnemyCharacterID5": 0
+},
+{
+"ID": 1002,
+"BattleID": 1,
+"EnemyCharacterID1": 2,
+"EnemyCharacterID2": 0,
+"EnemyCharacterID3": 0,
+"EnemyCharacterID4": 0,
+"EnemyCharacterID5": 0
+},
+{
+"ID": 1003,
+"BattleID": 1,
+"EnemyCharacterID1": 1,
+"EnemyCharacterID2": 2,
+"EnemyCharacterID3": 3,
+"EnemyCharacterID4": 0,
+"EnemyCharacterID5": 0
+}
+]
+},
+{
+"ID": 2,
+"Exp": 12,
+"Money": 123,
+"MinDropItemNum": 1,
+"MaxDropItemNum": 5,
+"BossEnemyCharacterID": 4,
+"BossStoneDropRatio": 1,
+"Drops":[
+{"ItemID":11,"Ratio":0.5},
+{"ItemID":12,"Ratio":1}
+],
+"Waves":[
+{
+"ID": 2001,
+"BattleID": 2,
+"EnemyCharacterID1": 1,
+"EnemyCharacterID2": 1,
+"EnemyCharacterID3": 0,
+"EnemyCharacterID4": 0,
+"EnemyCharacterID5": 0
+},
+{
+"ID": 2002,
+"BattleID": 2,
+"EnemyCharacterID1": 2,
+"EnemyCharacterID2": 2,
+"EnemyCharacterID3": 0,
+"EnemyCharacterID4": 0,
+"EnemyCharacterID5": 0
+},
+{
+"ID": 2003,
+"BattleID": 2,
+"EnemyCharacterID1": 1,
+"EnemyCharacterID2": 1,
+"EnemyCharacterID3": 2,
+"EnemyCharacterID4": 2,
+"EnemyCharacterID5": 4
+}
+]
+}
+
+]

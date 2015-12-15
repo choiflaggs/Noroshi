@@ -1,0 +1,16 @@
+{
+    "Shop.1.Description": "常設ショップ", 
+    "Shop.1.Name": "常設ショップ", 
+    "Shop.2.Description": "特設ショップ", 
+    "Shop.2.Name": "特設ショップ", 
+    "Shop.3.Description": "高級特設ショップ", 
+    "Shop.3.Name": "高級特設ショップ", 
+    "Shop.4.Description": "アリーナショップ", 
+    "Shop.4.Name": "アリーナショップ", 
+    "Shop.5.Description": "冒険ショップ", 
+    "Shop.5.Name": "冒険ショップ", 
+    "Shop.6.Description": "ギルドショップ", 
+    "Shop.6.Name": "ギルドショップ", 
+    "Shop.7.Description": "ソウルショップ", 
+    "Shop.7.Name": "ソウルショップ"
+}

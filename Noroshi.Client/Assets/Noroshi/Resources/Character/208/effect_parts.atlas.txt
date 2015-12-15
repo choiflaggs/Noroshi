@@ -1,0 +1,96 @@
+
+effect_parts.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+askill_hear_effect
+  rotate: false
+  xy: 2, 2
+  size: 136, 78
+  orig: 138, 80
+  offset: 0, 2
+  index: -1
+askill_smoke0001
+  rotate: true
+  xy: 179, 63
+  size: 125, 149
+  orig: 151, 188
+  offset: 16, 20
+  index: -1
+askill_smoke0002
+  rotate: false
+  xy: 834, 845
+  size: 136, 148
+  orig: 151, 188
+  offset: 13, 19
+  index: -1
+askill_smoke0003
+  rotate: false
+  xy: 834, 691
+  size: 124, 152
+  orig: 151, 188
+  offset: 12, 18
+  index: -1
+askill_step1_effect
+  rotate: false
+  xy: 2, 82
+  size: 175, 106
+  orig: 175, 107
+  offset: 0, 0
+  index: -1
+askill_step3_effect
+  rotate: true
+  xy: 669, 69
+  size: 175, 106
+  orig: 175, 107
+  offset: 0, 0
+  index: -1
+pskill_chew_effect0001
+  rotate: false
+  xy: 425, 11
+  size: 242, 233
+  orig: 447, 431
+  offset: 82, 102
+  index: -1
+pskill_chew_effect0003
+  rotate: false
+  xy: 430, 246
+  size: 369, 358
+  orig: 447, 431
+  offset: 24, 35
+  index: -1
+pskill_chew_effect0004
+  rotate: false
+  xy: 2, 594
+  size: 426, 399
+  orig: 447, 431
+  offset: 7, 15
+  index: -1
+pskill_chew_effect0005
+  rotate: true
+  xy: 430, 606
+  size: 387, 402
+  orig: 447, 431
+  offset: 19, 15
+  index: -1
+pskill_chew_effect0006
+  rotate: false
+  xy: 2, 190
+  size: 421, 402
+  orig: 447, 431
+  offset: 19, 15
+  index: -1
+
+effect_parts2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pskill_chew_effect0002
+  rotate: false
+  xy: 2, 2
+  size: 349, 311
+  orig: 447, 431
+  offset: 29, 86
+  index: -1
